@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "atmxmsd",
+  "version": "${version}",
+  "name": "All the mons x Mega Showdown",
+  "description": "AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon. All of the addons below have been modified to ensure that there's no overlap, which prevents game-breaking bugs/crashes you would experience without AllTheMons.",
+  "authors": [
+    "Name1"
+  ],
+  "license": "ALLTHEMONS LICENSE v2.1",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cobblemon.fabric.atmxmsd.ATMXMSD"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.6.0",
+    "mega_showdown": ">=9.7.6-release-fabric"
+  }
+}
