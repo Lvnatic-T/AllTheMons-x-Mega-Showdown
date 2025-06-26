@@ -1,14 +1,19 @@
 {
   "schemaVersion": 1,
   "id": "atmxmsd",
-  "version": "${version}",
-  "name": "All the mons x Mega Showdown",
+  "version": "3.0",
+  "name": "AllTheMons x Mega Showdown",
   "description": "AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon. All of the addons below have been modified to ensure that there's no overlap, which prevents game-breaking bugs/crashes you would experience without AllTheMons.",
   "authors": [
-    "Name1"
+    "Lvnatic"
   ],
-  "license": "ALLTHEMONS LICENSE v2.1",
-  "icon": "assets/icon.png",
+  "contact": {
+    "homepage": "https://linktr.ee/LvnaticT",
+    "sources": "https://github.com/FabricMC/fabric-example-mod",
+    "license": "https://docs.google.com/document/d/1tPvYDxqcby4cU0LlDGnxFKE-_fZ7GSg733G7MBN8Dos/edit?tab=t.y0gf8gi0vspf"
+  },
+  "license": "ALLTHEMONS LICENSE v3",
+  "icon": "/assets/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -17,7 +22,7 @@
   },
   "depends": {
     "minecraft": "1.21.1",
-    "cobblemon": ">=1.6.0",
-    "mega_showdown": ">=9.7.6-release-fabric"
+    "cobblemon": ">=1.6.1",
+    "mega_showdown": ">=9.7.11-release-fabric"
   }
 }

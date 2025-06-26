@@ -1,12 +1,12 @@
 modLoader = "javafml"
 loaderVersion = "[1,)"
-license = "ALLTHEMONS LICENSE v2.1"
+license = "ALLTHEMONS LICENSE v3"
 
 [[mods]]
 modId = "atmxmsd"
-version = "${version}"
-displayName = "All the mons x Mega Showdown"
-authors = "Name1"
+version = "3.0"
+displayName = "AllTheMons x Mega Showdown"
+authors = "Lvnatic"
 description = '''
 AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon. All of the addons below have been modified to ensure that there's no overlap, which prevents game-breaking bugs/crashes you would experience without AllTheMons.
 '''
@@ -29,13 +29,13 @@ side = "BOTH"
 [[dependencies.atmxmsd]]
 modId = "cobblemon"
 mandatory = true
-versionRange = "[1.6,)"
+versionRange = "[1.6.1,)"
 ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.atmxmsd]]
 modId = "mega_showdown"
 mandatory = true
-versionRange = "[9.7.6-release-neoforge,)"
+versionRange = "[9.7.11-release-neoforge,)"
 ordering = "AFTER"
 side = "BOTH"
