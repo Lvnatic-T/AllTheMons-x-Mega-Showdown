@@ -1,0 +1,57 @@
+{
+  "target":"cobblemon:glaceon",
+  "behaviour": {
+    "herd": {
+      "maxSize": 3,
+      "toleratedLeaders": [
+        {
+          "pokemon": "vaporeon alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "jolteon alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "flareon alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "espeon alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "umbreon alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "leafeon alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "glaceon alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "sylveon alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "walkSpeed": 0.21
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  }
+}

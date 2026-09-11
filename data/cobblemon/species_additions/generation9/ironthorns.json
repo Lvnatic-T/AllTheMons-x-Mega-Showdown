@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:ironthorns",
+  "implemented": true,
+  "baseScale": 0.54,
+  "hitbox": {
+    "width": 2.0,
+    "height": 4.4,
+    "fixed": false
+  },
+  "moving": {
+    "canLook": false,
+    "walk": {
+      "canWalk": true,
+      "avoidsLand": false
+    },
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": false,
+      "canBreatheUnderwater": false
+    }
+  }
+}

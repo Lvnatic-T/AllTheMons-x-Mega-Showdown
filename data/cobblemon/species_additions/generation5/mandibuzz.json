@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:mandibuzz",
+  "implemented": true,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.0,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.3,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

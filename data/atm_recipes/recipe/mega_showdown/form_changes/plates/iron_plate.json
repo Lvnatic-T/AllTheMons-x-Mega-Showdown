@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:steel_gem"
+        },
+        "T": {
+            "item": "mega_showdown:steel_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:iron_plate",
+        "count": 1
+    }
+}

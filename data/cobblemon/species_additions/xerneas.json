@@ -1,0 +1,25 @@
+{
+  "target": "cobblemon:xerneas",
+  "baseScale": 0.883,
+  "hitbox": {
+    "width": 1.44,
+    "height": 3.88,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canWalkOnWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pokemon": ["victini"],
+  "cosmeticItems": [
+    {
+      "consumedItem": "cobblemon:wise_glasses",
+      "aspects": ["cosmetic_item-wise_glasses"]
+    },
+    {
+      "consumedItem": "cobblemon:black_glasses",
+      "aspects": ["cosmetic_item-black_glasses"]
+    }
+  ]
+}

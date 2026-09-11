@@ -1,0 +1,102 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rotom-1",
+            "pokemon": "rotom",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "20-75",
+            "weight": 100.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:redstone_block",
+                    "minecraft:repeater",
+                    "minecraft:redstone_torch",
+                    "minecraft:daylight_detector",
+                    "minecraft:comparator",
+                    "minecraft:redstone_ore",
+                    "minecraft:redstone_lamp",
+                    "minecraft:lightning_rod",
+                    "cobblemon:pc",
+                    "cobblemon:monitor",
+                    "cobblemon:healing_machine",
+                    "cobblemon:restoration_tank",
+                    "cobblemon:fossil_analyzer"
+                ]
+            }
+        },
+        {
+            "id": "rotom-2",
+            "pokemon": "rotom",
+            "type": "pokemon",
+            "presets": [
+                "mansion"
+            ],
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "20-75",
+            "weight": 50.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "rotom-3",
+            "pokemon": "rotom",
+            "type": "pokemon",
+            "presets": [
+                "ancient_city"
+            ],
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "20-75",
+            "weight": 100.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:redstone_block",
+                    "minecraft:repeater",
+                    "minecraft:redstone_torch",
+                    "minecraft:comparator",
+                    "minecraft:redstone_lamp"
+                ]
+            }
+        },
+        {
+            "id": "rotom-4",
+            "pokemon": "rotom",
+            "type": "pokemon",
+            "presets": [
+                "natural"
+            ],
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "20-75",
+            "weight": 20.0,
+            "weightMultipliers": [
+                {
+                    "multiplier": 5.0,
+                    "condition": {
+                        "isThundering": true
+                    }
+                }
+            ],
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_beach"
+                ]
+            }
+        }
+    ]
+}

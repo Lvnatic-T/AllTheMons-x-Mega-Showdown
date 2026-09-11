@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:raikou",
+  "implemented": true,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1.25,
+    "height": 1.9,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "35-60",
+          "JUMP": "30-55",
+          "SKILL": "20-50",
+          "SPEED": "30-45",
+          "STAMINA": "60-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

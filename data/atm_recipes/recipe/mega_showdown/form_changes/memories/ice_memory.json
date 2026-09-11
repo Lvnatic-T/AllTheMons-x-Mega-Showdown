@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " G ",
+        "GPG",
+        " G "
+    ],
+    "key": {
+        "G": {
+            "item": "mega_showdown:ice_tera_shard"
+        },
+        "P": {
+            "item": "cobblemon:upgrade"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:ice_memory",
+        "count": 1
+    }
+}

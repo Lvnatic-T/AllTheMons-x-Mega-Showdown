@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PND",
+        "NWN",
+        "PND"
+    ],
+    "key": {
+        "W": {
+            "item": "mega_showdown:wishing_star"
+        },
+        "N": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "P": {
+            "item": "cobblemon:poison_gem"
+        },
+        "D": {
+            "item": "cobblemon:dragon_gem"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:star_core",
+        "count": 1
+    }
+}

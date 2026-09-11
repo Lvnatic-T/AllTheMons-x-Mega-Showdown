@@ -1,0 +1,27 @@
+{
+  "target": "cobblemon:deoxys",
+  "implemented": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1.2,
+    "height": 3.4,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+     "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.4
+      },
+      "walk": { 
+        "walkSpeed": 0.4
+      }
+    }
+  }
+}

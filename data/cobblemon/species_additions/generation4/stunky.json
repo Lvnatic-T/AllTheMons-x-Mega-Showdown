@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:stunky",   
+  "shoulderMountable": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.7,
+    "fixed": false
+  }
+}

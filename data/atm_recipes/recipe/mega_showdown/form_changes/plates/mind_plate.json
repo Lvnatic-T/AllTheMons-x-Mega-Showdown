@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:psychic_gem"
+        },
+        "T": {
+            "item": "mega_showdown:psychic_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:mind_plate",
+        "count": 1
+    }
+}

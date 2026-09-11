@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:ironhands",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 2.4,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "SPEED": "15-25",
+          "ACCELERATION": "65-75",
+          "SKILL": "35-55",
+          "JUMP": "10-20",
+          "STAMINA": "55-75"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

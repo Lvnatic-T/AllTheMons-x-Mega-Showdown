@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TST",
+        "SGS",
+        "   "
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:water_gem"
+        },
+        "T": {
+            "item": "mega_showdown:water_tera_shard"
+        },
+        "S": {
+            "item": "cobblemon:sky_tumblestone"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:wellspring_mask",
+        "count": 1
+    }
+}

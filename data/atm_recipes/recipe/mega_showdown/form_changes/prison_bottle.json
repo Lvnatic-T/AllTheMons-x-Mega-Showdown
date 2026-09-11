@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "QGQ",
+        "YQY"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:dark_gem"
+        },
+        "Y": {
+            "item": "minecraft:yellow_dye"
+        },
+        "S": {
+            "item": "minecraft:echo_shard"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:prison_bottle",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": ["legendarymonuments"],
+    "spawns": [
+        {
+            "id": "chiyu-1T",
+            "pokemon": "chiyu min_perfect_ivs=3",
+            "presets": [
+                "lava"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "surface",
+            "bucket": "ultra-rare",
+            "level": "60",
+            "weight": 4.0,
+            "condition": {
+                "maxY": 127,
+                "biomes": [
+                    "#cobblemon:nether/is_basalt",
+                    "#cobblemon:nether/is_wasteland"
+                ]
+            }
+        }
+    ]
+}

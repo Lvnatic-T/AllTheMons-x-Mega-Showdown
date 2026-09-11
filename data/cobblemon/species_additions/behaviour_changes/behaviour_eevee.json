@@ -1,0 +1,62 @@
+{
+  "target":"cobblemon:eevee",
+  "behaviour": {
+    "herd": {
+      "maxSize": 2,
+      "toleratedLeaders": [
+        {
+          "pokemon": "eevee alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "vaporeon",
+          "tier": 1
+        },
+        {
+          "pokemon": "jolteon",
+          "tier": 1
+        },
+        {
+          "pokemon": "flareon",
+          "tier": 1
+        },
+        {
+          "pokemon": "espeon",
+          "tier": 1
+        },
+        {
+          "pokemon": "umbreon",
+          "tier": 1
+        },
+        {
+          "pokemon": "leafeon",
+          "tier": 1
+        },
+        {
+          "pokemon": "glaceon",
+          "tier": 1
+        },
+        {
+          "pokemon": "sylveon",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.365
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+}

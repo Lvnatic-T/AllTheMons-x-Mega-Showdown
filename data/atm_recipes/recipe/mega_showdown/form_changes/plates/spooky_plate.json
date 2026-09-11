@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:ghost_gem"
+        },
+        "T": {
+            "item": "mega_showdown:ghost_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:spooky_plate",
+        "count": 1
+    }
+}

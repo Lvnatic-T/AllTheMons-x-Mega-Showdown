@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TST",
+        "SGS",
+        "   "
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:rock_gem"
+        },
+        "T": {
+            "item": "mega_showdown:rock_tera_shard"
+        },
+        "S": {
+            "item": "cobblemon:black_tumblestone"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:cornerstone_mask",
+        "count": 1
+    }
+}

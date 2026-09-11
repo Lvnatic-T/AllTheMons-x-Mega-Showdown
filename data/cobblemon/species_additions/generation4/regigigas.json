@@ -1,0 +1,67 @@
+{
+  "target": "cobblemon:regigigas",
+  "baseScale": 1,
+  "hitbox": {
+    "width": 3.75,
+    "height": 6.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "5"
+    },
+    "resting": {
+      "times": "any",
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042,
+      "willSleepOnBed": false,
+      "depth": "comatose"
+    },
+    "moving": {
+      "canLook": false,
+      "looksAtEntities": false,
+      "wanderChance": 200,
+      "walk": {
+	  	  "walkSpeed": 0.2,
+	  	  "canWalk": true
+	    },
+      "swim": {
+        "swimSpeed": 0.2,
+        "avoidsWater": false,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": true,
+        "hurtByLava": false
+      },
+      "fly": {
+        "canFly": false
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-40",
+          "JUMP": "15-15",
+          "SKILL": "25-45",
+          "SPEED": "15-35",
+          "STAMINA": "80-110"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPB",
+        "PSP",
+        "BPP"
+    ],
+    "key": {
+        "S": {
+            "item": "cobblemon:water_stone"
+        },
+        "B": {
+            "item": "cobblemon:black_belt"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "id": "cobblemon:scroll_of_waters",
+        "count": 1
+    }
+}

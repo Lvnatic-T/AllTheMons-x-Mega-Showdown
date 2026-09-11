@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "dialga-1T",
+      "pokemon": "dialga min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 4.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "minecraft:jagged_peaks"
+        ]
+      }
+    },
+    {
+      "id": "dialga-2T",
+      "pokemon": "dialga",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_peak"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "minecraft:jagged_peaks"
+        ]
+      }
+    }
+  ]
+}

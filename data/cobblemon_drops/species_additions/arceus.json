@@ -1,0 +1,96 @@
+{
+  "target": "cobblemon:arceus",
+  "drops": {
+    "amount": 10,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "6-12"
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:dark_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:dragon_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:fairy_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:normal_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:psychic_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:steel_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 100.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 25.0
+      }
+    ]
+  }
+}

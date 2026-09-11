@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " G ",
+        "GPG",
+        " G "
+    ],
+    "key": {
+        "G": {
+            "item": "mega_showdown:flying_tera_shard"
+        },
+        "P": {
+            "item": "cobblemon:upgrade"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:flying_memory",
+        "count": 1
+    }
+}

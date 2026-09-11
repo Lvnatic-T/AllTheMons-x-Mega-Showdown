@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":  [
+      {
+        "item": "mega_showdown:zygarde_core"
+      }
+    ],
+    "result": {
+        "id": "mega_showdown:zygarde_cell",
+        "count": 9
+    }
+}

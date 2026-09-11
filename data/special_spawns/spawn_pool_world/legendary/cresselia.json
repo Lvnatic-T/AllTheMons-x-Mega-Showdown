@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "cresselia-1T",
+      "pokemon": "cresselia min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 1.5,
+      "weightMultipliers": [
+        {
+          "multiplier": 6.0,
+          "condition": {
+            "moonPhase": 0
+          }
+        }
+      ],
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
+    }
+  ]
+}

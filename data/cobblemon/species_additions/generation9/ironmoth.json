@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:ironmoth",
+  "implemented": true,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.15,
+    "height": 2.35,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  }
+}

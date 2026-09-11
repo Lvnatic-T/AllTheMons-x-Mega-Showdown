@@ -1,0 +1,32 @@
+{
+  "target": "cobblemon:nihilego",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+      "width": 1.0,
+      "height": 4.0,
+      "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true
+      }
+    }
+  }
+}

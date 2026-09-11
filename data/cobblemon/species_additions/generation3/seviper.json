@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:seviper",
+  "baseScale": 0.75,
+  "hitbox": {
+	  "width": 1.15,
+	  "height": 1.25,
+	  "fixed": false
+  }
+}

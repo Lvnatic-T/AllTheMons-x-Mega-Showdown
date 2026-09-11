@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":  [
+      {
+        "item": "mega_showdown:griseous_core"
+      }
+    ],
+    "result": {
+        "id": "mega_showdown:griseous_orb",
+        "count": 1
+    }
+}

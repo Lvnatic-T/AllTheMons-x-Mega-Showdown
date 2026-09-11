@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "OMO",
+        " O "
+    ],
+    "key": {
+
+        "M": {
+            "item": "cobblemon:miracle_seed"
+        },
+        "O": {
+            "item": "minecraft:pink_petals"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:gracidea_flower",
+        "count": 1
+    }
+}

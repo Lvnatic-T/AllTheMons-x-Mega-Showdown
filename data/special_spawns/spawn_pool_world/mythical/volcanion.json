@@ -1,0 +1,86 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volcanion-1T",
+      "pokemon": "volcanion min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 2.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "timeRange": "day"
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "minecraft:lava"
+        ]
+      }
+    },
+    {
+      "id": "volcanion-2T",
+      "pokemon": "volcanion min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 2.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 1.25,
+          "condition": {
+            "maxY": 0
+          }
+        },
+        {
+          "multiplier": 1.25,
+          "condition": {
+            "maxY": -16
+          }
+        },
+        {
+          "multiplier": 1.25,
+          "condition": {
+            "maxY": -32
+          }
+        },
+        {
+          "multiplier": 1.25,
+          "condition": {
+            "maxY": -48
+          }
+        }
+      ],
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:water",
+          "minecraft:lava",
+          "minecraft:obsidian"
+        ]
+      }
+    }
+  ]
+}

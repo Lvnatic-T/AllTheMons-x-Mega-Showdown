@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:grumpig",   
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.8,
+    "fixed": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:ragingbolt",
+  "implemented": true,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 2.0,
+    "height": 7.0,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "ACCELERATION": "40-60",
+          "JUMP": "15-35",
+          "SKILL": "35-55",
+          "STAMINA": "90-110",
+          "SPEED": "35-55"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:gougingfire",
+  "implemented": true,
+  "baseScale": 1.15,
+  "hitbox": {
+    "width": 3.0,
+    "height": 2.5,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "ACCELERATION": "50-70",
+          "JUMP": "35-55",
+          "SKILL": "45-55",
+          "STAMINA": "90-110",
+          "SPEED": "50-70"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

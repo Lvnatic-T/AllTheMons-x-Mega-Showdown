@@ -1,0 +1,47 @@
+{
+  "target": "cobblemon:manaphy",
+  "implemented": true,
+  "shoulderMountable": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.4,
+    "height": 1.05,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "swim": {
+        "canBreatheUnderwater": true,
+        "swimSpeed": "0.2"
+      },
+      "walk": {
+        "walkSpeed": 0.19,
+	  	"canWalk": true
+      },
+      "fly": {
+        "canFly": true
+      }
+    },
+    "herd": {
+      "maxSize": "5",
+      "toleratedLeaders": [
+        {
+          "pokemon": "manaphy",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "times": "any",
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

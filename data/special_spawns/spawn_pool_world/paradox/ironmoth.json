@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironmoth-1T",
+            "pokemon": "ironmoth min_perfect_ivs=3",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "40-75",
+            "weight": 3.0,
+            "condition": {
+                "timeRange":"night",
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+      	}
+	]
+}

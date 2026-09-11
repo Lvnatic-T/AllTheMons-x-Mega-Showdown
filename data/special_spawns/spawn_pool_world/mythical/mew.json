@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "mew-1T",
+      "pokemon": "mew min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 2.5,
+      "weightMultipliers": [
+        {
+            "multiplier": 4,
+            "condition": {
+              "timeRange": "noon"
+          }
+        }
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ 
+          "#cobblemon:is_floral", 
+          "#cobblemon:is_jungle" 
+        ]
+      }
+    }
+  ]
+}

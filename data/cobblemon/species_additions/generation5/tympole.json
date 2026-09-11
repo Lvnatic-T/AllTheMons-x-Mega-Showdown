@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:tympole",
+  "implemented": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.75,
+    "height": 0.6,
+    "fixed": false
+  }
+}

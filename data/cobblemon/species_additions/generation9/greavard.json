@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:greavard",
+  "implemented": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  }
+}

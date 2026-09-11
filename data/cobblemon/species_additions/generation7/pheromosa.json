@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:pheromosa",
+  "implemented": true,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 0.8,
+    "height": 3.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": "0.2"
+      },
+      "fly": {
+        "canFly": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "times": ["any"],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    }
+  }
+}

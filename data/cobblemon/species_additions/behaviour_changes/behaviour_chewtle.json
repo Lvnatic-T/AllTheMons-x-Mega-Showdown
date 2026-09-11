@@ -1,0 +1,49 @@
+{
+  "target":"cobblemon:chewtle",
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "canBreatheUnderwater": true,
+        "swimSpeed": "0.2"
+      }
+    },
+    "herd": {
+      "maxSize": 2,
+      "toleratedLeaders": [
+        {
+          "pokemon": "chewtle alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "wartortle",
+          "tier": 1
+        },
+        {
+          "pokemon": "drednaw",
+          "tier": 2
+        },
+        {
+          "pokemon": "blastoise mega=false",
+          "tier": 3
+        },
+        {
+          "pokemon": "blastoise mega",
+          "tier": 4
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "condition": {
+	"structures": [
+	  "minecraft:desert_pyramid",
+	  "betterdeserttemples:desert_temple"
+    ],
+	"minY": 62,
+	"neededNearbyBlocks": [
+      "#cobblemon:desert_pyramid_blocks"
+	]
+  },
+  "anticondition": {
+    "neededBaseBlocks": [
+	  "minecraft:blue_terracotta",
+	  "minecraft:orange_terracotta"
+	]
+  }
+}

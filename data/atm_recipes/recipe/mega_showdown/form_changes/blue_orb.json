@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " T ",
+        "TNT",
+        " T "
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "T": {
+            "item": "mega_showdown:water_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:blue_orb",
+        "count": 1
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "target": "cobblemon:stakataka",
+  "implemented": true,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 3.7,
+    "height": 5.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.195
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-30",
+          "JUMP": "5-25",
+          "SKILL": "15-35",
+          "SPEED": "15-35",
+          "STAMINA": "100-120"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}
