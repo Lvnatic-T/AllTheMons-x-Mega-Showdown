@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "zekrom-1T",
+      "pokemon": "zekrom min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 1.5,
+      "weightMultiplier": {
+        "multiplier": 4.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
+      }
+    }
+  ]
+}

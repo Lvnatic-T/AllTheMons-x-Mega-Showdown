@@ -1,0 +1,38 @@
+{
+  "target":"cobblemon:wigglytuff",
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "herd": {
+      "maxSize": 4,
+      "toleratedLeaders": [
+        {
+          "pokemon": "wigglytuff alpha",
+          "tier": 1
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": true,
+	      "flySpeedHorizontal": 0.2
+      },
+      "walk": {
+        "walkSpeed": 0.2
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+}

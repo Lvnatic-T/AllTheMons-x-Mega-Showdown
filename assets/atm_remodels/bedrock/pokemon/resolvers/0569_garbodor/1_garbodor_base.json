@@ -1,0 +1,16 @@
+{
+ "species": "cobblemon:garbodor",
+ "order": 1,
+ "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:garbodor",
+      "model": "atm_remodels:garbodor.geo",
+      "texture": "atm_remodels:textures/pokemon/0569_garbodor/garbodor.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0569_garbodor/garbodor_shiny.png"
+    }
+  ]
+}

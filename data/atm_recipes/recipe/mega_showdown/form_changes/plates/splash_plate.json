@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:water_gem"
+        },
+        "T": {
+            "item": "mega_showdown:water_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:splash_plate",
+        "count": 1
+    }
+}

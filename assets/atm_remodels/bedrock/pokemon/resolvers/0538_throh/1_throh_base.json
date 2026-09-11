@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:throh",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:throh",
+      "model": "atm_remodels:throh.geo",
+      "texture": "atm_remodels:textures/pokemon/0538_throh/throh.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0538_throh/throh_shiny.png"
+    }
+  ]
+}

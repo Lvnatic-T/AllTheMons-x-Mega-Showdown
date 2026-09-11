@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "heatran-1T",
+      "pokemon": "heatran min_perfect_ivs=3",
+      "presets": [
+          "natural",
+          "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 2.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      }
+    },
+    {
+      "id": "heatran-2T",
+      "pokemon": "heatran min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic"
+       ]
+     }
+    },
+    {
+      "id": "heatran-3T",
+      "pokemon": "heatran min_perfect_ivs=3",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 4.5,
+      "condition": {
+        "maxY": 127,
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    }
+  ]
+}

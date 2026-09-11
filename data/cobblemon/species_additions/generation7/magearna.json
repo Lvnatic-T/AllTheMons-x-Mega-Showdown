@@ -1,0 +1,37 @@
+{
+  "target": "cobblemon:magearna",
+  "implemented": true,
+  "baseScale": 0.44,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15",
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.250,
+        "avoidsWater": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

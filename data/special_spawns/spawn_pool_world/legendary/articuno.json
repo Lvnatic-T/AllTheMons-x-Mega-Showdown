@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "articuno-1T",
+      "pokemon": "articuno min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 1.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "isRaining": true
+          },
+          "anticondition": {
+            "biomes": [
+              "#cobblemon:is_arid"
+            ]
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "biomes": [
+              "#cobblemon:is_freezing"
+            ]
+          }
+        }
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+            "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "articuno-galarian-1T",
+      "pokemon": "articuno galarian min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 3.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    }
+  ]
+}

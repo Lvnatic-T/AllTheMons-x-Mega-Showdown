@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:regigigas",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:regigigas",
+      "model": "atm_remodels:regigigas.geo",
+      "texture": "atm_remodels:textures/pokemon/0486_regigigas/regigigas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "atm_remodels:textures/pokemon/0486_regigigas/regigigas_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0486_regigigas/regigigas_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "atm_remodels:textures/pokemon/0486_regigigas/regigigas_emissive.png"
+        }
+      ]
+    }
+  ]
+}

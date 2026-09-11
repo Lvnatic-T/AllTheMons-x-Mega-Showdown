@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DTG",
+        "TET",
+        "DTG"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:tinted_glass"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "G": {
+            "item": "cobblemon:ghost_gem"
+        },
+        "D": {
+            "item": "cobblemon:dragon_gem"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:griseous_core",
+        "count": 1
+    }
+}

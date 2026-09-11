@@ -1,0 +1,69 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "miraidon-1T",
+      "pokemon": "miraidon min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-80",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      }
+    },
+    {
+      "id": "miraidon-2T",
+      "pokemon": "miraidon min_perfect_ivs=3",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-80",
+      "weight": 2.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "maxY": -16
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "maxY": -32
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "maxY": -48
+          }
+        }
+      ],
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": "0",
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:coalossal",
+  "baseScale": 1.1,
+	"hitbox": {
+		"width": 1.1,
+		"height": 2.0,
+		"fixed": false
+   }
+}

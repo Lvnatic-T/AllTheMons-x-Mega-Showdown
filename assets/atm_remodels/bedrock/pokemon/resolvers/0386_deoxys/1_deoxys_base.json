@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:deoxys",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:deoxys",
+      "model": "atm_remodels:deoxys.geo",
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys_shiny.png"
+    }
+  ]
+}

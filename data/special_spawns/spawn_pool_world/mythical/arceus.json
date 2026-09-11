@@ -1,0 +1,59 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "arceus-1T",
+      "pokemon": "arceus min_perfect_ivs=3",
+      "presets": [
+          "natural",
+          "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "80",
+      "weight": 0.05,
+      "weightMultipliers": [
+        {
+          "multiplier": 3.0,
+          "condition": {
+            "timeRange": "night"
+          }
+        },
+        {
+          "multiplier": 2.0,
+          "condition": {
+            "isThundering": true
+          }
+        },
+        {
+          "multiplier": 2.0,
+          "condition": {
+            "minY": 100
+          }
+        },
+        {
+          "multiplier": 2.0,
+          "condition": {
+            "minY": 200
+          }
+        },
+        {
+          "multiplier": 2.0,
+          "condition": {
+            "minY": 300
+          }
+        }
+      ],
+      "condition": {
+        "minY": 64,
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

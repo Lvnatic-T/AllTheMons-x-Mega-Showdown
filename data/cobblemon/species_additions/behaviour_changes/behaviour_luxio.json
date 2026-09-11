@@ -1,0 +1,56 @@
+{
+  "target":"cobblemon:luxio",
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0033,
+      "rouseChance": 0.0042
+    },
+    "entityInteract": {
+      "avoidedByCreeper": true,
+      "avoidedByPhantom": true
+    },
+    "herd": {
+      "maxSize": 7,
+      "toleratedLeaders": [
+        {
+          "pokemon": "luxio",
+          "tier": 1
+        },
+        {
+          "pokemon": "pyroar female",
+          "tier": 2
+        },
+        {
+          "pokemon": "pyroar male",
+          "tier": 3
+        },
+        {
+          "pokemon": "luxray female",
+          "tier": 4
+        },
+        {
+          "pokemon": "luxray male",
+          "tier": 5
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "walkSpeed": 0.235
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  }
+}

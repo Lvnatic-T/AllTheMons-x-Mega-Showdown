@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:grass_gem"
+        },
+        "T": {
+            "item": "mega_showdown:grass_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:meadow_plate",
+        "count": 1
+    }
+}

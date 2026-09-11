@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kyogre-1T",
+      "pokemon": "kyogre min_perfect_ivs=3",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 3.0,
+      "weightMultipliers": [
+        {
+          "multiplier": 1.5,
+          "biomes": [
+            "#cobblemon:is_deep_ocean"
+          ]
+        },
+        {
+          "multiplier": 2,
+          "condition": {
+            "isRaining": true
+          }
+        },
+        {
+          "multiplier": 4,
+          "condition": {
+            "isThundering": true
+          }
+        }
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "minLureLevel": 3,
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      }
+    }
+  ]
+}

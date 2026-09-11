@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:darkrai",
+  "implemented": true,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.9,
+    "fixed": false
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "portraitScale": 2.58,
+  "portraitTranslation": [-0.04, -1.35, 0],
+  "profileScale": 1.0,
+  "profileTranslation": [0, 0.3, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('victini_atm', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('victini_atm', 'cry')",
+    "recoil": "q.bedrock_stateful('victini_atm', 'recoil')",
+    "physical": "q.bedrock_primary('victini_atm', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('victini_atm', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('victini_atm', 'status', q.curve('symmetrical_wide'))",
+    "vcreate": "q.bedrock_primary('victini_atm', 'vcreate_alt', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "animations": ["q.bedrock('victini_atm', 'portrait')"]
+    },
+    "profile": {
+      "poseTypes": ["PROFILE"],
+      "animations": ["q.bedrock('victini_atm', 'battle_idle')"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('victini_atm', 'angry')",
+        "q.bedrock('victini_atm', 'battle_idle')",
+        "q.bedrock_stateful('victini_atm', 'battle_cry', q.curve('one'))"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('victini_atm', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_tail', 4, 10, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('victini_atm', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('victini_atm', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_tail', 4, 10, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_jump', 20, 60, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_victory', 15, 45, 1)"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('victini_atm', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('victini_atm', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_tail', 4, 10, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_victory', 15, 45, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('victini_atm', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('victini_atm', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_tail', 4, 10, 1)"
+      ]
+    },
+    "flying": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('victini_atm', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('victini_atm', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_tail', 4, 10, 1)"
+      ]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('victini_atm', 'sleep')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('victini_atm', 'shoulder_left')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('victini_atm', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_tail', 4, 10, 1)"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('victini_atm', 'shoulder_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('victini_atm', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('victini_atm', 'quirk_tail', 4, 10, 1)"
+      ]
+    }
+  }
+}

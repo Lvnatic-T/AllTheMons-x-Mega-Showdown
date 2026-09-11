@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:blacephalon",
+  "implemented": true,
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 2.0,
+    "height": 5.6,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "ACCELERATION": "40-60",
+          "JUMP": "15-35",
+          "SKILL": "35-55",
+          "STAMINA": "25-45",
+          "SPEED": "35-55"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

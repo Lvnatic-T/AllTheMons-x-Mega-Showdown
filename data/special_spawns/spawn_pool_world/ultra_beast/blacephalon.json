@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "blacephalon-1T",
+            "pokemon": "blacephalon min_perfect_ivs=3",
+			"presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "40-65",
+            "weight": 5.0,
+            "condition": {
+                "maxY": 127,
+                "biomes": [
+                    "#cobblemon:nether/is_desert"
+                ]
+			}
+		},
+		{
+            "id": "blacephalon-2T",
+            "pokemon": "blacephalon min_perfect_ivs=3",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "50-70",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        }
+	]
+}

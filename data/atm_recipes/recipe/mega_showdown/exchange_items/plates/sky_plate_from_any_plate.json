@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":  [
+      {
+        "tag": "mega_showdown:plates"
+      },
+      {
+        "item": "mega_showdown:flying_tera_shard"
+      }
+    ],
+    "result": {
+        "id": "mega_showdown:sky_plate",
+        "count": 1
+    }
+}

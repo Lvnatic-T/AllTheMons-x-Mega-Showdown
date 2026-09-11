@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:glameow",   
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.0,
+    "fixed": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:cresselia",
+  "implemented": true,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:grapploct",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:grapploct",
+      "model": "atm_remodels:grapploct.geo",
+      "texture": "atm_remodels:textures/pokemon/0853_grapploct/grapploct.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0853_grapploct/grapploct_shiny.png"
+    }
+  ]
+}

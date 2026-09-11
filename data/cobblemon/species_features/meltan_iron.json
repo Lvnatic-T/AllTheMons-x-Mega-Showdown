@@ -1,0 +1,19 @@
+{
+  "type": "integer",
+  "keys": ["meltan_iron"],
+  "default": 0,
+  "min": 0,
+  "max": 400,
+  "visible": true,
+  "display": {
+    "name": "cobblemon.ui.stash.iron",
+    "colour": [192, 192, 192],
+    "underlay": "cobblemon:textures/gui/summary/summary_stats_other_bar.png",
+    "overlay": "cobblemon:textures/gui/summary/summary_stats_meltan_overlay.png"
+  },
+  "itemPoints": {
+    "minecraft:iron_ingot": 1,
+    "minecraft:iron_block": 9,
+    "minecraft:anvil": 31
+  }
+}

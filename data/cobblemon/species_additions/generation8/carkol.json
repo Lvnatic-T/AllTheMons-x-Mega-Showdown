@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:carkol",
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:darkrai",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:darkrai",
+      "model": "atm_remodels:darkrai.geo",
+      "texture": "atm_remodels:textures/pokemon/0491_darkrai/darkrai.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0491_darkrai/darkrai_shiny.png"
+    }
+  ]
+}

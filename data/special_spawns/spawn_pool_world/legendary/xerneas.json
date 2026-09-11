@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "xerneas-1T",
+      "pokemon": "xerneas min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 2.0,
+      "condition": {
+        "timeRange": "day",
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
+    }
+  ]
+}

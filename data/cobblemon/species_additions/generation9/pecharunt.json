@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:pecharunt",
+  "implemented": true,
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:clobbopus",
+  "order": 1,
+  "variations": [
+  	{
+      "aspects": [],
+      "poser": "atm_remodels:clobbopus",
+      "model": "atm_remodels:clobbopus.geo",
+      "texture": "atm_remodels:textures/pokemon/0852_clobbopus/clobbopus.png"
+  	},
+  	{
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0852_clobbopus/clobbopus_shiny.png"
+  	}
+  ]
+}

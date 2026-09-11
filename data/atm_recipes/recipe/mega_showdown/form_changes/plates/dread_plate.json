@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:dark_gem"
+        },
+        "T": {
+            "item": "mega_showdown:dark_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:dread_plate",
+        "count": 1
+    }
+}

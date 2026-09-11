@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:glameow",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:glameow",
+      "model": "atm_remodels:glameow.geo",
+      "texture": "atm_remodels:textures/pokemon/0431_glameow/glameow.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0431_glameow/glameow_shiny.png"
+	  }
+	]
+}

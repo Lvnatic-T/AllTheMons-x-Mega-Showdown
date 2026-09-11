@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:swirlix",
+  "shoulderMountable": true,
+  "baseScale":0.45,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.0,
+    "fixed": false
+  }
+}

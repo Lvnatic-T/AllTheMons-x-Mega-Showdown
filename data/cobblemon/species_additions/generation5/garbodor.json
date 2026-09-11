@@ -1,0 +1,30 @@
+{
+  "implemented": true,
+  "target": "cobblemon:garbodor",
+  "baseScale": 0.58,
+  "hitbox": {
+    "width": 2,
+    "height": 2.8,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-30",
+          "JUMP": "10-30",
+          "SKILL": "45-65",
+          "SPEED": "20-40",
+          "STAMINA": "65-85"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

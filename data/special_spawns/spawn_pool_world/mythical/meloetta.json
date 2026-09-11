@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "meloetta-1T",
+      "pokemon": "meloetta min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50",
+      "weight": 2.0,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "timeRange": "day"
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
+    }
+  ]
+}

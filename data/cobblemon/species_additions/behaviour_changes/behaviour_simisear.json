@@ -1,0 +1,47 @@
+{
+  "target":"cobblemon:simisear",
+  "behaviour": {
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "monferno",
+          "tier": 1
+        },
+        {
+          "pokemon": "simisage",
+          "tier": 1
+        },
+        {
+          "pokemon": "simisear",
+          "tier": 1
+        },
+        {
+          "pokemon": "simipour",
+          "tier": 1
+        },
+        {
+          "pokemon": "infernape",
+          "tier": 2
+        }
+      ]
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": true
+      },
+      "walk": {
+        "walkSpeed": 0.215
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "fireImmune": true
+  }
+}

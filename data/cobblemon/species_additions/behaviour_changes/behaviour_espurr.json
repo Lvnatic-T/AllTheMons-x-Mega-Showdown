@@ -1,0 +1,47 @@
+{
+  "target":"cobblemon:espurr",
+  "shoulderMountable": true,
+  "behaviour": {
+    "entityInteract": {
+      "avoidedByCreeper": true,
+      "avoidedByPhantom": true
+    },
+    "herd": {
+      "maxSize": 2,
+      "toleratedLeaders": [
+        {
+          "pokemon": "espurr alpha",
+          "tier": 1
+        },
+        {
+          "pokemon": "meowstic",
+          "tier": 1
+        },
+        {
+          "pokemon": "meowstic mega",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "willSleepOnBed": true,
+      "times": [
+        "167-11833,13702-22299"
+      ],
+      "drowsyChance": 0.0021,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true
+      },
+      "walk": {
+        "walkSpeed": 0.125
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  }
+
+}

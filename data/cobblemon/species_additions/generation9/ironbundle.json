@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:ironbundle",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1.3,
+    "height": 1.6,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.4
+	  },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+      }
+    }
+  }
+}

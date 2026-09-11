@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snover-1T",
+      "pokemon": "snover",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 70.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_taiga",
+          "#cobblemon:is_snowy_forest"
+        ]
+      }
+    }
+  ]
+}

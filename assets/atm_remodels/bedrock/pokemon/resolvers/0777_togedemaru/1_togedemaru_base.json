@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:togedemaru",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:togedemaru",
+      "model": "atm_remodels:togedemaru.geo",
+      "texture": "atm_remodels:textures/pokemon/0777_togedemaru/togedemaru.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0777_togedemaru/togedemaru_shiny.png"
+    }
+  ]
+}

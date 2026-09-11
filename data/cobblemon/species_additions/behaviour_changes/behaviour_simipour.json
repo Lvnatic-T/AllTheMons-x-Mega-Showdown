@@ -1,0 +1,34 @@
+{
+  "target":"cobblemon:simipour",
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.215
+      }
+    },
+    "herd": {
+      "maxSize": 5,
+      "toleratedLeaders": [
+        {
+          "pokemon": "simisage",
+          "tier": 1
+        },
+        {
+          "pokemon": "simisear",
+          "tier": 1
+        },
+        {
+          "pokemon": "simipour",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "resting": {
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "target": "cobblemon:pawniard",
+  "implemented": true,
+  "baseScale":1.0,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 0.5,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

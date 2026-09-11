@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:applin",
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "legendarymonuments:lightstone_shard",
+        "percentage": 2.0
+      },
+      {
+        "item": "legendarymonuments:darkstone_shard",
+        "percentage": 2.0
+      },
+      {
+        "item": "cobblemon:sweet_apple",
+        "percentage": 33
+      },
+      {
+        "item": "cobblemon:tart_apple",
+        "percentage": 33
+      },
+      {
+        "item": "cobblemon:syrupy_apple",
+        "percentage": 33
+      }
+    ]
+  }
+}

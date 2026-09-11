@@ -1,0 +1,73 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "diancie-1T",
+      "pokemon": "diancie min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "60",
+      "weight": 1.5,
+      "weightMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "maxY": -0
+          }
+          },
+          {
+          "multiplier": 1.5,
+          "condition": {
+            "maxY": -16
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "maxY": -32
+          }
+        },
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "maxY": -48
+          }
+        },
+        {
+          "multiplier": 5.0,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:amethyst_block",
+              "minecraft:amethyst_cluster",
+              "minecraft:budding_amethyst",
+              "minecraft:large_amethyst_bud",
+              "minecraft:medium_amethyst_bud",
+              "minecraft:small_amethyst_bud"
+            ]
+          }
+        }
+      ],
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 30,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
+}

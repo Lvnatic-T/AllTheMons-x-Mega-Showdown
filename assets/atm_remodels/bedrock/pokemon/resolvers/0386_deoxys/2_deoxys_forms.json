@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:deoxys",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["attack-forme"],
+      "poser": "atm_remodels:deoxysattack",
+      "model": "atm_remodels:deoxysattack.geo",
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys_attack.png"
+    },
+    {
+      "aspects": ["shiny","attack-forme"],
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys_attack_shiny.png"
+    },
+    {
+      "aspects": ["speed-forme"],
+      "poser": "atm_remodels:deoxysspeed",
+      "model": "atm_remodels:deoxysspeed.geo",
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys_speed.png"
+    },
+    {
+      "aspects": ["shiny","speed-forme"],
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys_speed_shiny.png"
+    },
+    {
+      "aspects": ["defense-forme"],
+      "poser": "atm_remodels:deoxysdefense",
+      "model": "atm_remodels:deoxysdefense.geo",
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys_defense.png"
+    },
+    {
+      "aspects": [ "shiny","defense-forme"],
+      "texture": "atm_remodels:textures/pokemon/0386_deoxys/deoxys_defense_shiny.png"
+    }
+  ]
+}

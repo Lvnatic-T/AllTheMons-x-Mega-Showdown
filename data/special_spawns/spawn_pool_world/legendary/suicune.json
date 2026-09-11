@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "suicune-1T",
+      "pokemon": "suicune min_perfect_ivs=3",
+      "presets": [
+          "natural",
+          "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 0.5,
+      "weightMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:water"
+            ]
+          }
+        },
+        {
+          "multiplier": 4,
+          "condition": {
+            "isRaining": true
+          },
+          "anticondition": {
+            "biomes": [
+              "#cobblemon:is_arid"
+            ]
+          }
+        },
+        {
+          "multiplier": 0.5,
+          "condition": {
+            "biomes": [
+              "#cobblemon:is_arid"
+            ]
+          }
+        }
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

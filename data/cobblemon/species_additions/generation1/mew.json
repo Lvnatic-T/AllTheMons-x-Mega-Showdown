@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:mew",
+  "implemented": true,
+  "hitbox": {
+    "width": 0.65,
+    "height": 1.61,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  }
+}

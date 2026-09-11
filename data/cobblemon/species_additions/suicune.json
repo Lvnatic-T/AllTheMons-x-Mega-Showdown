@@ -1,0 +1,30 @@
+{
+  "target": "cobblemon:suicune",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.3,
+    "height": 2.45,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "35-60",
+          "JUMP": "30-55",
+          "SKILL": "20-50",
+          "SPEED": "30-45",
+          "STAMINA": "60-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

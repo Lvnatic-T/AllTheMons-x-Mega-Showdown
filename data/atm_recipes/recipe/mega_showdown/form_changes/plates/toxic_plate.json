@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:poison_gem"
+        },
+        "T": {
+            "item": "mega_showdown:poison_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:toxic_plate",
+        "count": 1
+    }
+}

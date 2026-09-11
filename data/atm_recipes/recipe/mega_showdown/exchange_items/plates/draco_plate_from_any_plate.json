@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":  [
+      {
+        "tag": "mega_showdown:plates"
+      },
+      {
+        "item": "mega_showdown:dragon_tera_shard"
+      }
+    ],
+    "result": {
+        "id": "mega_showdown:draco_plate",
+        "count": 1
+    }
+}

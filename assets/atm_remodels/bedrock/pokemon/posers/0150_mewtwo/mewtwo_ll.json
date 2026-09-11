@@ -1,0 +1,110 @@
+{
+  "portraitScale": 2.01,
+  "portraitTranslation": [-0.23, 2.74, 0],
+  "profileScale": 0.635,
+  "profileTranslation": [0, 0.8, 0],
+  "firstPersonCameraOffset": {
+    "seat_1": [0.0, 0.15, 0.06]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0.0, 0.0, 0.0],
+    "seat_1_reverse": [0.0, 0.0, 0.0]
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('mewtwo_ll', 'cry')",
+    "recoil": "q.bedrock_stateful('mewtwo_ll', 'recoil')",
+    "faint": "q.bedrock_primary('mewtwo_ll', 'faint', q.curve('one'))",
+    "status": "q.bedrock_primary('mewtwo_ll', 'status', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('mewtwo_ll', 'special', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('mewtwo_ll', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "animations": ["q.bedrock('mewtwo_ll', 'air_idle')"]
+    },
+    "profile": {
+      "poseTypes": ["PROFILE"],
+      "animations": [
+        "q.bedrock('mewtwo_ll', 'battle_idle')",
+        "q.bedrock('mewtwo_ll', 'battle_item')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mewtwo_ll', 'battle_idle')",
+        "q.bedrock('mewtwo_ll', 'battle_item')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mewtwo_ll', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('mewtwo_ll', 'quirk_look', 12, 20, 1)",
+        "q.bedrock_quirk('mewtwo_ll', 'quirk_blue_eyes', 7, 11, 1)"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('mewtwo_ll', 'ground_idle')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('mewtwo_ll', 'ride_ground_idle')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mewtwo_ll', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('mewtwo_ll', 'quirk_look', 5, 15, 1)"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('mewtwo_ll', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mewtwo_ll', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('mewtwo_ll', 'quirk_look', 5, 15, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "condition": "!q.is_sprinting",
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('mewtwo_ll', 'ground_walk')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('mewtwo_ll', 'ride_ground_walk')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('mewtwo_ll', 'blink', 2, 5, 1)"]
+    },
+    "running": {
+      "poseTypes": ["STAND","WALK"],
+      "isBattle": false,
+      "condition": "q.is_sprinting",
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('mewtwo_ll', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('mewtwo_ll', 'blink', 2, 5, 1)"]
+    },
+    "flying": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('mewtwo_ll', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('mewtwo_ll', 'blink', 2, 5, 1)"]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('mewtwo_ll', 'sleep')"]
+    }
+  }
+}

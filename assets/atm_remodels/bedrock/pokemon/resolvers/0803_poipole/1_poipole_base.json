@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:poipole",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:poipole",
+      "model": "atm_remodels:poipole2.geo",
+      "texture": "atm_remodels:textures/pokemon/0803_poipole/poipole.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0803_poipole/poipole_shiny.png"
+    }
+  ]
+}

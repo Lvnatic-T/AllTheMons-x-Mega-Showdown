@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:zeraora",   
+  "implemented": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.7,
+    "height": 2.4,
+    "fixed": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:xerneas",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["active-mode"],
+      "model": "atm_remodels:xerneas_active.geo",
+      "texture": "atm_remodels:textures/pokemon/0716_xerneas/xerneas_active.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "atm_remodels:textures/pokemon/0716_xerneas/xerneas_active_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny","active-mode"],
+      "texture": "atm_remodels:textures/pokemon/0716_xerneas/xerneas_active_shiny.png"
+    }
+  ]
+}

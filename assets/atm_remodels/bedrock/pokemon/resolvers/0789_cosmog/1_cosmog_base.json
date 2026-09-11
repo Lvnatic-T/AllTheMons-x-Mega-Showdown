@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:cosmog",
+  "order": 1,
+  "variations": [
+    {
+      "poser": "atm_remodels:cosmog",
+      "model": "atm_remodels:cosmog.geo",
+      "texture": "atm_remodels:textures/pokemon/0789_cosmog/cosmog.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0789_cosmog/cosmog_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:bombirdier",
+  "implemented": true,
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 0.65,
+    "height": 2.4,
+    "fixed": false
+  }
+}

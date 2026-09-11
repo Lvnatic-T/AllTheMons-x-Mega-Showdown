@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":  [
+      {
+        "item": "mega_showdown:adamant_orb"
+      }
+    ],
+    "result": {
+        "id": "mega_showdown:adamant_crystal",
+        "count": 1
+    }
+}

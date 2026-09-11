@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "PPP",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "tag": "mega_showdown:plates"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:legend_plate",
+        "count": 1
+    }
+}

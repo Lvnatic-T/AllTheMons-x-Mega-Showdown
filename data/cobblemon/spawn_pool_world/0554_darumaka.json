@@ -1,0 +1,115 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "darumaka-1",
+            "pokemon": "darumaka",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 540.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_desert",
+                    "#cobblemon:is_jungle"
+                ],
+                "structures": [
+                    "#cobblemon:ruin"
+                ],
+                "isPokeSnack": true
+            }
+        },
+        {
+            "id": "darumaka-2",
+            "pokemon": "darumaka",
+            "presets": [
+                "natural",
+                "desert_pyramid"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 540.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ],
+                "isPokeSnack": true
+            }
+        },
+        {
+            "id": "darumaka-3",
+            "pokemon": "darumaka",
+            "presets": [
+                "natural",
+                "jungle_pyramid"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 540.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ],
+                "isPokeSnack": true
+            }
+        },
+        {
+            "id": "darumaka-4",
+            "pokemon": "darumaka",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 18.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                ],
+                "isPokeSnack": true
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen",
+                    "#cobblemon:nether/is_quartz",
+                    "#cobblemon:nether/is_toxic"
+                ]
+            }
+        },
+        {
+            "id": "darumaka-galarian-1",
+            "pokemon": "darumaka galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "7-32",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_snowy"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "target": "cobblemon:irontreads",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.5,
+    "height": 1.6,
+    "fixed": false
+  },
+  "moving": {
+    "canLook": false,
+    "walk": {
+      "canWalk": true,
+      "avoidsLand": false
+    },
+    "swim": {
+      "swimSpeed": 0.1,
+      "canSwimInWater": false,
+      "canBreatheUnderwater": false
+    }
+  }
+}

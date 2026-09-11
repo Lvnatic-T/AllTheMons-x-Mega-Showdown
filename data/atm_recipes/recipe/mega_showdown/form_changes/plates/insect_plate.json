@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:bug_gem"
+        },
+        "T": {
+            "item": "mega_showdown:bug_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:insect_plate",
+        "count": 1
+    }
+}

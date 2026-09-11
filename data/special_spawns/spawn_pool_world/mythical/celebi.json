@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "celebi-1T",
+      "pokemon": "celebi min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 3,
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    }
+  ]
+}

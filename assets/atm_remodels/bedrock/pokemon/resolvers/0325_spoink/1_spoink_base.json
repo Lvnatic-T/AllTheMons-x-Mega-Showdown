@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:spoink",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:spoink",
+      "model": "atm_remodels:spoink.geo",
+      "texture": "atm_remodels:textures/pokemon/0325_spoink/spoink.png",
+      "layers": [
+        {
+          "name": "pearl",
+          "texture": "atm_remodels:textures/pokemon/0325_spoink/spoink_pearl.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0325_spoink/spoink_shiny.png",
+      "layers": [
+        {
+          "name": "pearl",
+          "texture": "atm_remodels:textures/pokemon/0325_spoink/spoink_shiny_pearl.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-ender_pearl"],
+      "layers": [
+        {
+          "name": "pearl",
+          "texture": "atm_remodels:textures/pokemon/0325_spoink/spoink_ender_pearl.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    }
+  ]
+}

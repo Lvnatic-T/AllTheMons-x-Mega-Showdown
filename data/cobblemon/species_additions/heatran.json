@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:heatran",
+  "implemented": true,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 2.5,
+    "height": 1.6,
+    "fixed": false
+  }
+}

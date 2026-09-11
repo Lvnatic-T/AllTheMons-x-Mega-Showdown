@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:electric_gem"
+        },
+        "T": {
+            "item": "mega_showdown:electric_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:zap_plate",
+        "count": 1
+    }
+}

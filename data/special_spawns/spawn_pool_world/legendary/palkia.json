@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
+  "spawns": [
+    {
+      "id": "palkia-1T",
+      "pokemon": "palkia min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 4.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "minecraft:jagged_peaks"
+        ]
+      }
+    },
+    {
+      "id": "palkia-2T",
+      "pokemon": "palkia min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_peak"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "minecraft:jagged_peaks"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":  [
+      {
+        "item": "mega_showdown:lustrous_orb"
+      }
+    ],
+    "result": {
+        "id": "mega_showdown:lustrous_globe",
+        "count": 1
+    }
+}

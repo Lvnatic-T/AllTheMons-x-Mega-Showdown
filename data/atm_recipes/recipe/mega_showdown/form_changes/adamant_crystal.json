@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DTS",
+        "TET",
+        "DTS"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:tinted_glass"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "S": {
+            "item": "cobblemon:steel_gem"
+        },
+        "D": {
+            "item": "cobblemon:dragon_gem"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:adamant_crystal",
+        "count": 1
+    }
+}

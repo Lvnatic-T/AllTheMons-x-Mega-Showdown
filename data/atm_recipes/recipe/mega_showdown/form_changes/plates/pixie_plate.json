@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:fairy_gem"
+        },
+        "T": {
+            "item": "mega_showdown:fairy_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:pixie_plate",
+        "count": 1
+    }
+}

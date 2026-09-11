@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:grumpig",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:grumpig",
+      "model": "atm_remodels:grumpig.geo",
+      "texture": "atm_remodels:textures/pokemon/0326_grumpig/grumpig.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0326_grumpig/grumpig_shiny.png"
+    }
+  ]
+}

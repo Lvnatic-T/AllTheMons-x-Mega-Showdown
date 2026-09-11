@@ -1,0 +1,51 @@
+{
+  "target": "cobblemon:victini",
+  "implemented": true,
+  "shoulderMountable": true,
+  "baseScale": 0.6,
+  "standingEyeHeight": 0.55,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1.05,
+    "fixed": false
+  },
+  "behaviour": {
+    "fireImmune": true,
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.2,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "hurtByLava": false,
+        "avoidsWater": false,
+        "canSwimInLava": true,
+        "canSwimInWater": true,
+        "canBreatheUnderlava": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.2
+      }
+    },
+    "resting": {
+      "times": "any",
+      "light": "0-8",
+      "canSleep": true,
+      "depth": "normal",
+      "sleepChance": 0.0017,
+      "rouseChance": 0.0042,
+      "drowsyChance": 0.0333,
+      "willSleepOnBed": true
+    },
+    "combat": {
+      "willFlee": false,
+      "willDefendSelf": true,
+      "willDefendOwner": true
+    }
+  }
+}

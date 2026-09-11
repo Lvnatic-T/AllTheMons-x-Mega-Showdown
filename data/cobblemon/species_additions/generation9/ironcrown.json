@@ -1,0 +1,50 @@
+{
+  "target": "cobblemon:ironcrown",
+  "implemented": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1.25,
+    "height": 2.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "walkSpeed": 0.190,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "50-70",
+          "JUMP": "25-45",
+          "SKILL": "60-80",
+          "SPEED": "45-65",
+          "STAMINA": "80-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

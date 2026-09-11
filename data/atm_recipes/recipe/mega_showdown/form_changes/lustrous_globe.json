@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DTW",
+        "TET",
+        "DTW"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:tinted_glass"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "W": {
+            "item": "cobblemon:water_gem"
+        },
+        "D": {
+            "item": "cobblemon:dragon_gem"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:lustrous_globe",
+        "count": 1
+    }
+}

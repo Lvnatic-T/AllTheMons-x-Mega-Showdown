@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:arctibax",
+  "implemented": true,
+  "baseScale": 0.67,
+  "hitbox": {
+   "width": 1.5,
+   "height": 1.5,
+   "fixed": false
+  }
+}

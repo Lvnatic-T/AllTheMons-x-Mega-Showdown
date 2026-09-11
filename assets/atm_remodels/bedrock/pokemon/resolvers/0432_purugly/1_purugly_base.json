@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:purugly",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:purugly",
+      "model": "atm_remodels:purugly.geo",
+      "texture": "atm_remodels:textures/pokemon/0432_purugly/purugly.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0432_purugly/purugly_shiny.png"
+    }
+  ]
+}

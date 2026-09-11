@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:sawk",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:sawk",
+      "model": "atm_remodels:sawk.geo",
+      "texture": "atm_remodels:textures/pokemon/0539_sawk/sawk.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0539_sawk/sawk_shiny.png"
+    }
+  ]
+}

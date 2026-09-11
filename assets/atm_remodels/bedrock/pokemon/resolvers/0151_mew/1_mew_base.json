@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:mew",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:mew",
+      "model": "atm_remodels:mew.geo",
+      "texture": "atm_remodels:textures/pokemon/0151_mew/mew.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0151_mew/mew_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "pokemon": "victini",
+  "size_config": {
+    "Normal": {
+      "msd:dmax": {
+        "scale": [0.45, 0.45, 0.45],
+        "translate": [0.0, 0.45, 0.0]
+      },
+      "msd:tera_normal": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_fire": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_water": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_grass": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_electric": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_ice": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_fighting": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_poison": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_ground": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_flying": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_psychic": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_bug": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_rock": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_ghost": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_dragon": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_dark": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_steel": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_fairy": {
+        "scale": [0.5, 0.5, 0.5],
+        "translate": [0.0, 0.1, 0.0]
+      },
+      "msd:tera_crystal": {
+        "scale": [0.3, 0.3, 0.3],
+        "translate": [0.0, 0.0, 0.0]
+      }
+    }
+  }
+}

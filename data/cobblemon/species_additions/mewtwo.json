@@ -1,0 +1,126 @@
+{
+  "target": "cobblemon:mewtwo",
+  "standingEyeHeight": 0.88,
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.8,
+    "height": 2.3,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.2,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "hurtByLava": false,
+        "avoidsWater": false,
+        "canSwimInLava": false,
+        "canSwimInWater": true,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.2
+      }
+    },
+    "resting": {
+      "times": "any",
+      "light": "0-8",
+      "canSleep": true,
+      "depth": "normal",
+      "sleepChance": 0.0017,
+      "rouseChance": 0.0042,
+      "drowsyChance": 0.0333,
+      "willSleepOnBed": true
+    },
+    "combat": {
+      "willFlee": false,
+      "willDefendSelf": true,
+      "willDefendOwner": true
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/jet",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind.stereo",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.wind.mono",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "gravity": "q.gravity * (0.1 + (q.passenger_count - 1) * 0.1)",
+        "jumpVector": [0, "0.3*q.jump_strength/50", 0],
+        "stats": {
+          "SPEED": "70-95",
+          "ACCELERATION": "50-70",
+          "SKILL": "60-80",
+          "JUMP": "40-60",
+          "STAMINA": "95-105"
+        }
+      },
+      "LAND": {
+        "speed": "Math.clamp(q.entity.velocity.horizontal_magnitude + 0.33, 0, 1)",
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "SPEED": "35-45",
+          "ACCELERATION": "65-75",
+          "SKILL": "35-55",
+          "JUMP": "10-25",
+          "STAMINA": "30-45"
+        }
+      },
+	  "LIQUID": {
+        "key": "cobblemon:liquid/dolphin",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": false,
+            "playForPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.water_surface.stereo",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "playForPassengers": false,
+            "soundLocation": "cobblemon:ride.loop.water_surface.mono",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "55-75",
+          "JUMP": "30-65",
+          "SKILL": "10-30",
+          "SPEED": "45-65",
+          "STAMINA": "85-105"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

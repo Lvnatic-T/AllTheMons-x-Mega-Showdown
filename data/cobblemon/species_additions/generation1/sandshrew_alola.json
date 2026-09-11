@@ -1,0 +1,19 @@
+{
+  "target": "cobblemon:unown",
+  "forms": [
+    {
+      "name": "Alolan",
+      "maleRatio": 1,
+      "abilities": ["shadowtag"],
+      "aspects": ["character-t","male"],
+      "baseStats": {
+        "hp": 255,
+        "attack": 99,
+        "defence": 99,
+        "special_attack": 99,
+        "special_defence": 99,
+        "speed": 199
+      }
+    }
+  ]
+}

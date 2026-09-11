@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:floette",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["flower-eternal"],
+      "poser": "atm_remodels:floette_eternalflower",
+      "model": "atm_remodels:floette_eternalflower.geo",
+      "texture": "atm_remodels:textures/pokemon/0670_floette/floette_eternal.png"
+    },
+    {
+      "aspects": ["shiny", "flower-eternal"],
+      "texture": "atm_remodels:textures/pokemon/0670_floette/floette_eternal_shiny.png"
+    }
+  ]
+}

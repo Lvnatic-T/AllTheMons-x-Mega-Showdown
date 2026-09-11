@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ZZZ",
+        "ZZZ",
+        "ZZZ"
+    ],
+    "key": {
+        "Z": {
+            "item": "mega_showdown:zygarde_cell"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:zygarde_core",
+        "count": 1
+    }
+}

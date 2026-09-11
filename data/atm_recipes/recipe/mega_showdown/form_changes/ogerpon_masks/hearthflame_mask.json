@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TST",
+        "SGS",
+        "   "
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:fire_gem"
+        },
+        "T": {
+            "item": "mega_showdown:fire_tera_shard"
+        },
+        "S": {
+            "item": "cobblemon:tumblestone"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:hearthflame_mask",
+        "count": 1
+    }
+}

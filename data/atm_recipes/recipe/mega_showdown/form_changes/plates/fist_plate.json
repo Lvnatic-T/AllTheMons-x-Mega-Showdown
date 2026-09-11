@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "TGT",
+        "TTT"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemon:fighting_gem"
+        },
+        "T": {
+            "item": "mega_showdown:fighting_tera_shard"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:fist_plate",
+        "count": 1
+    }
+}

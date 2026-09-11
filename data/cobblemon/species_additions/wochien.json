@@ -1,0 +1,50 @@
+{    
+"target": "cobblemon:wochien",
+"implemented": true,
+"baseScale": 0.8,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.18
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "resting": {
+      "canSleep": true,
+      "drowsyChance": 0.0333,
+      "light": "0-4",
+      "rouseChance": 0.0042
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "stats": {
+          "ACCELERATION": "20-30",
+          "JUMP": "5-20",
+          "SKILL": "45-65",
+          "STAMINA": "80-100",
+          "SPEED": "20-30"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:slurpuff",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "atm_remodels:slurpuff",
+      "model": "atm_remodels:slurpuff.geo",
+      "texture": "atm_remodels:textures/pokemon/0685_slurpuff/slurpuff.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "atm_remodels:textures/pokemon/0685_slurpuff/slurpuff_shiny.png"
+    }
+  ]
+}

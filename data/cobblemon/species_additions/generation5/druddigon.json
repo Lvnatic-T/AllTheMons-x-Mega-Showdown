@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:druddigon",
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.95,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "20-30",
+          "JUMP": "15-35",
+          "SKILL": "55-75",
+          "SPEED": "40-60",
+          "STAMINA": "75-95"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  }
+}

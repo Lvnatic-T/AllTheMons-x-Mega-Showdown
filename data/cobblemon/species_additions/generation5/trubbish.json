@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:trubbish",   
+  "baseScale": 1.25,
+  "hitbox": {
+    "width": 0.55,
+    "height": 0.45,
+    "fixed": false
+  }
+}
