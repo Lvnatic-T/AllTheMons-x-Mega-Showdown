@@ -1,0 +1,55 @@
+{
+  "portraitScale": 1.63,
+  "portraitTranslation": [-1.53, 1.31, 0],
+  "profileScale": 0.46,
+  "profileTranslation": [-0.04, 0.99, 0],
+  "rootBone": "zapdos",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.5, 1],
+    "seat_1_reverse": [0, 0.5, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.5, 1],
+    "seat_1_reverse": [0, 0.5, 1]
+  },
+  "animations": {
+	  "cry": "q.bedrock_stateful('zapdos', 'cry')"
+  },
+  "poses": {
+	"portrait": {
+      "poseName": "portrait",
+      "poseTypes": ["PORTRAIT"],
+      "animations": [
+        "q.bedrock('zapdos', 'portrait')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('zapdos', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["PROFILE", "STAND", "HOVER", "FLOAT", "NONE"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('zapdos', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('zapdos', 'blink')"
+      ]
+    },
+    "walk": {
+      "poseName": "walk",
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "animations": [
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('zapdos', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('zapdos', 'blink')"
+      ]
+    }
+  }
+}

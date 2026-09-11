@@ -1,0 +1,11 @@
+{
+  "maxScale": 1.085,
+  "yTranslation": 0,
+  "yGrowthPoint": 0.625,
+  "poses": {
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('mewtwo_fetus', 'sleep')"]
+    }
+  }
+}

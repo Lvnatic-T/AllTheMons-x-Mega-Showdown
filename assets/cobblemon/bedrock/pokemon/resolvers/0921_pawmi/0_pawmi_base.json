@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:pawmi",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:pawmi",
+            "model": "cobblemon:pawmi.geo",
+            "texture": "cobblemon:textures/pokemon/0921_pawmi/pawmi.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0921_pawmi/pawmi_shiny.png",
+            "layers": []
+        }
+    ]
+}

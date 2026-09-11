@@ -1,0 +1,49 @@
+{
+  "portraitScale": 1.54,
+  "portraitTranslation": [0.1, 1.0, 0.0],
+  "profileScale": 0.69,
+  "profileTranslation": [0.04, 0.71, 0.0],
+  "rootBone": "morgrem",
+    "animations": {
+    "cry": "q.bedrock_stateful('morgrem', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('morgrem', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('morgrem', 'blink')"
+      ]
+    },"standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('morgrem', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('morgrem', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK","SWIM"
+      ],
+      "animations": [
+        "q.bedrock('morgrem', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('morgrem', 'blink')"
+      ]
+    }
+  }
+}

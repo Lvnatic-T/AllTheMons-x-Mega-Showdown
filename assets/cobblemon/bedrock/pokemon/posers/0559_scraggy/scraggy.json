@@ -1,0 +1,35 @@
+{
+  "portraitScale": 1.95,
+  "portraitTranslation": [-0.05, -0.18, 0],
+  "profileScale": 0.77,
+  "profileTranslation": [-0.01, 0.61, 0],
+  "rootBone": "scraggy",
+  "animations": {
+	  "cry": "q.bedrock_stateful('scraggy', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('scraggy', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('scraggy', 'blink')"]
+    },
+	"battle-standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('scraggy', 'ground_idle')"],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('scraggy', 'battle_cry', q.curve('symmetrical_wide'))"
+          },
+      "quirks": ["q.bedrock_quirk('scraggy', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('scraggy', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('bagon', 'blink')"]
+    }
+  }
+}

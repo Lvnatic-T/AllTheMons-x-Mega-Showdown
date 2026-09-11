@@ -1,0 +1,42 @@
+{
+  "portraitScale": 1.88,
+  "portraitTranslation": [-0.51, 0.83, 0],
+  "profileScale": 0.72,
+  "profileTranslation": [-0.04, 0.71, 0],
+  "rootBone": "cramorant",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT", "HOVER", "SLEEP"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cramorant', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('cramorant', 'blink', 5, 30, 1)"
+      ]
+    },
+   "flying": {
+      "poseName": "flying",
+      "poseTypes": ["SWIM", "FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cramorant', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('cramorant', 'blink', 5, 30, 1)"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cramorant', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('cramorant', 'blink', 5, 30, 1)"
+      ]
+    }
+  }
+}

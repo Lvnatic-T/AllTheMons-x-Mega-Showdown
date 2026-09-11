@@ -1,0 +1,35 @@
+{
+  "portraitScale": 1.76,
+  "portraitTranslation": [-0.68, -1.01, 0.0],
+  "profileScale": 0.72,
+  "profileTranslation": [0.0, 0.59, 0.0],
+  "rootBone": "lairon",
+  "animations": {
+    "cry": "q.bedrock_stateful('lairon', 'cry')"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('lairon', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('lairon', 'blink')"
+		]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('lairon', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('lairon', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('lairon', 'ground_walk')"
+      ]
+    }
+  }
+}

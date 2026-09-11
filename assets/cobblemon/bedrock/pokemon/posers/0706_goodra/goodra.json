@@ -1,0 +1,33 @@
+{
+  "portraitScale": 1.58,
+  "portraitTranslation": [-0.57, 3.35, 0.0],
+  "profileScale": 0.44,
+  "profileTranslation": [0.02, 1.18, 0.0],
+  "rootBone": "goodra",
+  "animations": {
+    "cry": "q.bedrock_stateful('goodra', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('goodra', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('goodra', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('goodra', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('goodra', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('goodra', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('goodra', 'blink')"]
+    }
+  }
+}

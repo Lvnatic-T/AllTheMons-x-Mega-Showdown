@@ -1,0 +1,136 @@
+{
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.42, 3.7, 0.0],
+  "profileScale": 0.32,
+  "profileTranslation": [0.0, 1.24, 0.0],
+  "rootBone": "quaquaval",
+  "animations": {
+	"cry": "q.bedrock_stateful('quaquaval', 'cry')",
+	"status": "q.bedrock_stateful('quaquaval', 'cry')"
+  },
+ "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('quaquaval', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "namedAnimations": {
+            "aquastep": "q.bedrock_primary('quaquaval', 'aquastep', q.curve('symmetrical_wide'))"
+          },
+		  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": true
+         }
+        ]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+	  "isInWaterOrRain": false,
+      "animations": ["q.look('head')", "q.bedrock('quaquaval', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    },
+	"rain-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": false,
+	  "isInWaterOrRain": true,
+      "animations": ["q.look('head')", "q.bedrock('quaquaval', 'ground_idle2')"],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quaquaval', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    },
+	"floating": {
+      "poseTypes": ["FLOAT"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('quaquaval', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('quaquaval', 'water_swim')"],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    },	
+	"surface-float": {
+      "poseTypes": ["STAND"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('quaquaval', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    },
+	"surface-swimming": {
+      "poseTypes": ["WALK"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('quaquaval', 'water_swim')"],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    },
+	"sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quaquaval', 'sleep')"
+      ],
+      "quirks": ["q.bedrock_quirk('quaquaval', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "water_feathers",
+           "isVisible": false
+         }
+        ]
+    }
+  }
+}

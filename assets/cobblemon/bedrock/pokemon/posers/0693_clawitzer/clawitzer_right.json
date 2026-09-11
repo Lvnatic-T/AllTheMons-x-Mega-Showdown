@@ -1,0 +1,95 @@
+{
+  "portraitScale": 1.85,
+  "portraitTranslation": [-0.07, -0.09, 0],
+  "profileScale": 0.56,
+  "profileTranslation": [0.25, 0.82, 0],
+  "rootBone": "clawitzer",
+  "animations": {
+    "cry": "q.bedrock_stateful('clawitzer_right', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+	  "isBattle": false,
+	  "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('clawitzer_right', 'ground_idle')"
+      ],
+	  "quirks": ["q.bedrock_quirk('clawitzer_right', 'blink')"]
+    },
+	"battle-standing": {
+      "poseTypes": ["STAND", "FLOAT"],
+	  "isBattle": true,
+      "animations": [
+        "q.bedrock('clawitzer_right', 'battle_idle')"
+      ],
+	  "namedAnimations": {
+            "cry": "q.bedrock_stateful('clawitzer_right', 'battle_cry')"
+          },
+	  "quirks": ["q.bedrock_quirk('clawitzer_right', 'blink')"]
+    },
+  "walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('clawitzer_right', 'ground_walk')"
+      ]
+    },
+  "floating": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('clawitzer_right', 'water_idle')"
+      ],
+	  "quirks": ["q.bedrock_quirk('clawitzer_right', 'blink')"]
+    },
+  "swimming": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+	    "q.pitch_tilt('body')",
+        "q.bedrock('clawitzer_right', 'water_swim')"
+      ]
+    },
+	"surface_idle": {
+      "poseTypes": ["STAND"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('clawitzer_right', 'water_idle')"
+      ],	  
+      "quirks": ["q.bedrock_quirk('clawitzer_right', 'blink')"],
+	  "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, -1, 0]
+        }
+      ]
+    },
+	"surface_idle": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('clawitzer_right', 'water_swim')"
+      ],	  
+      "quirks": ["q.bedrock_quirk('clawitzer_right', 'blink')"],
+	  "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, -1, 0]
+        }
+      ]
+    },
+	 "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "animations": [
+        "q.bedrock('clawitzer_right', 'portrait')"
+      ]
+    },
+	"profile": {
+      "poseTypes": ["PROFILE"],
+      "animations": [
+        "q.bedrock('clawitzer_right', 'profile')"
+      ]
+    }
+  }
+}

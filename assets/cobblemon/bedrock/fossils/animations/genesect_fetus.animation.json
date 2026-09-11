@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.genesect_fetus.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["math.sin(q.anim_time*90*0.5-180)*3", "math.sin(q.anim_time*90*0.75-60)*-2", "math.sin(q.anim_time*90*1)*1"],
+					"position": ["math.sin(q.anim_time*90*0.25)*0.2", "0.25+math.sin(q.anim_time*90*0.5-45)*0.8", "-0.25+math.sin(q.anim_time*90*0.25-90)*0.1"]
+				}
+			}
+		}
+	}
+}

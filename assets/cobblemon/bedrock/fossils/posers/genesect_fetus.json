@@ -1,0 +1,11 @@
+{
+  "maxScale": 0.9,
+  "yTranslation": 0,
+  "yGrowthPoint": 0.625,
+  "poses": {
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('genesect_fetus', 'sleep')"]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.4, -0.25, 0],
+  "profileScale": 0.66,
+  "profileTranslation": [0.0, 0.59, 0],
+  "rootBone": "muk_alolan",
+  "animations": {
+    "cry": "q.bedrock_stateful('muk_alolan', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('muk_alolan', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('muk_alolan', 'blink')"
+      ]
+    },
+	"battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('muk_alolan', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('muk_alolan', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('muk_alolan', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('muk_alolan', 'blink')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+    "head": "head",
+    "portraitScale": 2.22,
+    "portraitTranslation": [ 0, -0.55, 0 ],
+    "profileScale": 1,
+    "profileTranslation": [ 0, 0.2, 0 ],
+  "animations": {
+    "cry": "q.bedrock_stateful('politoed', 'cry')",
+	"physical": "q.bedrock_stateful('politoed', 'physical')",
+    "special": "q.bedrock_stateful('politoed', 'physical')",
+	"status": "q.bedrock_stateful('politoed', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('politoed', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('politoed', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('politoed', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('politoed', 'water_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('politoed', 'water_swim')"
+      ]
+    }
+  }
+}

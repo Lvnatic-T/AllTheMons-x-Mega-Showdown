@@ -1,0 +1,68 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [-1.1, -0.5, 0.0],
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 0.8, 0.0],
+  "rootBone": "basculegion",
+  "animations": {
+    "cry": "q.bedrock_stateful('basculegion', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+	  "isTouchingWater": false,
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('basculegion', 'ground_battle_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('basculegion', 'blink')"
+		]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isTouchingWater": false,
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('basculegion', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('basculegion', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('basculegion', 'ground_walk')"
+      ]
+    },
+	"float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('basculegion', 'water_idle')"
+      ]
+    },
+	"surface_idle": {
+      "poseTypes": ["STAND"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('basculegion', 'water_idle')"
+      ]
+    },
+	"surface_swim": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('basculegion', 'water_swim')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('basculegion', 'water_swim')"
+      ]
+    }
+  }
+}

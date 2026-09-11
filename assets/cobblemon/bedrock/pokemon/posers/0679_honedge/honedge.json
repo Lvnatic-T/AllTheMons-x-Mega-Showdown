@@ -1,0 +1,33 @@
+{
+  "portraitScale": 2.4,
+  "portraitTranslation": [-0.17, 0.98, 0],
+  "profileScale": 0.62,
+  "profileTranslation": [0, 0.95, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('honedge', 'cry')",
+	"status": "q.bedrock_stateful('honedge', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT", "HOVER"],
+      "isBattle": false,
+      "animations": ["q.bedrock('honedge', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('honedge', 'blink')"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER"],
+      "isBattle": true,
+      "animations": ["q.bedrock('honedge', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('honedge', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.bedrock('honedge', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('honedge', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('honedge', 'sleep')"]
+    }
+  }
+}

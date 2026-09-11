@@ -1,0 +1,84 @@
+{
+  "portraitScale": 3.05,
+  "portraitTranslation": [-0.59, -2.13, 0],
+  "profileScale": 0.66,
+  "profileTranslation": [0, 0.75, 0],
+  "rootBone": "tynamo",
+  "animations": {
+    "cry": "q.bedrock_stateful('tynamo', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tynamo', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tynamo', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tynamo', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tynamo', 'blink')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT", "HOVER"],
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.bedrock('tynamo', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tynamo', 'blink')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM", "FLY"],
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.bedrock('tynamo', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tynamo', 'blink')"
+      ]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tynamo', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tynamo', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [1, 0, 0]
+        }
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tynamo', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tynamo', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [-1, 0, 0]
+        }
+      ]
+    }
+  }
+}

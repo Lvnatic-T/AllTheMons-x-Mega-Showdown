@@ -1,0 +1,24 @@
+ {
+  "portraitScale": 1.26,
+  "portraitTranslation": [-0.48, 1.02, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0.04, 0.7, 0],
+  "animations": {},
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('seismitoad', 'ground_idle')",
+        "q.bedrock('seismitoad', 'angry')"
+      ],
+      "quirks": ["q.bedrock_quirk('seismitoad', 'blink', 2, 5, 1)"]
+    },
+    "standing": {
+      "poseTypes": ["PORTRAIT", "PROFILE", "STAND", "HOVER", "FLOAT", "WALK", "SWIM", "NONE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('seismitoad', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('seismitoad', 'blink', 2, 5, 1)"]
+    }
+  }
+}

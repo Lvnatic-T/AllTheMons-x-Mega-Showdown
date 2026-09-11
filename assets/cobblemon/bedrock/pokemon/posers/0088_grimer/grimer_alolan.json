@@ -1,0 +1,110 @@
+{
+  "portraitScale": 1.57,
+  "portraitTranslation": [-0.34, 0.3, 0],
+  "profileScale": 0.63,
+  "profileTranslation": [0, 0.66, 0],
+  "rootBone": "grimer_alola",
+
+  "animations": {
+    "cry": "q.bedrock_stateful('grimer', 'cry')",
+    "recoil": "q.bedrock_stateful('grimer_alolan', 'recoil')",
+    "status": "q.bedrock_stateful('grimer_alolan', 'status', q.curve('symmetrical_wide'))"
+  },
+
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grimer_alolan', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimer_alolan', 'blink')",
+        "q.bedrock_quirk('grimer_alolan', 'right_arm_chew')",
+        "q.bedrock_quirk('grimer_alolan', 'left_arm_chew')"
+      ]
+    },
+
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grimer_alolan', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimer_alolan', 'blink')",
+        "q.bedrock_quirk('grimer_alolan', 'right_arm_chew')",
+        "q.bedrock_quirk('grimer_alolan', 'left_arm_chew')"
+      ]
+    },
+
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grimer_alolan', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimer_alolan', 'blink')"
+      ]
+    },
+
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('grimer_alolan', 'sleep')"
+      ]
+    },
+
+    "surface_idle": {
+      "poseTypes": ["STAND", "NONE"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grimer_alolan', 'water_surface_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimer_alolan', 'blink')"
+      ]
+    },
+
+    "surface_battle_idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grimer_alolan', 'water_surface_battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimer_alolan', 'blink')"
+      ]
+    },
+
+    "surface_swimming": {
+      "poseTypes": ["SWIM", "WALK"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grimer_alolan', 'water_surface_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimer_alolan', 'blink')"
+      ]
+    },
+
+    "surface_sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.bedrock('grimer_alolan', 'sleep')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rolycoly.pose": {
+			"loop": true,
+			"bones": {
+				"bone3": {
+					"position": [0.75, -0.25, 0]
+				}
+			}
+		},
+		"animation.rolycoly.ground_walk": {
+			"loop": true,
+			"bones": {
+				"rolycoly": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"body": {
+					"rotation": [0, 0, "0-math.cos((q.anim_time)*90*8/2-90)*2"],
+					"position": ["0-math.cos((q.anim_time)*90*8/2)*0.2", "0-math.cos((q.anim_time)*90*20/1)*0.1", 0]
+				},
+				"bone2": {
+					"rotation": ["q.anim_time*90*5", 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.rolycoly.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-math.cos((q.anim_time)*90*8/4)*2", 0, "-math.cos((q.anim_time)*90*8/4-90)*2"]
+				}
+			}
+		}
+	}
+}

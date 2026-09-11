@@ -1,0 +1,57 @@
+{
+  "portraitScale": 1.71,
+  "portraitTranslation": [-0.42, 1.88, 0],
+  "profileScale": 0.42,
+  "profileTranslation": [0, 1.08, 0],
+  "rootBone": "magmortar",
+  "animations": {
+    "cry": "q.bedrock_stateful('magmortar', 'cry')",
+    "recoil": "q.bedrock_stateful('magmortar', 'recoil')",
+    "physical": "q.bedrock_primary('magmortar', 'special', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('magmortar', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('magmortar', 'battleflame')",
+        "q.bedrock('magmortar', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('magmortar', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('magmortar', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('magmortar', 'ground_walk')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('magmortar', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('magmortar', 'sleep')"]
+    }
+  }
+}

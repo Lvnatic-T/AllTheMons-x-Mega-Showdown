@@ -1,0 +1,121 @@
+{
+  "portraitScale": 1.26,
+  "portraitTranslation": [-0.23, 1.14, 0.0],
+  "profileScale": 0.55,
+  "profileTranslation": [0.0, 0.88, 0.0],
+  "rootBone": "dartrix",
+  "animations": {
+    "cry": "q.bedrock_stateful('dartrix', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dartrix', 'ground_idle')"
+      ],
+	   
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wings_closed",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         }
+		]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('dartrix', 'ground_idle')"    
+      ],
+	   
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wings_closed",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         }
+        ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dartrix', 'ground_walk')"
+      ],
+	   
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wings_closed",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         }
+        ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+		"q.bedrock('dartrix', 'air_idle')"
+      ],
+	   
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wings_closed",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.bedrock('dartrix', 'air_fly')"
+      ],
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wings_closed",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    }
+  }
+}

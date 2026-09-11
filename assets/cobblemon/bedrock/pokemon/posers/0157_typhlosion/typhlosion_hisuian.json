@@ -1,0 +1,64 @@
+{
+    "portraitScale": 1.4,
+    "portraitTranslation": [-0.45, 2.37, 0.0],
+    "profileScale": 0.5,
+    "profileTranslation": [0.0, 1.0, 0.0],
+    "rootBone": "typhlosion_hisuian",
+    "animations": {
+      "faint": "q.bedrock_primary('typhlosion_hisuian', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('typhlosion_hisuian', 'cry')",
+      "recoil": "q.bedrock_stateful('typhlosion_hisuian', 'recoil')",
+      "status": "q.bedrock_stateful('typhlosion_hisuian', 'battle_cry', q.curve('symmetrical_wide'))",
+	  "special": "q.bedrock_primary('typhlosion_hisuian', 'special', q.curve('symmetrical_wide'))",
+	  "physical": "q.bedrock_primary('typhlosion_hisuian', 'physical', q.curve('symmetrical_wide'))",
+	  "infernalparade": "q.bedrock_primary('typhlosion_hisuian', 'infernalparade', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('neck')",
+          "q.bedrock('typhlosion_hisuian', 'battle_idle')",
+          "q.bedrock('typhlosion_hisuian', 'battle_flame')"
+        ],
+        "namedAnimations": {
+            "cry": "q.bedrock_stateful('typhlosion_hisuian', 'battle_cry', q.curve('symmetrical_wide'))"
+          },
+        "quirks": ["q.bedrock_quirk('typhlosion_hisuian', 'blink')"]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "q.look('neck')",
+          "q.bedrock('typhlosion_hisuian', 'ground_idle')"
+        ],
+        "quirks": [
+          "q.bedrock_quirk('typhlosion_hisuian', 'blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+		"isBattle": false,
+        "animations": [
+          "q.look('neck')",
+          "q.bedrock('typhlosion_hisuian', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('typhlosion_hisuian', 'blink')"]
+      },
+	  "battle-walking": {
+        "poseTypes": ["WALK"],
+		"isBattle": true,
+        "animations": [
+          "q.look('neck')",
+          "q.bedrock('typhlosion_hisuian', 'battle_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('typhlosion_hisuian', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('typhlosion_hisuian', 'sleep')"]
+      }
+    }
+   }

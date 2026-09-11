@@ -1,0 +1,51 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.4, 0.4, 0.0],
+  "profileScale": 0.7,
+  "profileTranslation": [0.0, 0.7, 0.0],
+  "rootBone": "gliscor",
+  "animations": {
+    "cry": "q.bedrock_stateful('gliscor', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('gliscor', 'battle_idle')"],
+      "quirks": [
+	  "q.bedrock_quirk('gliscor', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('gliscor', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('gliscor', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gliscor', 'ground_walk')"
+      ],
+      "quirks": [
+	  "q.bedrock_quirk('gliscor', 'blink')"]
+    },
+	"hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gliscor', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('gliscor', 'blink')"]
+    },
+	"fly": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gliscor', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('gliscor', 'blink')"]
+    }
+  }
+}

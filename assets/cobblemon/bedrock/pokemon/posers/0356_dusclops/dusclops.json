@@ -1,0 +1,52 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.2, 1.1, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.0, 0.8, 0.0],
+  "rootBone": "dusclops",
+  "animations": {
+    "cry": "q.bedrock_stateful('dusclops', 'cry')",
+	"status": "q.bedrock_stateful('dusclops', 'cry')",
+	"faint": "q.bedrock_primary('dusclops', 'faint', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [ "q.bedrock('dusclops', 'battle_idle')"],
+	  "quirks": ["q.bedrock_quirk('dusclops', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [ "q.bedrock('dusclops', 'ground_idle')"],
+	  "quirks": ["q.bedrock_quirk('dusclops', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        
+        "q.bedrock('dusclops', 'ground_walk')"],
+	  "quirks": ["q.bedrock_quirk('dusclops', 'blink')"]
+    },
+	"hovering": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "isBattle": false,
+      "animations": [ "q.bedrock('dusclops', 'air_idle')"],
+	  "quirks": ["q.bedrock_quirk('dusclops', 'blink')"]
+    },
+    "flying": {
+      "poseTypes": ["FLY", "SWIM"],
+      "animations": [
+        
+        "q.bedrock('dusclops', 'air_fly')"],
+	  "quirks": ["q.bedrock_quirk('dusclops', 'blink')"]
+    },
+     "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('dusclops', 'sleep')"]
+    }
+  }
+}

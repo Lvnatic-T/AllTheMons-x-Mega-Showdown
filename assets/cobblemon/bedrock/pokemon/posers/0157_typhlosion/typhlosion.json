@@ -1,0 +1,67 @@
+{
+    "portraitScale": 1.4,
+    "portraitTranslation": [-0.65, 1.8, 0.0],
+    "profileScale": 0.5,
+    "profileTranslation": [0.0, 1.0, 0.0],
+    "rootBone": "typhlosion",
+    "animations": {
+      "faint": "q.bedrock_primary('typhlosion', 'faint', q.curve('one'))",
+      "recoil": "q.bedrock_stateful('typhlosion', 'recoil')",
+	  "cry": "q.bedrock_stateful('typhlosion', 'battle_cry')",
+      "status": "q.bedrock_stateful('typhlosion', 'battle_cry', q.curve('symmetrical_wide'))",
+	  "special": "q.bedrock_primary('typhlosion', 'special', q.curve('symmetrical_wide'))",
+	  "physical": "q.bedrock_primary('typhlosion', 'physical', q.curve('symmetrical_wide'))",
+	  "eruption": "q.bedrock_primary('typhlosion', 'eruption', q.curve('symmetrical_wide'))"
+    },
+    "poses": {
+      "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('typhlosion', 'battle_idle')"
+        ],
+        "namedAnimations": {
+            "cry": "q.bedrock_stateful('typhlosion', 'battle_cry')"
+          },
+		  
+        "quirks": ["q.bedrock_quirk('typhlosion', 'blink')"]
+      },
+      "standing": {
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "isBattle": false,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('typhlosion', 'ground_idle')"
+        ],
+		"namedAnimations": {
+            "cry": "q.bedrock_stateful('typhlosion', 'battle_cry')"
+          },
+        "quirks": [
+          "q.bedrock_quirk('typhlosion', 'blink')"
+        ]
+      },
+      "walking": {
+        "poseTypes": ["WALK"],
+		"isBattle": false,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('typhlosion', 'ground_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('typhlosion', 'blink')"]
+      },
+	  "battle-walking": {
+        "poseTypes": ["WALK"],
+		"isBattle": true,
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('typhlosion', 'battle_walk')"
+        ],
+        "quirks": ["q.bedrock_quirk('typhlosion', 'blink')"]
+      },
+      "sleep": {
+        "poseTypes": ["SLEEP"],
+        "animations": ["q.bedrock('typhlosion', 'sleep')"]
+      }
+    }
+   }

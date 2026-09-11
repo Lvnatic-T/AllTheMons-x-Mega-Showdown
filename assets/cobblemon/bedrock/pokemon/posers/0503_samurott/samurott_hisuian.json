@@ -1,0 +1,106 @@
+{
+  "portraitScale": 1.32,
+  "portraitTranslation": [-0.67, 1.3, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.0, 0.8, 0.0],
+  "rootBone": "samurott_hisuian",
+  "animations": {
+    "recoil": "q.bedrock_stateful('samurott_hisuian', 'recoil')",
+	"cry": "q.bedrock_stateful('samurott_hisuian', 'cry')",
+	"status": "q.bedrock_stateful('samurott_hisuian', 'cry')",
+	"physical": "q.bedrock_primary('samurott_hisuian', 'physical', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('samurott_hisuian', 'special', q.curve('symmetrical_wide'))",
+	"faint": "q.bedrock_primary('samurott_hisuian', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('samurott_hisuian', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"],
+	  "namedAnimations": {
+            "aquajet": "q.bedrock_primary ('samurott_hisuian', 'ground_aquajet', q.curve('symmetrical_wide'))"
+          }
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('samurott_hisuian', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('samurott_hisuian', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"]
+    },
+	"floating": {
+      "poseTypes": ["FLOAT"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott_hisuian', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott_hisuian', 'water_swim')"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"]
+    },
+	"surface-float": {
+      "poseTypes": ["STAND"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott_hisuian', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"]
+    },
+	"surface-battle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott_hisuian', 'water_battle_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"],
+	  "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 8, 0]
+        }
+		],
+	  "namedAnimations": {
+            "aquajet": "q.bedrock_primary ('samurott_hisuian', 'water_aquajet', q.curve('symmetrical_wide'))",
+			"physical": "q.bedrock_primary ('samurott_hisuian', 'water_physical', q.curve('symmetrical_wide'))",
+			"special": "q.bedrock_stateful ('samurott_hisuian', 'water_special', q.curve('symmetrical_wide'))",
+			"faint": "q.bedrock_primary ('samurott_hisuian', 'water_faint', q.curve('symmetrical_wide'))"
+          }
+    },
+	"surface-walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('samurott_hisuian', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"]
+    },
+	"battle-floating": {
+      "poseTypes": ["FLOAT", "SWIM"],
+      "isBattle": true,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott_hisuian', 'water_battle_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott_hisuian', 'blink')"],
+	  "namedAnimations": {
+            "aquajet": "q.bedrock_primary ('samurott_hisuian', 'water_aquajet', q.curve('symmetrical_wide'))",
+			"physical": "q.bedrock_primary ('samurott_hisuian', 'water_physical', q.curve('symmetrical_wide'))",
+			"special": "q.bedrock_stateful ('samurott_hisuian', 'water_special', q.curve('symmetrical_wide'))",
+			"faint": "q.bedrock_primary ('samurott_hisuian', 'water_faint', q.curve('symmetrical_wide'))"
+          }
+    }
+  }
+}

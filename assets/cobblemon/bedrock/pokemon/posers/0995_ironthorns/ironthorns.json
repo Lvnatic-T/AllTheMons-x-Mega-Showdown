@@ -1,0 +1,56 @@
+{
+  "portraitScale": 1.15,
+  "portraitTranslation": [-1.0, 2.9, 0.0],
+  "profileScale": 0.33,
+  "profileTranslation": [0.02, 1.31, 0.0],
+  "rootBone": "ironthorns",
+  "animations": {
+    "cry": "q.bedrock_stateful('ironthorns', 'cry')",
+    "physical": "q.bedrock_primary('ironthorns', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('ironthorns', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "isBattle": false,
+      "animations": ["q.bedrock('ironthorns', 'mouth_open')"]
+    },
+    "profile": {
+      "poseTypes": ["PROFILE"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('ironthorns', 'ground_idle')"]
+    },
+	"battle-idle": {
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')", 
+		"q.bedrock('ironthorns', 'ground_idle')"
+      ],
+    "quirks": [
+        "q.bedrock_quirk('ironthorns', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')", 
+		"q.bedrock('ironthorns', 'ground_idle')"
+      ],
+	    "quirks": [
+        "q.bedrock_quirk('ironthorns', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('ironthorns', 'ground_walk')"
+      ]
+    }
+  }
+}

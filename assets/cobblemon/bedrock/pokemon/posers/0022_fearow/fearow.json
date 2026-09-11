@@ -1,0 +1,86 @@
+{
+  "portraitScale": 1.9,
+  "portraitTranslation": [-1.74, 0.76, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [-0.06, 0.85, 0.0],
+  "rootBone": "fearow",
+  "animations": {"cry": "q.bedrock_stateful('fearow', 'cry')"},
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head')",
+        "q.bedrock('fearow', 'ground_idle')"
+      ],
+      "transformedParts": [
+        {
+          "part": "wings_open",
+          "isVisible": false
+        },
+        {
+          "part": "wings_closed",
+          "isVisible": true
+        }
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head')",
+        "q.bedrock('fearow', 'ground_walk')"
+      ],
+      "transformedParts": [
+        {
+          "part": "wings_open",
+          "isVisible": false
+        },
+        {
+          "part": "wings_closed",
+          "isVisible": true
+        }
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head')",
+        "q.bedrock('fearow', 'air_idle')"
+      ],
+      "transformedParts": [
+        {
+          "part": "wings_open",
+          "isVisible": true
+        },
+        {
+          "part": "wings_closed",
+          "isVisible": false
+        }
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head')",
+        "q.bedrock('fearow', 'air_fly')"
+      ],
+	  "quirks": [
+       "q.bedrock_quirk('fearow', 'air_fly_quirk', 1, 5	, 1)"
+     ],
+      "transformedParts": [
+        {
+          "part": "wings_open",
+          "isVisible": true
+        },
+        {
+          "part": "wings_closed",
+          "isVisible": false
+        }
+      ]
+    }
+  }
+}

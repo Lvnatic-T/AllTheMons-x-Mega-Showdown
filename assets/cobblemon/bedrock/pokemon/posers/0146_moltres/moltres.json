@@ -1,0 +1,57 @@
+{
+  "portraitScale": 1.57,
+  "portraitTranslation": [-1.25, 4.14, 0],
+  "profileScale": 0.33,
+  "profileTranslation": [-0.04, 1.27, 0],
+  "rootBone": "moltres",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.5, 1],
+    "seat_1_reverse": [0, 0.5, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.5, 1],
+    "seat_1_reverse": [0, 0.5, 1]
+  },
+  "animations": {
+	  "cry": "q.bedrock_stateful('moltres', 'cry')"
+  },
+  "poses": {
+	"portrait": {
+      "poseName": "portrait",
+      "poseTypes": ["PORTRAIT"],
+      "animations": [
+        "q.bedrock('moltres', 'portrait')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('moltres', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["PROFILE", "STAND", "HOVER", "FLOAT", "NONE"],
+      "animations": [
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('moltres', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('moltres', 'blink')"
+      ]
+    },
+    "walk": {
+      "poseName": "walk",
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "animations": [
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('moltres', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('moltres', 'blink')"
+      ]
+    }
+  }
+}

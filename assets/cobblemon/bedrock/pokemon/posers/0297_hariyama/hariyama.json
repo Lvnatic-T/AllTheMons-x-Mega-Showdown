@@ -1,0 +1,30 @@
+{
+  "portraitScale": 1.56,
+  "portraitTranslation": [-0.35, 1.27, 0.0],
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 0.92, 0.0],
+  "rootBone": "hariyama",
+  "animations": {
+    "cry": "q.bedrock_stateful('hariyama', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('hariyama', 'battle_idle')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('hariyama', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('hariyama', 'ground_walk')"
+      ]
+    }
+  }
+}

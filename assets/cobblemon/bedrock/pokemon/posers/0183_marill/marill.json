@@ -1,0 +1,89 @@
+{
+  "portraitScale": 2.02,
+  "portraitTranslation": [-0.5, -0.58, 0],
+  "profileScale": 0.81,
+  "profileTranslation": [0.0, 0.5, 0.0],
+  "rootBone": "marill",
+  "animations": {
+	  "cry": "q.bedrock_stateful('marill', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+	  "isTouchingWater": false,
+      "animations": [
+        
+        "q.bedrock('marill', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marill', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        
+        "q.bedrock('marill', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marill', 'blink')"
+      ]
+    },
+    "float": {
+      "poseName": "float",
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        
+        "q.bedrock('marill', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marill', 'blink')"
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "animations": [
+        
+        "q.bedrock('marill', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marill', 'blink')"
+      ]
+    },
+	"surface-float": {
+      "poseName": "float",
+      "poseTypes": ["STAND"],
+	  "isTouchingWater": true,
+      "animations": [
+        
+        "q.bedrock('marill', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marill', 'blink')"
+      ]
+    },
+    "surface-swimming": {
+      "poseName": "swimming",
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": true,
+      "animations": [
+        
+        "q.bedrock('marill', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marill', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('marill', 'sleep')"
+      ]
+    }
+  }
+}

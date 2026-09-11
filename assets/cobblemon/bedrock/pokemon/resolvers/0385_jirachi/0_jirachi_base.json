@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:jirachi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:jirachi",
+      "model": "cobblemon:jirachi.geo",
+      "texture": "cobblemon:textures/pokemon/0385_jirachi/jirachi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0385_jirachi/jirachi_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0385_jirachi/jirachi_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+		  "texture": "cobblemon:textures/pokemon/0385_jirachi/jirachi_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

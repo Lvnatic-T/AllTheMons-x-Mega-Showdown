@@ -1,0 +1,33 @@
+{
+  "portraitScale": 1.75,
+  "portraitTranslation": [-0.22, -0.1, 0.0],
+  "profileScale": 0.64,
+  "profileTranslation": [0.0, 0.77, 0.0],
+  "rootBone": "jangmo-o",
+  "animations": {
+    "cry": "q.bedrock_stateful('jangmo-o', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('jangmo-o', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('jangmo-o', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('jangmo-o', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('jangmo-o', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('jangmo-o', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('jangmo-o', 'blink')"]
+    }
+  }
+}

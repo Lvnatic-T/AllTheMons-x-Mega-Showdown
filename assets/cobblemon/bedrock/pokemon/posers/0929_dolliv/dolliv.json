@@ -1,0 +1,32 @@
+{
+  "portraitScale": 1.45,
+  "portraitTranslation": [-0.04, 0.53, 0],
+  "profileScale": 0.58,
+  "profileTranslation": [0, 0.92, 0],
+  "rootBone": "dolliv",
+  "animations": {
+    "cry": "q.bedrock_stateful('dolliv', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dolliv', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dolliv', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dolliv', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dolliv', 'blink')"
+      ]
+    }
+  }
+}

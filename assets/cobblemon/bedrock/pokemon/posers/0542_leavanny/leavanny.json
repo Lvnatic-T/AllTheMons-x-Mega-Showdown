@@ -1,0 +1,46 @@
+{
+  "portraitScale": 1.54,
+  "portraitTranslation": [-0.15, 1.69, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 1.01, 0.0],
+  "rootBone": "leavanny",
+
+  "animations": {
+    "cry": "q.bedrock_stateful('leavanny', 'cry')"
+  },
+
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+	  "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('leavanny', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('leavanny', 'blink')"
+      ]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+	  "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('leavanny', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('leavanny', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('leavanny', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('leavanny', 'blink')"
+      ]
+    }
+  }
+}

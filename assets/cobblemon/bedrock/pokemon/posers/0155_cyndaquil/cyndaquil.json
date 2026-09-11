@@ -1,0 +1,53 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [-0.26, 0.0, 0.0],
+  "profileScale": 0.65,
+  "profileTranslation": [0.0, 0.8, 0.0],
+  "rootBone": "cyndaquil",
+  "animations": {
+    "cry": "q.bedrock_stateful('cyndaquil', 'cry')",
+    "recoil": "q.bedrock_stateful('cyndaquil', 'recoil')",
+	"status": "q.bedrock_stateful('cyndaquil', 'battle_cry')",
+	"faint": "q.bedrock_primary('cyndaquil', 'faint')",
+	"physical": "q.bedrock_primary('cyndaquil', 'physical', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('cyndaquil', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+	  "portrait": {
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('cyndaquil', 'ground_idle')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT"],
+	  "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('cyndaquil', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('cyndaquil', 'sneeze_quirk_ground', 30, 75, 1)"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+	  "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('cyndaquil', 'battle_idle')"],
+	  "namedAnimations": {
+            "cry": "q.bedrock_stateful('cyndaquil', 'battle_cry')"
+          },
+      "quirks": [
+	  "q.bedrock_quirk('cyndaquil', 'sneeze_quirk_battle', 30, 75, 1)"
+	  ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cyndaquil', 'ground_walk')"
+      ]
+    },
+	"sleeping": {
+      "poseTypes": ["sleep"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cyndaquil', 'sleep')"
+      ]
+    }
+   }
+}
+

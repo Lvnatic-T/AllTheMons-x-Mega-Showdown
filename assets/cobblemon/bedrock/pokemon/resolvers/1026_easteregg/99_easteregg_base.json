@@ -1,0 +1,12 @@
+{
+  "species": "cobblemon:unown",
+  "order": 99,
+  "variations": [
+    {
+      "aspects": ["character-t","male"],
+      "poser": "cobblemon:sandshrew_alola",
+      "model": "cobblemon:sandshrew_alola.geo",
+      "texture": "cobblemon:textures/pokemon/0027_sandshrew/sandshrew_alola.png"
+    }
+  ]
+}

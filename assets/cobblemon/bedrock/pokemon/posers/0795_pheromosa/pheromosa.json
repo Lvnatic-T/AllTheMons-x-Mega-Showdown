@@ -1,0 +1,46 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.19, 3.39, 0],
+  "profileScale": 0.37,
+  "profileTranslation": [0, 1.22, 0],
+  "rootBone": "pheromosa",
+  "animations": {
+    "physical": "q.bedrock_primary('pheromosa', 'physical', q.curve('symmetrical'))",
+    "special": "q.bedrock_primary('pheromosa', 'special', q.curve('symmetrical'))",
+    "status": "q.bedrock_primary('pheromosa', 'special', q.curve('symmetrical'))",
+    "recoil": "q.bedrock_stateful('pheromosa', 'recoil')",
+    "cry": "q.bedrock_primary('pheromosa', 'cry', q.curve('symmetrical'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('pheromosa', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('pheromosa', 'blink', 2, 5, 1)"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('pheromosa', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('pheromosa', 'blink', 2, 5, 1)"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('pheromosa', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('pheromosa', 'blink', 2, 5, 1)"]
+    },
+    "flying": {
+      "poseTypes": ["FLY"],
+      "animations": ["q.bedrock('pheromosa', 'air_fly')"],
+      "quirks": ["q.bedrock_quirk('pheromosa', 'blink', 2, 5, 1)"]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('pheromosa', 'sleep')"]
+    }
+  }
+}

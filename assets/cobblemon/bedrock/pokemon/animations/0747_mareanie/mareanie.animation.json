@@ -1,0 +1,299 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mareanie.ground_idle": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["2.5-math.cos(query.anim_time*90*2-65)*-1", 0, 0]
+				},
+				"hair_dread_front_angle": {
+					"rotation": [0, 0, "-2.5+math.cos(query.anim_time*90*2-95)*1"]
+				},
+				"hair_dread_front2": {
+					"rotation": [0, 0, "-5+math.cos(query.anim_time*90*2-165)*3"]
+				},
+				"hair_dread_back2": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-145)*2"]
+				},
+				"neck": {
+					"rotation": ["-0-math.cos(query.anim_time*90*2-15)*-0.65", 0, 0]
+				},
+				"hair_dread_left_angle": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-85)*1"]
+				},
+				"hair_dread_left2": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-145)*2"]
+				},
+				"hair_dread_left3": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-185)*3"]
+				},
+				"hair_dread_right_angle": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-85)*1"]
+				},
+				"hair_dread_right2": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-145)*2"]
+				},
+				"hair_dread_right3": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-185)*3"]
+				},
+				"hair_dread_back_angle": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-85)*1"]
+				},
+				"hair_dread_back3": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-185)*3"]
+				},
+				"hair_dread_front_left_angle": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-85)*1"]
+				},
+				"hair_dread_front_left2": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-145)*2"]
+				},
+				"hair_dread_front_left3": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-185)*3"]
+				},
+				"hair_dread_front_right_angle": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-85)*1"]
+				},
+				"hair_dread_front_right2": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-145)*2"]
+				},
+				"hair_dread_front_right3": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-185)*3"]
+				},
+				"hair_dread_back_left_angle": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-85)*1"]
+				},
+				"hair_dread_back_left2": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-145)*2"]
+				},
+				"hair_dread_back_left3": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*2-185)*3"]
+				},
+				"hair_dread_back_right_angle": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-85)*1"]
+				},
+				"hair_dread_back_right2": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-145)*2"]
+				},
+				"hair_dread_back_right3": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*2-185)*3"]
+				}
+			}
+		},
+		"animation.mareanie.ground_walk": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"hair_dread_front_angle": {
+					"rotation": [0, 0, "-2.5+math.cos(query.anim_time*90*6-125)*-3"]
+				},
+				"hair_dread_front2": {
+					"rotation": [0, 0, "2.5+math.cos(query.anim_time*90*6-185)*-4"]
+				},
+				"hair_dread_back2": {
+					"rotation": [0, 0, "-5+math.cos(query.anim_time*90*6-105)*-4"]
+				},
+				"body": {
+					"rotation": ["-2.5-math.cos(query.anim_time*90*6-75)*5", 0, 0],
+					"position": [0, "0.2+math.abs(math.cos(query.anim_time*90*3))*5", 0]
+				},
+				"torso": {
+					"rotation": [2.5, 0, 0]
+				},
+				"neck": {
+					"rotation": ["5-math.cos(query.anim_time*90*6-160)*5", 0, 0]
+				},
+				"hair_dread_left_angle": {
+					"rotation": [0, -5, "0+math.cos(query.anim_time*90*6-95)*-3"]
+				},
+				"hair_dread_right_angle": {
+					"rotation": [0, 5, "-0-math.cos(query.anim_time*90*6-95)*-3"]
+				},
+				"hair_dread_front_left2": {
+					"rotation": [0, 0, "-2.5+math.cos(query.anim_time*90*6-145)*-4"]
+				},
+				"hair_dread_front_left3": {
+					"rotation": [0, 0, "-10+math.cos(query.anim_time*90*6-215)*-8"]
+				},
+				"hair_dread_front_right2": {
+					"rotation": [0, 0, "2.5-math.cos(query.anim_time*90*6-145)*-4"]
+				},
+				"hair_dread_front_right3": {
+					"rotation": [0, 0, "10-math.cos(query.anim_time*90*6-215)*-8"]
+				},
+				"hair_dread_back_left2": {
+					"rotation": [0, 0, "-5+math.cos(query.anim_time*90*6-145)*-4"]
+				},
+				"hair_dread_back_right2": {
+					"rotation": [0, 0, "5-math.cos(query.anim_time*90*6-145)*-4"]
+				},
+				"hair_dread_left2": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*6-145)*-4"]
+				},
+				"hair_dread_left3": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*6-215)*-8"]
+				},
+				"hair_dread_right2": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*6-145)*-4"]
+				},
+				"hair_dread_right3": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*6-215)*-8"]
+				},
+				"hair_dread_back_angle": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*6-75)*-3"]
+				},
+				"hair_dread_back3": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*6-195)*-8"]
+				},
+				"hair_dread_front_left_angle": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*6-95)*-3"]
+				},
+				"hair_dread_front_right_angle": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*6-95)*-3"]
+				},
+				"hair_dread_back_left_angle": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*6-95)*-3"]
+				},
+				"hair_dread_back_left3": {
+					"rotation": [0, 0, "0+math.cos(query.anim_time*90*6-215)*-8"]
+				},
+				"hair_dread_back_right_angle": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*6-95)*-3"]
+				},
+				"hair_dread_back_right3": {
+					"rotation": [0, 0, "-0-math.cos(query.anim_time*90*6-215)*-8"]
+				}
+			}
+		},
+		"animation.mareanie.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0.1, 0, -0.1],
+						"0.125": [0.1, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [-0.1, 0, -0.1],
+						"0.125": [-0.1, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mareanie.shock": {
+			"loop": true,
+			"bones": {
+				"pupil_left": {
+					"position": [0, -0.5, 0],
+					"scale": [1, 0.7, 1]
+				},
+				"pupil_right": {
+					"position": [0, -0.5, 0],
+					"scale": [1, 0.7, 1]
+				},
+				"mouth_closed": {
+					"position": [0, 0, 1]
+				},
+				"mouth_open": {
+					"position": [0, 0, -1]
+				}
+			}
+		},
+		"animation.mareanie.angry": {
+			"loop": true,
+			"bones": {
+				"eye_angry_left": {
+					"position": [0.1, 0, -0.1]
+				},
+				"eye_angry_right": {
+					"position": [-0.1, 0, -0.1]
+				}
+			}
+		},
+		"animation.mareanie.sad": {
+			"loop": true,
+			"bones": {
+				"eye_sad_left": {
+					"position": [0.1, 0, -0.1]
+				},
+				"eye_sad_right": {
+					"position": [-0.1, 0, -0.1]
+				}
+			}
+		},
+		"animation.mareanie.happy": {
+			"loop": true,
+			"bones": {
+				"mouth_closed": {
+					"position": [0, 0, 1]
+				},
+				"mouth_open": {
+					"position": [0, 0, -1]
+				},
+				"eyelid_happy_left": {
+					"position": [0.1, 0, -0.1]
+				},
+				"eyelid_happy_right": {
+					"position": [-0.1, 0, -0.1]
+				}
+			}
+		},
+		"animation.mareanie.hurt": {
+			"loop": true,
+			"bones": {
+				"eyelid_recoil_left": {
+					"position": [0.1, 0, -0.1]
+				},
+				"eyelid_recoil_right": {
+					"position": [-0.1, 0, -0.1]
+				}
+			}
+		},
+		"animation.mareanie.cry": {
+			"animation_length": 1.2,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": {
+							"pre": [-5, 0, 0],
+							"post": [-5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.7083": {
+							"post": [-7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.125": [0, 0, 0]
+					}
+				},
+				"mouth_closed": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": {"pre": [0, 0, 0], "post": [0, 0, 1]},
+						"1.0833": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+					}
+				},
+				"mouth_open": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": {"pre": [0, 0, 0], "post": [0, 0, -1]},
+						"1.0833": {"pre": [0, 0, -1], "post": [0, 0, 0]}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.125": {
+					"effect": "pokemon.mareanie.cry"
+				}
+			}
+		}
+	}
+}

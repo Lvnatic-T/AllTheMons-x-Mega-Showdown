@@ -1,0 +1,53 @@
+{
+  "portraitScale": 1.15,
+  "portraitTranslation": [ -0.2, 0.8, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.8, 0 ],
+   "animations": {
+  "cry": "q.bedrock_stateful('gengar', 'cry')",
+  "status": "q.bedrock_stateful('gengar', 'cry')",
+  "recoil": "q.bedrock_stateful('gengar', 'recoil')",
+  "faint": "q.bedrock_primary('gengar', 'faint', q.curve('one'))",
+  "physical": "q.bedrock_primary('gengar', 'special', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('gengar', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.bedrock('gengar', 'battle_idle')"],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('gengar', 'battle_cry', q.curve('symmetrical_wide'))"
+          },
+	  "quirks": [
+        "q.bedrock_quirk('gengar', 'blink')",
+		"q.bedrock_quirk('gengar', 'laugh_quirk')"
+		]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('gengar', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('gengar', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "animations": [
+        "q.bedrock('gengar', 'air_fly')"
+      ]
+    },   
+    "hovering": {
+      "poseTypes": ["HOVER"],
+      "animations": ["q.bedrock('gengar', 'air_idle')"]
+    },
+	"sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('gengar', 'sleep')"
+      ]
+    }
+   }
+  }

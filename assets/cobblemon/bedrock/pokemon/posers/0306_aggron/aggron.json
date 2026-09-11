@@ -1,0 +1,35 @@
+{
+  "portraitScale": 1.21,
+  "portraitTranslation": [-0.78, 2.25, 0.0],
+  "profileScale": 0.46,
+  "profileTranslation": [-0.06, 0.98, -6.0],
+  "rootBone": "aggron",
+  "animations": {
+    "cry": "q.bedrock_stateful('aggron', 'cry')"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('aggron', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('aggron', 'blink')"
+		]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('aggron', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('aggron', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('aggron', 'ground_walk')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "portraitScale": 1.63,
+  "portraitTranslation": [-0.88, 3.42, 0],
+  "profileScale": 0.42,
+  "profileTranslation": [0.01, 1.11, -5],
+  "rootBone": "articuno",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.5, 1],
+    "seat_1_reverse": [0, 0.5, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.5, 1],
+    "seat_1_reverse": [0, 0.5, 1]
+  },
+  "animations": {
+	  "cry": "q.bedrock_stateful('articuno', 'cry')"
+  },
+  "poses": {
+	"portrait": {
+      "poseName": "portrait",
+      "poseTypes": ["PORTRAIT"],
+      "animations": [
+        "q.bedrock('articuno', 'portrait')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('articuno', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["PROFILE", "STAND", "HOVER", "FLOAT", "NONE" ],
+      "animations": [
+        "q.look('head_angle', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('articuno', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('articuno', 'blink')"
+      ]
+    },
+    "walk": {
+      "poseName": "walk",
+      "poseTypes": ["WALK","FLY", "SWIM"],
+      "animations": [
+        "q.look('head_angle', 1, 1, 20, -90, 60, -37)",
+        "q.bedrock('articuno', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('articuno', 'blink')"
+      ]
+    }
+  }
+}

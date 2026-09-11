@@ -1,0 +1,50 @@
+{
+  "portraitScale": 1.82,
+  "portraitTranslation": [-0.15, 0.15, 0],
+  "profileScale": 0.84,
+  "profileTranslation": [0, 0.51, 0],
+  "rootBone": "marowak",
+  "animations": {
+    "cry": "q.bedrock_stateful('marowak', 'cry')"
+	},
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('marowak', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marowak', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('marowak', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marowak', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('marowak', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('marowak', 'blink')"
+      ]
+    },
+    "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "animations": [
+        "q.bedrock('marowak', 'ground_idle')"
+      ]
+    }
+  }
+}

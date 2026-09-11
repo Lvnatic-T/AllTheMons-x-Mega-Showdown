@@ -1,0 +1,43 @@
+{
+  "portraitScale": 1.63,
+  "portraitTranslation": [-1.76, 1.25, 0],
+  "profileScale": 0.53,
+  "profileTranslation": [-0.09, 0.92, 0],
+  "rootBone": "drapion",
+  "animations": {
+    "cry": "q.bedrock_stateful('drapion', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('drapion', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('drapion', 'blink')"
+      ]
+    },
+	"battle-standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('drapion', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('drapion', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('drapion', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('drapion', 'blink')"
+      ]
+    }
+  }
+}

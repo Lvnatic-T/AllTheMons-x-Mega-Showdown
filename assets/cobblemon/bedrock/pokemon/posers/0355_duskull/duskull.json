@@ -1,0 +1,36 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.25, -0.77, 0.0],
+  "profileScale": 0.8,
+  "profileTranslation": [0.0, 0.35, 0.0],
+  "rootBone": "duskull",
+  "animations": {
+    "cry": "q.bedrock_stateful('duskull', 'cry')",
+	"status": "q.bedrock_stateful('duskull', 'cry')",
+	"faint": "q.bedrock_primary('duskull', 'faint', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [ "q.bedrock('duskull', 'battle_idle')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "HOVER", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [ "q.bedrock('duskull', 'air_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "animations": [
+        
+        "q.bedrock('duskull', 'air_fly')"]
+    },
+     "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('duskull', 'sleep')"]
+    }
+  }
+}

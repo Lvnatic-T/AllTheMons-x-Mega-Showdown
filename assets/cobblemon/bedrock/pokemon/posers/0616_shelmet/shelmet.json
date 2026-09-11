@@ -1,0 +1,40 @@
+{
+  "portraitScale": 1.66,
+  "portraitTranslation": [-0.02,-0.74,0],
+  "profileScale": 0.82,
+  "profileTranslation": [-0.01,0.52,0],
+  "rootBone": "shelmet",
+  "animations": {
+    "cry": "q.bedrock_stateful('shelmet', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('shelmet', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shelmet', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK","SWIM"
+      ],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('shelmet', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shelmet', 'blink')"
+      ]
+    }
+  }
+}

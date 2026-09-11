@@ -1,0 +1,297 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.15, 0.8, 0.0],
+  "profileScale": 0.7,
+  "profileTranslation": [0.0, 0.69, 0.0],
+  "rootBone": "dewott",
+  "animations": {
+    "cry": "q.bedrock_stateful('dewott', 'cry')",
+	"status": "q.bedrock_stateful('dewott', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('dewott', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": true	
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": true
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": false
+         }
+        ],
+		"namedAnimations": {
+	"physical": "q.bedrock_primary('dewott', 'physical', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('dewott', 'special', q.curve('symmetrical_wide'))",
+	"faint": "q.bedrock_primary('dewott', 'faint', q.curve('one'))"
+	 }
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('dewott', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": false
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": true
+         }
+        ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dewott', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": false
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": true
+         }
+        ]
+    },
+	"floating": {
+      "poseTypes": ["FLOAT"],
+	  "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dewott', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": false
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": true
+         }
+        ]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dewott', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": false
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": true
+         }
+        ]
+    },"surface-floating": {
+      "poseTypes": ["STAND"],
+	  "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dewott', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": false
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": true
+         },
+		 {
+          "part": "body",
+          "position": [0, 7, 0]
+         }
+        ]
+    },
+	"surface-swimming": {
+      "poseTypes": ["WALK"],
+	  "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dewott', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": false
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": true
+         },
+		 {
+          "part": "body",
+          "position": [0, 6.75, 0]
+         }
+        ]
+    },
+	"battle-floating": {
+      "poseTypes": ["FLOAT", "SWIM"],
+      "isBattle": true,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('dewott', 'water_battle_idle')"],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": true
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": false
+         }
+        ],
+	  "namedAnimations": {
+			"physical": "q.bedrock_stateful ('dewott', 'water_attack')",
+			"special": "q.bedrock_stateful ('dewott', 'water_attack')"
+          }
+	},
+	"surface-battle-floating": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('dewott', 'water_battle_idle')"],
+      "quirks": ["q.bedrock_quirk('dewott', 'blink')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": true
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": false
+         },
+		 {
+          "part": "body",
+          "position": [0, 7, 0]
+         }
+        ],
+	  "namedAnimations": {
+			"physical": "q.bedrock_stateful ('dewott', 'water_attack')",
+			"special": "q.bedrock_stateful ('dewott', 'water_attack')"
+          }
+    },
+	"sleeping": {
+	"poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('dewott', 'sleep')"],
+	  "transformedParts": [
+         {
+           "part": "scalchop_hand_right",
+           "isVisible": true
+         },
+         {
+           "part": "scalchop_hand_left",
+           "isVisible": true
+         },
+		 {
+           "part": "scalchop_skirt_right",
+           "isVisible": false
+         },
+         {
+           "part": "scalchop_skirt_left",
+           "isVisible": false
+         }
+        ]
+    }
+  }
+}

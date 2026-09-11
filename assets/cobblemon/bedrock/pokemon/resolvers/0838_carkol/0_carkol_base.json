@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:carkol",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:carkol",
+      "model": "cobblemon:carkol.geo",
+      "texture": "cobblemon:textures/pokemon/0838_carkol/carkol.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0838_carkol/carkol_emissive.png",
+          "emissive": true
+        }
+      ] 
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0838_carkol/carkol_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0838_carkol/carkol_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

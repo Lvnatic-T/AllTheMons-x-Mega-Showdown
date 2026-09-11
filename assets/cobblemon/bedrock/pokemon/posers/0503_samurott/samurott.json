@@ -1,0 +1,106 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.91, 1.5, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.0, 0.8, 0.0],
+  "rootBone": "samurott",
+  "animations": {
+    "recoil": "q.bedrock_stateful('samurott', 'recoil')",
+	"cry": "q.bedrock_stateful('samurott', 'cry')",
+	"status": "q.bedrock_stateful('samurott', 'cry')",
+	"physical": "q.bedrock_primary('samurott', 'physical', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('samurott', 'special', q.curve('symmetrical_wide'))",
+	"faint": "q.bedrock_primary('samurott', 'faint', q.curve('one'))"
+  },
+ "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('samurott', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"],
+	  "namedAnimations": {
+            "aquajet": "q.bedrock_primary ('samurott', 'ground_aquajet', q.curve('symmetrical_wide'))"
+          }
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('samurott', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('samurott', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"]
+    },
+	"floating": {
+      "poseTypes": ["FLOAT"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott', 'water_swim')"],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"]
+    },
+	"surface-float": {
+      "poseTypes": ["STAND"],
+      "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"]
+    },
+	"surface-battle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott', 'water_battle_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"],
+	  "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 8, 0]
+        }
+		],
+	  "namedAnimations": {
+            "aquajet": "q.bedrock_primary ('samurott', 'water_aquajet', q.curve('symmetrical_wide'))",
+			"physical": "q.bedrock_primary ('samurott', 'water_physical', q.curve('symmetrical_wide'))",
+			"special": "q.bedrock_stateful ('samurott', 'water_special', q.curve('symmetrical_wide'))",
+			"faint": "q.bedrock_primary ('samurott', 'water_faint', q.curve('symmetrical_wide'))"
+          }
+    },
+	"surface-walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('samurott', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"]
+    },
+	"battle-floating": {
+      "poseTypes": ["FLOAT", "SWIM"],
+      "isBattle": true,
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('samurott', 'water_battle_idle')"],
+      "quirks": ["q.bedrock_quirk('samurott', 'blink')"],
+	  "namedAnimations": {
+            "aquajet": "q.bedrock_primary ('samurott', 'water_aquajet', q.curve('symmetrical_wide'))",
+			"physical": "q.bedrock_primary ('samurott', 'water_physical', q.curve('symmetrical_wide'))",
+			"special": "q.bedrock_stateful ('samurott', 'water_special', q.curve('symmetrical_wide'))",
+			"faint": "q.bedrock_primary ('samurott', 'water_faint', q.curve('symmetrical_wide'))"
+          }
+    }
+  }
+}

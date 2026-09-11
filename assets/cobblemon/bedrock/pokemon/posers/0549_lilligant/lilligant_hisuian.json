@@ -1,0 +1,63 @@
+{
+  "head": "head",
+  "neck": "neck",
+  "portraitScale": 2.9,
+  "portraitTranslation": [ -0.34, 1.8, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.9, 0 ],
+  "animations": {
+    "cry": "q.bedrock_stateful('lilligant_hisuian', 'cry')",
+	"status": "q.bedrock_stateful('lilligant_hisuian', 'cry')",
+    "physical": "q.bedrock_primary('lilligant_hisuian', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('lilligant_hisuian', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('lilligant_hisuian', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lilligant_hisuian', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('lilligant_hisuian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lilligant_hisuian', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lilligant_hisuian', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lilligant_hisuian', 'ground_walk')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lilligant_hisuian', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('lilligant_hisuian', 'sleep')"]
+    }
+  }
+}

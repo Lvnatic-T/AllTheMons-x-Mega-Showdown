@@ -1,0 +1,41 @@
+{
+  "portraitScale": 2.4,
+  "portraitTranslation": [-0.55, 1.5, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0.0, 1.0, -6.0],
+  "rootBone": "dragalge",
+  "animations": {
+    "cry": "q.bedrock_stateful('dragalge', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('dragalge', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('dragalge', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('dragalge', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('dragalge', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragalge', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('dragalge', 'blink')"]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragalge', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('dragalge', 'blink')"]
+    }
+  }
+}

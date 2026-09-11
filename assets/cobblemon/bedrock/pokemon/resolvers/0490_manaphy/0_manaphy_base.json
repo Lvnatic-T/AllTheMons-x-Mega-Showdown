@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:manaphy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:manaphy",
+      "model": "cobblemon:manaphy.geo",
+      "texture": "cobblemon:textures/pokemon/0490_manaphy/manaphy.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0490_manaphy/manaphy_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0490_manaphy/manaphy_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0490_manaphy/manaphy_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

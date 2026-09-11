@@ -1,0 +1,34 @@
+{
+  "portraitScale": 1.44,
+  "portraitTranslation": [-0.4, -0.6, 0.0],
+  "profileScale": 0.9,
+  "profileTranslation": [0.12, 0.33, 0.0],
+  "rootBone": "trapinch",
+  "animations": {
+    "cry": "q.bedrock_stateful('trapinch', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('neck', 1, 1, 18, -9, 45, -45)",
+        "q.look('head', 1, 1, 9, -10, 0, 0)",
+        "q.bedrock('trapinch', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('trapinch', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('neck', 1, 1, 18, -9, 45, -45)",
+        "q.look('head', 1, 1, 9, -10, 0, 0)",
+        "q.bedrock('trapinch', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('trapinch', 'blink')"
+      ]
+    }
+  }
+}

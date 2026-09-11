@@ -1,0 +1,48 @@
+{
+  "portraitScale": 2.3,
+  "portraitTranslation": [0.12, -1.05, 0],
+  "profileScale": 1.38,
+  "profileTranslation": [0, -0.24, 0],
+  "rootBone": "sandshrew_alola",
+  "animations": {
+    "cry": "q.bedrock_stateful('sandshrew_alola', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('body')", 
+        "q.bedrock('sandshrew_alola', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('body')", 
+        "q.bedrock('sandshrew_alola', 'ground_idle')"
+      ],
+      "quirks": [
+      "q.bedrock_quirk('sandshrew_alola', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('body')", 
+        "q.bedrock('sandshrew_alola', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sandshrew_alola', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('sandshrew_alola', 'sleep')"]
+    }
+  }
+}

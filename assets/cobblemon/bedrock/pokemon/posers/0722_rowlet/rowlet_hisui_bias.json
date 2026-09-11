@@ -1,0 +1,128 @@
+{
+  "portraitScale": 1.77,
+  "portraitTranslation": [-0.3, -0.34, 0.0],
+  "profileScale": 0.76,
+  "profileTranslation": [-0.04, 0.58, 0.0],
+  "animations": {
+    "cry": "q.bedrock_stateful('rowlet', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('waist')",
+        "q.bedrock('rowlet', 'ground_idle')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('rowlet', 'blink')"
+	  ],
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wings_folded",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         }
+		]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('waist')",
+		"q.bedrock('rowlet', 'ground_idle')"    
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('rowlet', 'blink')"
+		],
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wings_folded",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         }
+        ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('waist')",
+        "q.bedrock('rowlet', 'ground_walk')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('rowlet', 'blink')"
+		],
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wings_folded",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         }
+        ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+		"q.bedrock('rowlet', 'air_idle')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('rowlet', 'blink')"
+		],
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wings_folded",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.bedrock('rowlet', 'air_idle')"
+      ],
+	  "transformedParts": [
+         {
+           "part": "wings_open",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wings_folded",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    }
+  }
+}

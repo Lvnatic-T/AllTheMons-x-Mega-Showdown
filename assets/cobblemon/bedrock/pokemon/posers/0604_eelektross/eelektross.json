@@ -1,0 +1,72 @@
+{
+  "portraitScale": 1.63,
+  "portraitTranslation": [-0.87, 0.72, 0],
+  "profileScale": 0.64,
+  "profileTranslation": [0, 0.76, 0],
+  "rootBone": "eelektross",
+  "animations": {
+    "cry": "q.bedrock_stateful('eelektross', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head', 1, 1, 30, -10, 40, -40)",
+        "q.bedrock('eelektross', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eelektross', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head', 1, 1, 30, -10, 40, -40)",
+        "q.bedrock('eelektross', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eelektross', 'blink')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head', 1, 1, 30, -10, 40, -40)",
+        "q.bedrock('eelektross', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eelektross', 'blink')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        
+        "q.bedrock('eelektross', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eelektross', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head', 1, 1, 30, -10, 40, -40)",
+        "q.bedrock('eelektross', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eelektross', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        
+        "q.bedrock('eelektross', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eelektross', 'blink')"
+      ]
+    }
+  }
+}

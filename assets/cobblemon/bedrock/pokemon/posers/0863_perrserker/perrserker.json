@@ -1,0 +1,59 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.2, 0.2, 0.0],
+  "profileScale": 0.8,
+  "profileTranslation": [0.0, 0.54, 0.0],
+  "rootBone": "perrserker",
+  "animations": {
+    "cry": "q.bedrock_stateful('perrserker', 'cry')",
+	"recoil": "q.bedrock_stateful('perrserker', 'recoil')",
+	"faint": "q.bedrock_primary('perrserker', 'faint', q.curve('symmetrical_wide'))",
+	"status": "q.bedrock_primary('perrserker', 'battle_cry', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('perrserker', 'special', q.curve('symmetrical_wide'))",
+	"physical": "q.bedrock_primary('perrserker', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('perrserker', 'battle_idle')"
+      ],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('perrserker', 'battle_cry', q.curve('symmetrical_wide'))"
+          },
+        "quirks": ["q.bedrock_quirk('perrserker', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('perrserker', 'ground_idle')"
+      ],
+	  "quirks": ["q.bedrock_quirk('perrserker', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('perrserker', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('perrserker', 'ground_walk')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('perrserker', 'ground_walk')"
+      ]
+    }
+  }
+}

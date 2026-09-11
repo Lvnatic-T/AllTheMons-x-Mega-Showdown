@@ -1,0 +1,41 @@
+{
+  "portraitScale": 2.5,
+  "portraitTranslation": [-0.31, -1.16, 0],
+  "profileScale": 0.65,
+  "profileTranslation": [0, 0.77, 0],
+  "rootBone": "espurr",
+  "animations": {
+    "cry": "q.bedrock_stateful('espurr', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('espurr', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('espurr', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('espurr', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('espurr', 'blink')"
+      ]
+    },
+	"sleep": {
+      "poseTypes": ["SLEEP"],
+	  "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('espurr', 'sleep')"
+      ]
+    }
+  }
+}

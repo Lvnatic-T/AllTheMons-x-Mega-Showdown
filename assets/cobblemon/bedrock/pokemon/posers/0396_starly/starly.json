@@ -1,0 +1,52 @@
+{
+  "portraitScale": 2.56,
+  "portraitTranslation": [-0.31, -1.32, 0],
+  "profileScale": 0.89,
+  "profileTranslation": [0, 0.39, 0],
+  "rootBone": "starly",
+  "animations": {
+    "cry": "q.bedrock_stateful('starly', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "animations": [
+        "q.look('head_ai', 1, 1, 20, -20, 15, -15)",
+        "q.bedrock('starly', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starly', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head_ai', 1, 1, 20, -20, 15, -15)",
+        "q.bedrock('starly', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starly', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      
+      "animations": [
+        "q.look('head_ai', 1, 1, 20, -20, 15, -15)",
+        "q.bedrock('starly', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starly', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.bedrock('starly', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('starly', 'blink')"
+      ]
+    }
+  }
+}

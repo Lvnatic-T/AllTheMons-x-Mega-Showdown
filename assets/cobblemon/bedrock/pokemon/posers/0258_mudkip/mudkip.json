@@ -1,0 +1,42 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.18, -0.42, 0],
+  "profileScale": 0.86,
+  "profileTranslation": [-0.02, 0.43, 0],
+  "rootBone": "mudkip",
+  "animations": {
+    "cry": "q.bedrock_stateful('mudkip', 'cry')",
+    "recoil": "q.bedrock_stateful('mudkip', 'recoil')",
+	"faint": "q.bedrock_primary('mudkip', 'faint')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "PORTRAIT", "PROFILE", "NONE"],
+	  "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('mudkip', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('mudkip', 'blink')"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+	  "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('mudkip', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('mudkip', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mudkip', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('mudkip', 'blink')"]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mudkip', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('mudkip', 'blink')"]
+    }
+  }
+}

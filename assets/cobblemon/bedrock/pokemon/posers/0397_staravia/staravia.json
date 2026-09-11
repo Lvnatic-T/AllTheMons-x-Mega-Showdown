@@ -1,0 +1,52 @@
+{
+  "portraitScale": 2.51,
+  "portraitTranslation": [-0.34, -0.76, 0],
+  "profileScale": 0.89,
+  "profileTranslation": [0, 0.39, 0],
+  "rootBone": "staravia",
+  "animations": {
+    "cry": "q.bedrock_stateful('staravia', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "animations": [
+        "q.look('head_ai', 1, 1, 10, -20, 15, -15)",
+        "q.bedrock('staravia', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staravia', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head_ai', 1, 1, 10, -20, 15, -15)",
+        "q.bedrock('staravia', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staravia', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],   
+      "animations": [
+        "q.look('head_ai', 1, 1, 10, -20, 15, -15)",
+        "q.bedrock('staravia', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staravia', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.bedrock('staravia', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('staravia', 'blink')",
+		"q.bedrock_quirk('staravia', 'flap', 1, 2, 1)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "portraitScale": 1.9,
+  "portraitTranslation": [-0.3, 3.0, 0.0],
+  "profileScale": 0.46,
+  "profileTranslation": [0.0, 1.1, 0.0],
+  "rootBone": "meowscarada",
+  "animations": {
+    "cry": "q.bedrock_stateful('meowscarada', 'cry')",
+	"flowertrick": "q.bedrock_primary ('meowscarada', 'flowertrick', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('meowscarada', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('meowscarada', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('meowscarada', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('meowscarada', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('meowscarada', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('meowscarada', 'blink')"]
+    },
+	"sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('meowscarada', 'sleep')"
+      ],
+      "quirks": ["q.bedrock_quirk('meowscarada', 'sleep_quirk', 60, 120, 1)",
+				 "q.bedrock_quirk('meowscarada', 'sleep_quirk2', 30, 120, 1)",
+				 "q.bedrock_quirk('meowscarada', 'sleep_quirk3', 20, 60, 1)",
+				 "q.bedrock_quirk('meowscarada', 'sleep_quirk4', 60, 120, 1)"]
+    }
+  }
+}

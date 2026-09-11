@@ -1,0 +1,94 @@
+{
+  "portraitScale": 1.375,
+  "portraitTranslation": [-0.84,1.35,0],
+  "profileScale": 0.48,
+  "profileTranslation": [0,0.96,0],
+  "rootBone": "swampert",
+  "animations": {
+    "cry": "q.bedrock_stateful('swampert', 'cry')"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head_ai')", "q.bedrock('swampert', 'battle_idle')"],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('swampert', 'battle_cry', q.curve('symmetrical_wide'))"
+          },
+	  "quirks": [
+        "q.bedrock_quirk('swampert', 'blink')"
+		]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+	  "isTouchingWater": false,
+      "animations": ["q.look('head_ai')", "q.bedrock('swampert', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('swampert', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('swampert', 'ground_walk')"
+      ]
+    },
+	"float": {
+      "poseTypes": ["FLOAT"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('swampert', 'water_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('swampert', 'water_swim')"
+      ]
+    },
+	"surface_float": {
+      "poseTypes": ["STAND"],
+	  "isBattle": false,
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('swampert', 'water_idle')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('swampert', 'blink')"
+		],
+		"transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 4, 0]
+        }
+      ]
+    },
+    "surface_swim": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('swampert', 'water_swim')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('swampert', 'blink')"
+		],
+		"transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 6, 0]
+        }
+      ]
+    }
+  }
+}

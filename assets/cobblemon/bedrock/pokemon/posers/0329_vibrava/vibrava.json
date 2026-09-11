@@ -1,0 +1,56 @@
+{
+  "portraitScale": 1.36,
+  "portraitTranslation": [-0.37, -0.55, 0.0],
+  "profileScale": 0.54,
+  "profileTranslation": [-0.01, 0.71, 0.0],
+  "rootBone": "vibrava",
+  "animations": {
+    "cry": "q.bedrock_stateful('vibrava', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        
+        "q.look('head')",
+        "q.bedrock('vibrava', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('vibrava', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        
+        "q.look('head')",
+        "q.bedrock('vibrava', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('vibrava', 'blink')"
+      ]
+    },
+	"flying": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        
+        "q.look('head')",
+        "q.bedrock('vibrava', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('vibrava', 'blink')"
+      ]
+    },
+	 "hover": {
+      "poseTypes": ["HOVER", "FLOAT"],
+      "animations": [
+        
+        "q.look('head')",
+        "q.bedrock('vibrava', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('vibrava', 'blink')"
+      ]
+    }
+  }
+}

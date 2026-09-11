@@ -1,0 +1,61 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.3, 0.2, 0.0],
+  "profileScale": 0.92,
+  "profileTranslation": [0.0, 0.35, 0.0],
+  "rootBone": "quagsire",
+  "animations": {
+    "cry": "q.bedrock_stateful('quagsire', 'cry')"
+  },
+  "poses": {
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+	  "isTouchingWater": false,
+      "animations": ["q.look('head')", "q.bedrock('quagsire', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('quagsire', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quagsire', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('quagsire', 'blink')"]
+    },
+	"float": {
+      "poseTypes": ["FLOAT"],
+      "animations": ["q.look('head')", "q.bedrock('quagsire', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('quagsire', 'blink')"]
+    },
+    "swimming": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quagsire', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('quagsire', 'blink')"]
+    },
+	"surface-float": {
+      "poseTypes": ["STAND"],
+	  "isTouchingWater": true,
+      "animations": ["q.look('head')", "q.bedrock('quagsire', 'water_idle')"],
+      "quirks": ["q.bedrock_quirk('quagsire', 'blink')"]
+    },
+    "surface-swim": {
+      "poseTypes": ["WALK"],
+	  "isTouchingWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quagsire', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('quagsire', 'blink')"],
+	   "transformedParts": [
+         {
+          "part": "body",
+          "position": [0, 6, 0]
+        }
+	  ]
+    }
+  }
+}

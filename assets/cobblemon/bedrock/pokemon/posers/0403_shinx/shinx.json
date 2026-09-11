@@ -1,0 +1,45 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.6, -0.25, 0.0],
+  "profileScale": 0.66,
+  "profileTranslation": [0.0, 0.7, 0.0],
+  "rootBone": "shinx",
+    "animations": {
+    "cry": "q.bedrock_stateful('shinx', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('shinx', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shinx', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK","SWIM"
+      ],
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('shinx', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shinx', 'blink')"
+      ]
+    },
+	"sleeping": {
+		"poseTypes": 
+		["SLEEP"], 
+	"animations": 
+		["q.bedrock('shinx', 'sleep')" ]
+	}
+  }
+}

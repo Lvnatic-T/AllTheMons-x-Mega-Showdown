@@ -1,0 +1,45 @@
+{
+  "portraitScale": 1.55,
+  "portraitTranslation": [-0.05, 0.8, 0],
+  "profileScale": 0.64,
+  "profileTranslation": [0.05, 0.8, 0],
+  "rootBone": "simisear",
+
+  "animations": {
+    "cry": "q.bedrock_stateful('simisear', 'cry')"
+  },
+
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('simisear', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('simisear', 'blink')"
+      ]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('simisear', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('simisear', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('simisear', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('simisear', 'blink')"
+      ]
+    }
+  }
+}

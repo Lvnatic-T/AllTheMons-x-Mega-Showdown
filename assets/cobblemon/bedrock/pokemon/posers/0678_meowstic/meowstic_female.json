@@ -1,0 +1,32 @@
+{
+  "portraitScale": 2.29,
+  "portraitTranslation": [-0.24, -0.22, 0],
+  "profileScale": 0.68,
+  "profileTranslation": [0, 0.75, 0],
+  "rootBone": "meowstic_female",
+  "animations": {
+    "cry": "q.bedrock_stateful('meowstic_female', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('meowstic_female', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('meowstic_female', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('meowstic_female', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('meowstic_female', 'blink')"
+      ]
+    }
+  }
+}

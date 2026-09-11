@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:seismitoad",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:seismitoad",
+      "model": "cobblemon:seismitoad.geo",
+      "texture": "cobblemon:textures/pokemon/0537_seismitoad/seismitoad.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0537_seismitoad/seismitoad_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "portraitScale": 1.55,
+  "portraitTranslation": [-1.1, 0.65, 0],
+  "profileScale": 0.53,
+  "profileTranslation": [-0.11, 0.87, 0],
+  "rootBone": "walrein",
+  "animations": {
+    "cry": "q.bedrock_stateful('walrein', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE"
+      ],
+      "animations": ["q.look('head')", "q.bedrock('walrein', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('walrein', 'blink')"]
+    },
+	"walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": ["q.look('head')", "q.bedrock('walrein', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('walrein', 'blink')"]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "portraitScale": 2.15,
+  "portraitTranslation": [-0.5, 0.7, 0.0],
+  "profileScale": 0.775,
+  "profileTranslation": [0, 0.545, 0.0],
+  "rootBone": "nidoqueen",
+  "animations": {
+    "cry": "q.bedrock_stateful('nidoqueen', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+	  "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nidoqueen', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('nidoqueen', 'blink')"
+      ]
+    },
+	"battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND", "FLOAT"],
+	  "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nidoqueen', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('nidoqueen', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nidoqueen', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('nidoqueen', 'blink')"
+      ]
+    }
+  }
+}

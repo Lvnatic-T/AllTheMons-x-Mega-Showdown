@@ -1,0 +1,33 @@
+{
+  "head": "head",
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.3, 1, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.2, 0],
+  "firstPersonCameraOffset": {
+    "seat_1": [0.0, 0.265, 0.1]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0.0, 0.0, 0.0],
+    "seat_1_reverse": [0.0, 0.0, 0.0]
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('fluttermane', 'ground_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('fluttermane', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('fluttermane', 'laugh', 8, 20, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": ["q.bedrock('fluttermane', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('fluttermane', 'blink', 2, 5, 1)"]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('fluttermane', 'sleep')"]
+    }
+  }
+}

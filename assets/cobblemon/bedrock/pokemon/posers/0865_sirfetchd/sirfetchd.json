@@ -1,0 +1,36 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.35, -0.5, 0.0],
+  "profileScale": 0.9,
+  "profileTranslation": [-0.1, 0.42, 0.0],
+  "rootBone": "sirfetchd",
+  "animations": {
+    "cry": "q.bedrock_stateful('sirfetchd', 'cry')",
+	"status": "q.bedrock_primary('sirfetchd', 'battle_quirk', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('sirfetchd', 'battle_idle')"],
+      "quirks": [
+	  "q.bedrock_quirk('sirfetchd', 'blink')"
+	  ]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('sirfetchd', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('sirfetchd', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sirfetchd', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('sirfetchd', 'blink')"]
+    }
+  }
+}

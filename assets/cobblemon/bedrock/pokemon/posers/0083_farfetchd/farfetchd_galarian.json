@@ -1,0 +1,33 @@
+{
+  "portraitScale": 2.6,
+  "portraitTranslation": [-0.2, -1.0, 0.0],
+  "profileScale": 1.1,
+  "profileTranslation": [-0.1, 0.1, 0.0],
+  "rootBone": "farfetchd",
+  "animations": {
+    "cry": "q.bedrock_stateful('farfetchd_galar', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('farfetchd_galar', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('farfetchd_galar', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('farfetchd_galar', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('farfetchd_galar', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('farfetchd_galar', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('farfetchd_galar', 'blink')"]
+    }
+  }
+}

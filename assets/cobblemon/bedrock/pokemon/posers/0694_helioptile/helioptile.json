@@ -1,0 +1,28 @@
+{
+  "portraitScale": 2.35,
+  "portraitTranslation": [ -0.365, -0.9, 0 ],
+  "profileScale": 0.79,
+  "profileTranslation": [ 0, 0.57, 0 ],
+  "poses": { 
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('helioptile', 'ground_open')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('helioptile', 'ground_closed')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('helioptile', 'ground_closed')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "portraitScale": 1.97,
+  "portraitTranslation": [-0.42, 2.38, 0.0],
+  "profileScale": 0.52,
+  "profileTranslation": [0.06, 0.97, 0.0],
+  "rootBone": "grimmsnarl",
+    "animations": {
+    "cry": "q.bedrock_stateful('grimmsnarl', 'cry')",
+	"recoil": "q.bedrock_stateful('grimmsnarl', 'recoil')",
+	"status": "q.bedrock_primary('grimmsnarl', 'battle_cry', q.curve('symmetrical_wide'))",
+	"physical": "q.bedrock_primary('grimmsnarl', 'attack', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('grimmsnarl', 'attack', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('grimmsnarl', 'battle_idle')"
+      ],
+	  "namedAnimations": {
+			"cry": "q.bedrock_primary('grimmsnarl', 'battle_cry', q.curve('symmetrical_wide'))",
+			"taunt": "q.bedrock_primary('grimmsnarl', 'taunt', q.curve('symmetrical_wide'))"
+          },
+      "quirks": [
+        "q.bedrock_quirk('grimmsnarl', 'blink')"
+      ]
+    },"standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+	  "q.look('head')",
+        "q.bedrock('grimmsnarl', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimmsnarl', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK","SWIM"
+      ],
+      "animations": [
+        "q.bedrock('grimmsnarl', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grimmsnarl', 'blink')"
+      ]
+    }
+  }
+}

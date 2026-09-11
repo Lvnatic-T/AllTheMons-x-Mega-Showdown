@@ -1,0 +1,42 @@
+{
+  "portraitScale": 1.18,
+  "portraitTranslation": [-0.17, -0.14, 0],
+  "profileScale": 0.55,
+  "profileTranslation": [0, 0.67, 0],
+  "rootBone": "haunter",
+  "animations": {
+    "cry": "q.bedrock_stateful('haunter', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+	  "isBattle": false,
+      "animations": [
+        "q.bedrock('haunter', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('haunter', 'blink')"
+      ]
+    },
+	"battle_standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER"],
+	  "isBattle": true,
+      "animations": [
+		"q.look('torso')",
+        "q.bedrock('haunter', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('haunter', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "FLY"],
+      "animations": [
+        "q.bedrock('haunter', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('haunter', 'blink')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+    "head": "head",
+    "portraitScale": 2,
+    "portraitTranslation": [ -0.15, 1.82, 0 ],
+    "profileScale": 0.6,
+    "profileTranslation": [ 0, 0.9, 0 ],
+  "animations": {
+    "cry": "q.bedrock_stateful('tsareena', 'cry')",
+	"faint": "q.bedrock_primary('tsareena', 'faint')",
+	"recoil": "q.bedrock_stateful('tsareena', 'recoil')",
+	"physical": "q.bedrock_primary('tsareena', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('tsareena', 'physical', q.curve('symmetrical_wide'))",
+	"status": "q.bedrock_stateful('tsareena', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('tsareena', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tsareena', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('tsareena', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tsareena', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tsareena', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tsareena', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tsareena', 'ground_walk')"
+      ]
+    }
+  }
+}

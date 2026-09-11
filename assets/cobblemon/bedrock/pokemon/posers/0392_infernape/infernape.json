@@ -1,0 +1,37 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.65, 1.55, 0.0],
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 1.0, 0.0],
+  "rootBone": "infernape",
+  "animations": {
+    "cry": "q.bedrock_stateful('infernape', 'cry')",
+	"status": "q.bedrock_primary ('infernape', 'battle_cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('infernape', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('infernape', 'blink')"],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('infernape', 'battle_cry', q.curve('symmetrical_wide'))"
+          }
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('infernape', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('infernape', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('infernape', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('infernape', 'blink')"]
+    }
+  }
+}

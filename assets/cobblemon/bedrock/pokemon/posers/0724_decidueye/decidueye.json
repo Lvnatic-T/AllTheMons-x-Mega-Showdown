@@ -1,0 +1,197 @@
+{
+  "portraitScale": 1.52,
+  "portraitTranslation": [-0.28, 2.53, 0.0],
+  "profileScale": 0.47,
+  "profileTranslation": [0.0, 1.03, 0.0],
+  "animations": {
+    "cry": "q.bedrock_stateful('decidueye', 'cry')",
+	"status": "q.bedrock_stateful('decidueye', 'cry')",
+    "recoil": "q.bedrock_stateful('decidueye', 'recoil')",
+	"spiritshackle": "q.bedrock_primary('decidueye', 'spiritshackle', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('decidueye', 'physical', q.curve('symmetrical_wide'))",
+	"physical": "q.bedrock_primary('decidueye', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('decidueye', 'battle_idle')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('decidueye', 'blink')"
+	  ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('decidueye', 'ground_idle')"    
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('decidueye', 'blink')"
+		],
+	  "transformedParts": [
+         {
+           "part": "wing_open_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wing_open_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false	
+         },
+		 {
+           "part": "wing_closed_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wing_closed_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true	
+         },
+		 {
+           "part": "arrow",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('decidueye', 'ground_walk')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('decidueye', 'blink')"
+		],
+	  "transformedParts": [
+         {
+           "part": "wing_open_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wing_open_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+		 {
+           "part": "wing_closed_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wing_closed_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true	
+         },
+		 {
+           "part": "arrow",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+		"q.bedrock('decidueye', 'air_idle')"
+      ],
+	  "quirks": [
+        "q.bedrock_quirk('decidueye', 'blink')"
+		],
+	  	  "namedAnimations": {
+            "physical": "q.bedrock_stateful ('decidueye', 'cry', q.curve('symmetrical_wide'))",
+			"special": "q.bedrock_stateful ('decidueye', 'cry', q.curve('symmetrical_wide'))",
+			"spiritshackle": "q.bedrock_stateful ('decidueye', 'cry', q.curve('symmetrical_wide'))"
+          },
+	  "transformedParts": [
+         {
+           "part": "wing_open_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wing_open_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+		 {
+           "part": "wing_closed_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wing_closed_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+		 {
+           "part": "arrow",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.bedrock('decidueye', 'air_fly')"
+      ],
+	  "transformedParts": [
+         {
+           "part": "wing_open_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+         {
+           "part": "wing_open_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": true
+         },
+		 {
+           "part": "wing_closed_right1",
+           "position": [0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+         {
+           "part": "wing_closed_left1",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         },
+		 {
+           "part": "arrow",
+           "position": [-0, 0, 0],
+           "rotation": [0, 0, 0],
+           "isVisible": false
+         }
+        ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "portraitScale": 2.09,
+  "portraitTranslation": [-0.71, -1.34, 0],
+  "profileScale": 0.66,
+  "profileTranslation": [-0.1, 0.74, 0],
+  "rootBone": "skorupi",
+  "animations": {
+    "cry": "q.bedrock_stateful('skorupi', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('skorupi', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('skorupi', 'blink')"
+      ]
+    },
+
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('skorupi', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('skorupi', 'blink')"
+      ]
+    }
+  }
+}

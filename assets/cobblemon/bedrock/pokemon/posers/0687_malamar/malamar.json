@@ -1,0 +1,88 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.32, 1.9, 0],
+  "profileScale": 0.53,
+  "profileTranslation": [0, 0.99, 0],
+
+  "rootBone": "malamar",
+
+  "animations": {
+    "cry": "q.bedrock_stateful('malamar', 'cry')"
+  },
+
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('malamar', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malamar', 'blink')"
+      ]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('malamar', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malamar', 'blink')"
+      ]
+    },	
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('malamar', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malamar', 'blink')"
+      ]
+    },
+	"hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('malamar', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malamar', 'blink')"
+      ]
+    },
+	"fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('malamar', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malamar', 'blink')"
+      ]
+    },
+	"floating": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('malamar', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malamar', 'blink')"
+      ]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+	  "transformTicks": 25,
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.bedrock('malamar', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('malamar', 'blink')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:pheromosa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pheromosa",
+      "model": "cobblemon:pheromosa.geo",
+      "texture": "cobblemon:textures/pokemon/0795_pheromosa/pheromosa.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0795_pheromosa/pheromosa_shiny.png"
+    }
+  ]
+}

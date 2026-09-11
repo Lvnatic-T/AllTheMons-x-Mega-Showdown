@@ -1,0 +1,40 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [-0.65, -0.25, 0.0],
+  "profileScale": 0.72,
+  "profileTranslation": [0.0, 0.7, 0.0],
+  "rootBone": "luxio",
+  "animations": {
+    "cry": "q.bedrock_stateful('luxio', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('neck', 1, 1, 18, -9, 45, -45)",
+        "q.look('head', 1, 1, 9, -10, 0, 0)",
+        "q.bedrock('luxio', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('luxio', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('neck', 1, 1, 18, -9, 45, -45)",
+        "q.look('head', 1, 1, 9, -10, 0, 0)",
+        "q.bedrock('luxio', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('luxio', 'blink')"
+      ]
+    },
+	"sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('luxio', 'sleep')"
+      ]
+    }
+  }
+}

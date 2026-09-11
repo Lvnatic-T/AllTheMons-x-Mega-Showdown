@@ -1,0 +1,30 @@
+{
+  "portraitScale": 2.21,
+  "portraitTranslation": [-0.3, -0.49, 0.0],
+  "profileScale": 0.68,
+  "profileTranslation": [0.0, 0.69, 0.0],
+  "rootBone": "makuhita",
+  "animations": {
+    "cry": "q.bedrock_stateful('makuhita', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('makuhita', 'battle_idle')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('makuhita', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('makuhita', 'ground_walk')"
+      ]
+    }
+  }
+}

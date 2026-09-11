@@ -1,0 +1,46 @@
+{
+  "portraitScale": 2.15,
+  "portraitTranslation": [-0.475, 2.1, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.0, 0.9, 0.0],
+  "rootBone": "sceptile",
+  "animations": {
+    "cry": "q.bedrock_stateful('sceptile', 'cry')",
+	"recoil": "q.bedrock_stateful('sceptile', 'recoil')",
+	"status": "q.bedrock_primary ('sceptile', 'battle_cry', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary('sceptile', 'special', q.curve('symmetrical_wide'))",
+	"physical": "q.bedrock_primary('sceptile', 'physical', q.curve('symmetrical_wide'))",
+	"faint": "q.bedrock_primary('sceptile', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('sceptile', 'battle_idle')"],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('sceptile', 'battle_cry', q.curve('symmetrical_wide'))"
+          },
+	  "quirks": [
+        "q.bedrock_quirk('sceptile', 'blink')"
+		]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('sceptile', 'ground_idle')"],
+	  "quirks": [
+        "q.bedrock_quirk('sceptile', 'blink')"
+		]
+	  
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('sceptile', 'ground_walk')"
+      ]
+    }
+  }
+}

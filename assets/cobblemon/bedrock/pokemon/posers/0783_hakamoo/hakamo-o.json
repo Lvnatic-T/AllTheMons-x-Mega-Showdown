@@ -1,0 +1,33 @@
+{
+  "portraitScale": 1.53,
+  "portraitTranslation": [-0.38, 1.09, 0.0],
+  "profileScale": 0.58,
+  "profileTranslation": [0.0, 0.88, 0.0],
+  "rootBone": "hakamo-o",
+  "animations": {
+    "cry": "q.bedrock_stateful('hakamo-o', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('hakamo-o', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('hakamo-o', 'blink')"]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('hakamo-o', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('hakamo-o', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('hakamo-o', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('hakamo-o', 'blink')"]
+    }
+  }
+}
