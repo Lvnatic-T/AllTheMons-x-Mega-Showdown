@@ -1,0 +1,36 @@
+{
+  "item.mega_showdown.debug_stick": "§dDebug Stick §r§o(Mega Showdown)§r",
+  
+  "cobblemon.ui.stash.iron": "Iron",
+  
+  "cobblemon.battle.start.slowstart": "%1$s hasn’t fully awakened yet!",
+  "cobblemon.battle.end.slowstart": "%1$s is moving at full power!",
+  
+  "cobblemon.species.arceus-bug.desc": "Where all creation was born, that is the being's place of origin.",
+  "cobblemon.species.arceus-dark.desc": "Two make matter, and three make spirit, shaping the world.",
+  "cobblemon.species.arceus-dragon.desc": "Three beings were born to bind time and space.",
+  "cobblemon.species.arceus-electric.desc": "The third being raged, raining down bolts of anger.",
+  "cobblemon.species.arceus-fairy.desc": "The Original One is in all things. The Original One is nowhere at all. From all creations, over all creations, does the Original One watch over all.",
+  "cobblemon.species.arceus-fighting.desc": "Three beings whose power can hold both time and space fixed. The rift is born of disorder on the other side of this world.",
+  "cobblemon.species.arceus-fire.desc": "The power of defeated giants infuses this Plate.",
+  "cobblemon.species.arceus-flying.desc": "The being poured the remains of its power into stone and buried it deep.",
+  "cobblemon.species.arceus-ghost.desc": "The other side of this world was given by the Original One to its raging third.",
+  "cobblemon.species.arceus-grass.desc": "The powers of Plates are shared among Pokémon.",
+  "cobblemon.species.arceus-ground.desc": "When the universe was created, its shards became this Plate.",
+  "cobblemon.species.arceus-ice.desc": "Two beings of time and space set free from the Original One.",
+  "cobblemon.species.arceus-poison.desc": "The rules of time and space change within the opposite world.",
+  "cobblemon.species.arceus-psychic.desc": "The Original One breathed alone before the universe came.",
+  "cobblemon.species.arceus-rock.desc": "It gathers power from the Plates, listening for the flute's song.",
+  "cobblemon.species.arceus-steel.desc": "That which fills the other side of the world can shape the rage and mold it.",
+  "cobblemon.species.arceus-water.desc": "The rightful bearer of a Plate draws from the Plate it holds.",
+    
+  "cobblemon.species.deoxys-attack.desc": "This Deoxys has transformed into its aggressive guise, a tactic to fool enemies by altering its appearance.",
+  "cobblemon.species.deoxys-defense.desc": "This Deoxys has transformed into its defensive form, a tactic to enemies by altering its appearance.",
+  "cobblemon.species.deoxys-speed.desc": "This Deoxys has transformed into its fastest form, a tactic to enemies by altering its appearance.",
+  
+  "cobblemon.species.floette-eternal.desc": "The flower it's holding can no longer be found blooming anywhere. It's also thought to contain terrifying power. Terrifying energy is concealed within its ominous flower, but Floette still swings it about innocently.",
+  
+  "cobblemon.ui.pokedex.info.form.groudon": "",
+  "cobblemon.ui.pokedex.info.form.kyogre": "",
+  "cobblemon.ui.pokedex.info.form.kyurem": ""
+}
