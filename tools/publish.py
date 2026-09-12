@@ -39,7 +39,10 @@ def publish():
     mod_deps = fabric_deps + neoforge_deps
 
     changelog = ""
-    if os.path.exists("CHANGELOG.md"):
+    if os.path.exists("src/CHANGELOG.md"):
+        with open("src/CHANGELOG.md", "r") as f:
+            changelog = f.read()
+    elif os.path.exists("CHANGELOG.md"): # Fallback just in case
         with open("CHANGELOG.md", "r") as f:
             changelog = f.read()
 
