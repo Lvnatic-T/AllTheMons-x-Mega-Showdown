@@ -1,0 +1,37 @@
+{
+  "file_name": "AllTheMons-x-Mega-Showdown",
+  "file_version": "1.0.0",
+  "release_type": "release",
+  "mod_project_id": "odZZdRCE",
+  "datapack_project_id": "odZZdRCE",
+  "fabric_dependencies": [
+    {
+      "project_id": "MdwFAVRL",
+      "dependency_type": "required"
+    },
+    {
+      "project_id": "SszvX85I",
+      "dependency_type": "required"
+    }
+  ],
+  "neoforge_dependencies": [
+    {
+      "project_id": "MdwFAVRL",
+      "dependency_type": "required"
+    },
+    {
+      "project_id": "SszvX85I",
+      "dependency_type": "required"
+    }
+  ],
+  "datapack_dependencies": [
+    {
+      "project_id": "MdwFAVRL",
+      "dependency_type": "required"
+    },
+    {
+      "project_id": "SszvX85I",
+      "dependency_type": "required"
+    }
+  ]
+}

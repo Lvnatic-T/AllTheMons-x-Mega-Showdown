@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "zatm_x_msd",
+  "version": "${version}",
+  "name": "ATMxMSD",
+  "description": "ATM x MSD Version 4.0\nby Lvnatic and many others!",
+  "authors": [
+    "Lvantic",
+    "YajatKaul"
+  ],
+  "license": "ALLTHEMONS LICENSE v3.2",
+  "icon": "/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.yajat.atm_x_msd.fabric.ATMxMSDFabric"
+    ],
+    "client": [
+      "com.github.yajat.atm_x_msd.fabric.client.ATMxMSDFabricClient"
+    ]
+  },
+  "mixins": [
+    "atm_x_msd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*",
+    "cobblemon": ">=1.8",
+    "mega_showdown": ">=1.1.2+1.8+1.21.1",
+    "accessories": ">=1.1.0-beta.52+1.21.1"
+  }
+}
