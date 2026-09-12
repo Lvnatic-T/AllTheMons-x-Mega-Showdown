@@ -19,9 +19,6 @@
       "com.github.yajat.atm_x_msd.fabric.client.ATMxMSDFabricClient"
     ]
   },
-  "mixins": [
-    "atm_x_msd.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.18.4",
     "minecraft": "~1.21.1",

@@ -55,6 +55,3 @@ type = "required"
 versionRange = "[1.1.0-beta.52+1.21.1, )"
 ordering = "AFTER"
 side = "BOTH"
-
-[[mixins]]
-config = "atm_x_msd.mixins.json"
