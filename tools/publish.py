@@ -69,6 +69,7 @@ def publish():
             "featured": True,
             "status": "listed",
             "project_id": mod_project_id,
+            "environment": "client_and_server",
             "file_parts": ["file"],
             "primary_file": "file"
         }
