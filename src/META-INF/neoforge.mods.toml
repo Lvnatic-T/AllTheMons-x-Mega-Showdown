@@ -4,54 +4,28 @@ loaderVersion = "[2,)"
 license = "ALLTHEMONS LICENSE v3.2"
 
 [[mods]]
-modId = "zatm_x_msd"
-version = "${version}"
-displayName = "ATMxMSD"
-authors = "Lvantic, YajatKaul"
+modId = "z_atm_x_msd"
+version = "4.1"
+displayName = "ATM x MSD"
+authors = "Lvantic
 description = '''
-ATM x MSD Version 4.0
+ATM x MSD Version 4.1
 by Lvnatic and many others!
 '''
 logoFile = "/icon.png"
 
-[[dependencies.zatm_x_msd]]
-modId = "neoforge"
-type = "required"
-versionRange = "[21,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.zatm_x_msd]]
-modId = "minecraft"
-type = "required"
-versionRange = "[1.21.1,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.zatm_x_msd]]
-modId = "architectury"
-type = "required"
-versionRange = "[13.0.8,)"
-ordering = "AFTER"
-side = "BOTH"
-
-[[dependencies.zatm_x_msd]]
+[[dependencies.z_atm_x_msd]]
 modId = "cobblemon"
 type = "required"
-versionRange = "[1.8.0, )"
+reason = "You're missing like the most important mod for this to work. Install/Update it!"
+versionRange = "[1.8.1, )"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.zatm_x_msd]]
+[[dependencies.z_atm_x_msd]]
 modId = "mega_showdown"
 type = "required"
-versionRange = "[1.1.2+1.8+1.21.1,)"
-ordering = "AFTER"
-side = "BOTH"
-
-[[dependencies.zatm_x_msd]]
-modId = "accessories"
-type = "required"
-versionRange = "[1.1.0-beta.52+1.21.1, )"
+reason = "You're missing like the second most important mod for this to work. Install/Update it!"
+versionRange = "[1.2.0+1.8.1+1.21.1,)"
 ordering = "AFTER"
 side = "BOTH"
