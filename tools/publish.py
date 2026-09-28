@@ -46,8 +46,8 @@ def publish():
         with open("CHANGELOG.md", "r") as f:
             changelog = f.read()
 
-    jar_path = f"build/{file_name}-{file_version}.jar"
-    zip_path = f"build/{file_name}-{file_version}.zip"
+    jar_path = f"build/{file_name} {file_version}.jar"
+    zip_path = f"build/{file_name} {file_version}.zip"
 
     headers = {
         "Authorization": token
@@ -59,7 +59,7 @@ def publish():
     if os.path.exists(jar_path) and mod_project_id:
         print(f"Publishing {jar_path} to Modrinth (Project: {mod_project_id})...")
         mod_data = {
-            "name": f"{file_name} {file_version} (Mod)",
+            "name": f"{file_name} {file_version}",
             "version_number": file_version,
             "changelog": changelog,
             "dependencies": mod_deps,
@@ -93,13 +93,13 @@ def publish():
     if os.path.exists(zip_path) and datapack_project_id:
         print(f"Publishing {zip_path} to Modrinth (Project: {datapack_project_id})...")
         dp_data = {
-            "name": f"{file_name} {file_version} (Datapack)",
+            "name": f"{file_name} {file_version}",
             "version_number": file_version,
             "changelog": changelog,
             "dependencies": datapack_deps,
             "game_versions": ["1.21.1"],
             "version_type": release_type,
-            "loaders": ["datapack", "minecraft"],
+            "loaders": ["resourcepack", "datapack", "minecraft"],
             "featured": True,
             "status": "listed",
             "project_id": datapack_project_id,

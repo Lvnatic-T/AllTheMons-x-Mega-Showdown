@@ -6,7 +6,7 @@ license = "ALLTHEMONS LICENSE v3.2"
 [[mods]]
 modId = "z_atm_x_msd"
 version = "4.1"
-displayName = "ATM x MSD"
+displayName = "Cobblemon: ATM x MSD"
 authors = "Lvantic
 description = '''
 ATM x MSD Version 4.1
@@ -26,6 +26,6 @@ side = "BOTH"
 modId = "mega_showdown"
 type = "required"
 reason = "You're missing like the second most important mod for this to work. Install/Update it!"
-versionRange = "[1.2.0+1.8.1+1.21.1,)"
+versionRange = "[>=1.2.0+1.8.1+1.21.1-release,)"
 ordering = "AFTER"
 side = "BOTH"

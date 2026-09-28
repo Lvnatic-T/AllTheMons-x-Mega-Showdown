@@ -12,11 +12,11 @@ def build():
     if not os.path.exists('build'):
         os.makedirs('build')
         
-    jar_path = f"build/{file_name}-{file_version}.jar"
-    zip_path = f"build/{file_name}-{file_version}.zip"
+    jar_path = f"build/{file_name} {file_version}.jar"
+    zip_path = f"build/{file_name} {file_version}.zip"
     
-    jar_items = ['META-INF', 'fabric.mod.json', 'LICENSE.md', 'icon.png', 'data', 'assets']
-    zip_items = ['pack.mcmeta', 'pack.png', 'LICENSE.md', 'assets', 'data']
+    jar_items = ['META-INF', 'fabric.mod.json', 'LICENSE.md', 'icon.png', 'data', 'assets', 'proofs of permission']
+    zip_items = ['pack.mcmeta', 'pack.png', 'LICENSE.md', 'assets', 'data', 'proofs of permission']
     
     def add_to_zip(z_obj, base_dir, items):
         for item in items:

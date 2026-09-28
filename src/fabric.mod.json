@@ -1,32 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "zatm_x_msd",
-  "version": "${version}",
-  "name": "ATMxMSD",
-  "description": "ATM x MSD Version 4.0\nby Lvnatic and many others!",
+  "id": "z_atm_x_msd",
+  "version": "4.1",
+  "name": "Cobblemon: ATM x MSD",
+  "description": "ATM x MSD Version 4.1\nby Lvnatic and many others!",
   "authors": [
-    "Lvantic",
-    "YajatKaul"
+    "Lvantic"
   ],
   "license": "ALLTHEMONS LICENSE v3.2",
   "icon": "/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "com.github.yajat.atm_x_msd.fabric.ATMxMSDFabric"
-    ],
-    "client": [
-      "com.github.yajat.atm_x_msd.fabric.client.ATMxMSDFabricClient"
-    ]
-  },
   "depends": {
-    "fabricloader": ">=0.18.4",
-    "minecraft": "~1.21.1",
-    "java": ">=21",
-    "architectury": ">=13.0.8",
-    "fabric-api": "*",
-    "cobblemon": ">=1.8",
-    "mega_showdown": ">=1.1.2+1.8+1.21.1",
-    "accessories": ">=1.1.0-beta.52+1.21.1"
+    "cobblemon": ">=1.8.1",
+    "mega_showdown": ">=1.2.0+1.8.1+1.21.1-release"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.modrinth": "https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy",
+        "modmenu.discord": "https://discord.gg/y7fXYrHkpV",
+        "modmenu.kofi": "https://ko-fi.com/allthemons",
+        "modmenu.source": "https://github.com/Lvnatic-T/AllTheMons-x-Mega-Showdown"
+      }
+    }
   }
 }
