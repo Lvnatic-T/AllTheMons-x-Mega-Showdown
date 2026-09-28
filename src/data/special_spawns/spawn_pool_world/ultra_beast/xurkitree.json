@@ -1,7 +1,7 @@
 {
     "enabled": true,
     "neededInstalledMods": [],
-    "neededUninstalledMods": [],
+    "neededUninstalledMods": ["cobbleverse_ultraspace", "cobblemon_ultrabeast"],
     "spawns": [
         {
             "id": "xurkitree-1T",

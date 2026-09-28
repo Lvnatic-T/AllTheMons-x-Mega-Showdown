@@ -1,11 +1,11 @@
 {
-    "enabled": true,
+    "enabled": false,
     "neededInstalledMods": [],
     "neededUninstalledMods": ["cobbleverse_ultraspace", "cobblemon_ultrabeast"],
     "spawns": [
         {
-            "id": "buzzwole-1T",
-            "pokemon": "buzzwole min_perfect_ivs=3",
+            "id": "celesteela-1T",
+            "pokemon": "celesteela min_perfect_ivs=3",
             "presets": [
                 "natural",
                 "wild"
@@ -19,13 +19,13 @@
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
-                    "#cobblemon:is_swamp"
+                    "#cobblemon:is_bamboo"
                 ]
             }
         },
         {
-            "id": "buzzwole-2T",
-            "pokemon": "buzzwole min_perfect_ivs=3",
+            "id": "celesteela-2T",
+            "pokemon": "celesteela min_perfect_ivs=3",
             "presets": [
                 "natural"
             ],
