@@ -12,7 +12,7 @@ description = '''
 ATM x MSD Version 4.1
 by Lvnatic and many others!
 '''
-logoFile = "/icon.png"
+logoFile = "pack.png"
 
 [[dependencies.z_atm_x_msd]]
 modId = "cobblemon"

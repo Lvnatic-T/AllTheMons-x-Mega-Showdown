@@ -8,7 +8,7 @@
     "Lvantic"
   ],
   "license": "ALLTHEMONS LICENSE v3.2",
-  "icon": "/icon.png",
+  "icon": "pack.png",
   "environment": "*",
   "depends": {
     "cobblemon": ">=1.8.1",
