@@ -1,5 +1,5 @@
 {
-  "result": "mewtwo min_perfect_ivs=3",
+  "result": "mewtwo min_perfect_ivs=3 alpha=false",
   "fossils": [
     "minecraft:nether_star",
     "cobblemon:psychic_gem"

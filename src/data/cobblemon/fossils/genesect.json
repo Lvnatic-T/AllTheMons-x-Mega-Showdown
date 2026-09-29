@@ -1,5 +1,5 @@
 {
-  "result": "genesect min_perfect_ivs=3",
+  "result": "genesect min_perfect_ivs=3 alpha=false",
   "fossils": [
     "cobblemon:dome_fossil",
     "cobblemon:dubious_disc"

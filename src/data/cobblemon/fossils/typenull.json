@@ -1,5 +1,5 @@
 {
-  "result": "typenull min_perfect_ivs=3",
+  "result": "typenull min_perfect_ivs=3 alpha=false",
   "fossils": [
     "cobblemon:upgrade",
     "minecraft:netherite_helmet"
