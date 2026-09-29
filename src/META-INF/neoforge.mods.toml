@@ -5,11 +5,11 @@ license = "ALLTHEMONS LICENSE v3.2"
 
 [[mods]]
 modId = "z_atm_x_msd"
-version = "4.1"
+version = "5.0"
 displayName = "Cobblemon: ATM x MSD"
 authors = "Lvantic
 description = '''
-ATM x MSD Version 4.1
+ATM x MSD Version 5.0
 by Lvnatic and many others!
 '''
 logoFile = "pack.png"

@@ -1,4 +1,4 @@
-## v4.1 Changelog:
+## v5.0 Changelog:
 ## Compatible with Mega Showdown 1.2+
 ## Available as a mod now!
 - From this version on ATM x MSD will always release as both a mod & an addon (data/resource pack)
