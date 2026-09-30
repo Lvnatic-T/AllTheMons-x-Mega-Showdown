@@ -14,7 +14,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "ultra-rare",
             "level": "40-65",
-            "weight": 5.0,
+            "weight": 8.0,
             "condition": {
                 "maxY": 127,
                 "biomes": [
