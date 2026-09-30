@@ -1,0 +1,165 @@
+{
+  "portraitScale": 1.26,
+  "portraitTranslation": [-1.74, 2.28, 0],
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1.37, 0],
+  "rootBone": "ironjugulis",
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0],
+    "seat_2": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.35, 0.5],
+    "seat_1_reverse": [0, 0.35, 0.5],
+    "seat_2": [0, 0.35, 0.5],
+    "seat_2_reverse": [0, 0.35, 0.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.35, 0.5],
+    "seat_1_reverse": [0, 0.35, 0.5],
+    "seat_2": [0, 0.35, 0.5],
+    "seat_2_reverse": [0, 0.35, 0.5]
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('ironjugulis', 'cry')"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "isBattle": false,
+      "animations": ["q.look('head_ai')", "q.bedrock('ironjugulis', 'potrait_pose')"],
+      "quirks": ["q.bedrock_quirk('ironjugulis', 'blink')"]
+    },
+    "mount-standing": {
+      "poseTypes": ["STAND", "NONE", "PROFILE"],
+      "isBattle": false,
+      "condition": "q.is_ridden",
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'air_idle')",
+        "q.bedrock('ironjugulis', 'ride_air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironjugulis', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PROFILE"],
+      "isBattle": false,
+      "condition": "!q.is_ridden",
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironjugulis', 'blink')",
+        "q.bedrock_quirk('ironjugulis', q.array('idle_quirk1', 'idle_quirk2'), 12, 35, 1)"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('ironjugulis', 'ride_air_fly')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('ironjugulis', 'blink')"]
+    },
+    "mount-hover": {
+      "poseTypes": ["HOVER", "NONE"],
+      "isBattle": false,
+      "condition": "q.is_ridden",
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'air_idle')",
+        "q.bedrock('ironjugulis', 'ride_air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironjugulis', 'blink')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER", "NONE"],
+      "isBattle": false,
+      "condition": "!q.is_ridden",
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironjugulis', 'blink')",
+        "q.bedrock_quirk('ironjugulis', q.array('idle_quirk1', 'idle_quirk2'), 12, 35, 1)"
+      ]
+    },
+    "battle-flying": {
+      "poseTypes": ["HOVER","STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironjugulis', 'blink')",
+        "q.bedrock_quirk('ironjugulis', q.array('battlebite_quirk_left1', 'battlebite_quirk_left2'), 0.7, 2, 1)",
+        "q.bedrock_quirk('ironjugulis', q.array('battlebite_quirk_right1', 'battlebite_quirk_right2'), 0.7, 2, 1)"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "condition": "!q.is_gliding",
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('ironjugulis', 'ride_air_fly')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('ironjugulis', 'blink')"]
+    },
+    "glide": {
+      "poseTypes": ["FLY", "SWIM"],
+      "condition": "q.is_gliding",
+      "animations": [
+        "q.pitch_tilt('body', 1)",
+        "q.look('head_ai')",
+        "q.bedrock('ironjugulis', 'air_glide')",
+        "q.bedrock('ironjugulis', 'ride_dive')",
+        {
+          "condition": "q.is_ridden && q.has_entity",
+          "animation": "q.bedrock('ironjugulis', 'ride_air_glide')"
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ironjugulis', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isBattle": false,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('ironjugulis', 'sleep_wild')"
+      ]
+    },
+    "battle_sleep": {
+      "poseTypes": ["SLEEP"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('ironjugulis', 'sleep')"
+      ]
+    }
+  }
+}

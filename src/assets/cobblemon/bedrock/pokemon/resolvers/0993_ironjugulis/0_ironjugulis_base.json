@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:ironjugulis",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironjugulis",
+      "model": "cobblemon:ironjugulis.geo",
+      "texture": "cobblemon:textures/pokemon/0993_ironjugulis/ironjugulis.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0993_ironjugulis/ironjugulis_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0993_ironjugulis/ironjugulis_shiny.png"
+    },
+    {
+      "condition": "q.pose_type() == 'SLEEP'",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0993_ironjugulis/ironjugulis_sleep.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["alpha_eyes"],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0993_ironjugulis/ironjugulis_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
