@@ -5,20 +5,15 @@
 - **DO NOT** install both variants at the same time - pick either one
 - Mod is easier to install & update, addon is easier to customize
 - The mod version works for both Fabric & NeoForge
+
 ## Additions:
-- Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at night time)_
+- Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
 
 ## Updates:
 - Updated Eternatus & Terapagos' catch rate from 255 to 3
+- Raised spawn rate of Ultra Beasts in the Overworld dimension _(end spawns stay the same rarity)_
 
 ## Miscellaneous & Fixes:
-- Fixed Mega Floette model not displaying
+- Fixed MSDs Mega Floette model not displaying properly
 - Resurrection Machine legendaries _(Type Null, Mewtwo & Genesect)_ can no longer be alphas
 - Ultra Beast no longer spawn in the wild if either [Cobblemon Ultra-Beasts](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-beasts) or [Cobblemon Ultra Space](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-space) are installed _(since they add their own spawns)_
-
-
-
-
-
-# TODO
-- Check Ultra Beast weights
