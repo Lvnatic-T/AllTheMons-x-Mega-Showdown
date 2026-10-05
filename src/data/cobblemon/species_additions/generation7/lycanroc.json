@@ -1,9 +1,0 @@
-{
-  "target": "cobblemon:lycanroc",
-  "baseScale": 1,
-  "hitbox": {
-    "width": 1.4,
-    "height": 1.2,
-    "fixed": false
-  }
-}
