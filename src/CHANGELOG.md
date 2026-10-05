@@ -8,12 +8,16 @@
 
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
+- Added Lycanroc (Dusk/Midday) animations made by quinn284!
+- Added Rockruff animations!
 
 ## Updates:
 - Updated Eternatus & Terapagos' catch rate from 255 to 3
+- Kubfu no longer spawns when Legendary Monuments is installed _(was added in LM 8.2)_
 - Raised spawn rate of Ultra Beasts in the Overworld dimension _(end spawns stay the same rarity)_
 
 ## Miscellaneous & Fixes:
 - Fixed MSDs Mega Floette model not displaying properly
+- Removed old models for Rockruff & Lycanroc from ATM in favor of the Cobblemon ones
 - Resurrection Machine legendaries _(Type Null, Mewtwo & Genesect)_ can no longer be alphas
 - Ultra Beast no longer spawn in the wild if either [Cobblemon Ultra-Beasts](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-beasts) or [Cobblemon Ultra Space](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-space) are installed _(since they add their own spawns)_

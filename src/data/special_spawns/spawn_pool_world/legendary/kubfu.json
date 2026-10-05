@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "neededInstalledMods": [],
-  "neededUninstalledMods": [],
+  "neededUninstalledMods": ["legendarymonuments"],
   "spawns": [
     {
       "id": "kubfu-1T",
