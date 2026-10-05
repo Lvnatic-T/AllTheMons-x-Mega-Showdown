@@ -17,6 +17,7 @@
 - Raised spawn rate of Ultra Beasts in the Overworld dimension _(end spawns stay the same rarity)_
 
 ## Miscellaneous & Fixes:
+- Fixed a Dialga spawn not having 3+ perfect IVs
 - Fixed MSDs Mega Floette model not displaying properly
 - Removed old models for Rockruff & Lycanroc from ATM in favor of the Cobblemon ones
 - Resurrection Machine legendaries _(Type Null, Mewtwo & Genesect)_ can no longer be alphas

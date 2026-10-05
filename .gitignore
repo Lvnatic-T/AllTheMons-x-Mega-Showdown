@@ -1,4 +1,10 @@
-.idea
-.env
-build
 .ATM x MSD assets
+.idea
+.spawn_tables
+build
+tools
+
+.env
+build.bat
+publish.bat
+generate_spawn_table.bat

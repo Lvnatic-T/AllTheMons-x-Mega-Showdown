@@ -24,7 +24,7 @@
     },
     {
       "id": "dialga-2T",
-      "pokemon": "dialga",
+      "pokemon": "dialga min_perfect_ivs=3",
       "presets": [
         "natural",
         "wild"
