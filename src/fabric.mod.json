@@ -15,7 +15,7 @@
     "mega_showdown": ">=1.2.0+1.8.1+1.21.1-release"
   },
   "breaks": {
-    "z_atm_x_msd": "*"
+    "z_atm": "*"
   },
   "custom": {
     "modmenu": {
