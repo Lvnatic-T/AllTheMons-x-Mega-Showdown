@@ -9,8 +9,8 @@ version = "5.0"
 displayName = "Cobblemon: ATM x MSD"
 authors = "Lvantic
 description = '''
-ATM x MSD Version 5.0
-by Lvnatic and many others!
+AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon.
+All of the addons its made of have been modified to ensure that there's no overlap, which prevents any game-breaking bugs/crashes you would experience without it.
 '''
 logoFile = "pack.png"
 
