@@ -9,33 +9,36 @@
     "faint": "q.bedrock_primary('wigglytuff', 'faint', q.curve('one'))"
   },
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
       "animations": [
-        "q.bedrock('wigglytuff', 'ground_idle')"
-      ]
+        "q.bedrock('wigglytuff', 'ground_idle')",
+        "q.bedrock('wigglytuff', 'angry')"
+      ],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('wigglytuff', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
     },
     "walking": {
-      "poseName": "walking",
       "poseTypes": ["WALK"],
-      "animations": [
-        "q.bedrock('wigglytuff', 'ground_walk')"
-      ]
+      "animations": ["q.bedrock('wigglytuff', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
     },
 	"hover": {
-      "poseName": "walking",
       "poseTypes": ["HOVER", "FLOAT"],
-      "animations": [
-        "q.bedrock('wigglytuff', 'air_idle')"
-      ]
+      "isBattle": false,
+      "animations": ["q.bedrock('wigglytuff', 'air_idle')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
     },
 	"fly": {
-      "poseName": "walking",
       "poseTypes": ["FLY", "SWIM"],
-      "animations": [
-        "q.bedrock('wigglytuff', 'air_fly')"
-      ]
+      "animations": ["q.bedrock('wigglytuff', 'air_fly')"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink', 2, 5, 1)"]
     }
   }
 }
