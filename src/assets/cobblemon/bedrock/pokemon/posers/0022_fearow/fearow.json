@@ -69,7 +69,7 @@
         "q.bedrock('fearow', 'air_fly')"
       ],
 	  "quirks": [
-       "q.bedrock_quirk('fearow', 'air_fly_quirk', 1, 5	, 1)"
+       "q.bedrock_quirk('fearow', 'air_fly_quirk', 1, 5, 1)"
      ],
       "transformedParts": [
         {

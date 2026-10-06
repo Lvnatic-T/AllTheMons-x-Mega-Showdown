@@ -19,6 +19,7 @@
 - Raised spawn rate of Ultra Beasts in the Overworld dimension _(end spawns stay the same rarity)_
 
 ## Miscellaneous & Fixes:
+- Fixed a parsing error in Fearows poser
 - Fixed a Dialga spawn not having 3+ perfect IVs
 - Fixed Wigglytuff not blinking & having twisted arms
 - Fixed MSDs Mega Floette model not displaying properly/at all
