@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "z_atm_x_msd",
   "version": "5.0",
-  "name": "Cobblemon: ATM x MSD",
+  "name": "Cobblemon: AllTheMons x Mega Showdown",
   "description": "AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon. \nAll of the addons its made of have been modified to ensure that there's no overlap, which prevents any game-breaking bugs/crashes you would experience without it.",
   "authors": [
     "Lvantic"
@@ -13,6 +13,9 @@
   "depends": {
     "cobblemon": ">=1.8.1",
     "mega_showdown": ">=1.2.0+1.8.1+1.21.1-release"
+  },
+  "breaks": {
+    "z_atm_x_msd": "*"
   },
   "custom": {
     "modmenu": {

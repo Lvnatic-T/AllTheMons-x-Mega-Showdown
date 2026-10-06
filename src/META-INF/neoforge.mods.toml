@@ -6,7 +6,7 @@ license = "ALLTHEMONS LICENSE v3.2"
 [[mods]]
 modId = "z_atm_x_msd"
 version = "5.0"
-displayName = "Cobblemon: ATM x MSD"
+displayName = "Cobblemon: AllTheMons x Mega Showdown"
 authors = "Lvantic
 description = '''
 AllTheMons is a collaborative effort from many contributors to add as many Pokemon as possible to Cobblemon.
@@ -27,5 +27,13 @@ modId = "mega_showdown"
 type = "required"
 reason = "You're missing like the second most important mod for this to work. Install/Update it!"
 versionRange = "[>=1.2.0+1.8.1+1.21.1-release,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.z_atm_x_msd]]
+modId = "z_atm"
+type = "incompatible"
+versionRange = "*"
+reason = "You can only use either AllTheMons OR ATM x MSD, not both!"
 ordering = "AFTER"
 side = "BOTH"
