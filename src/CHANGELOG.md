@@ -10,8 +10,8 @@
 ## Updated to Cobblemon 1.8.2+
 - Removed Greavard, Heliolisk, Helioptile & Houndstone
 - Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
-- Removed custom animations for Greninja, Chesnaught, Delphox
 - Updated animations to new models for Braixen, Spheal, Shinx, Luxio, Luxray & Politoed
+- Removed custom animations for Greninja, Chesnaught, Delphox, Treecko _(Cobblemon adds better ones)_
 
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
