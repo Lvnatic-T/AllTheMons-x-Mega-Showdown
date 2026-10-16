@@ -1,9 +1,9 @@
 {
   "head": "head",
-  "portraitScale": 2.22,
-  "portraitTranslation": [ 0, -0.55, 0 ],
-  "profileScale": 1,
-  "profileTranslation": [ 0, 0.2, 0 ],
+  "portraitScale": 1.83,
+  "portraitTranslation": [-0.16, 0.14, 0],
+  "profileScale": 0.84,
+  "profileTranslation": [0, 0.39, 0],
   "animations": {
     "cry": "q.bedrock_stateful('politoed', 'cry')",
 	  "status": "q.bedrock_stateful('politoed', 'cry')"
