@@ -1,5 +1,8 @@
 ## v5.0 Changelog:
-## Compatible with Mega Showdown 1.2+
+## Compatible with Mega Showdown 1.3.1+
+## Updated to Cobblemon 1.8.2+
+- Removed Greavard, Heliolisk, Helioptile & Houndstone
+- Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
 ## Available as a mod now!
 - From this version on ATM x MSD will always release as both a mod & an addon (data/resource pack)
 - **DO NOT** install both variants at the same time - pick either one
@@ -8,7 +11,7 @@
 
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
-- Added Lycanroc (Dusk/Midday) animations made by **quinn284**!
+- Added Lycanroc (Dusk/Midday/Midnight) animations made by **quinn284**!
 - Added Rockruff animations & shoulder mount
 - Added a Battle Idle to Wigglytuff
 

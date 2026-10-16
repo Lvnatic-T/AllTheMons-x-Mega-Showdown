@@ -11,8 +11,8 @@
   "icon": "pack.png",
   "environment": "*",
   "depends": {
-    "cobblemon": ">=1.8.1",
-    "mega_showdown": ">=1.2.0+1.8.1+1.21.1-release"
+    "cobblemon": ">=1.8.2",
+    "mega_showdown": ">=1.3.1+1.8.2+1.21.1-release"
   },
   "breaks": {
     "z_atm": "*"
