@@ -13,6 +13,7 @@
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
 - Added Lycanroc (Dusk/Midday/Midnight) animations made by **quinn284**!
+- Added Absol animations & riding, can now walk on water
 - Added Rockruff animations & shoulder mount
 - Added a Battle Idle to Wigglytuff
 ## Updates:
