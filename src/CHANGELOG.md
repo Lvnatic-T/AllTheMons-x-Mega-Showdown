@@ -10,7 +10,7 @@
 ## Updated to Cobblemon 1.8.2+
 - Removed Greavard, Heliolisk, Helioptile & Houndstone
 - Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
-- Removed custom animations for Greninja, Chesnaught
+- Removed custom animations for Greninja, Chesnaught, Delphox
 - Updated animations to new models for Braixen, Spheal, & Politoed
 
 ## Additions:
