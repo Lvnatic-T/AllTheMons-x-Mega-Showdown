@@ -3,7 +3,7 @@
 ## Updated to Cobblemon 1.8.2+
 - Removed Greavard, Heliolisk, Helioptile & Houndstone
 - Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
-- Removed custom animations for Greninja
+- Removed custom animations for Greninja, Chesnaught
 - Updated animations to new models for Spheal, & Politoed
 ## Available as a mod now!
 - From this version on ATM x MSD will always release as both a mod & an addon (data/resource pack)
