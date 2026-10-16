@@ -11,7 +11,7 @@
 - Removed Greavard, Heliolisk, Helioptile & Houndstone
 - Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
 - Removed custom animations for Greninja, Chesnaught, Delphox
-- Updated animations to new models for Braixen, Spheal, & Politoed
+- Updated animations to new models for Braixen, Spheal, Shinx, Luxio, Luxray & Politoed
 
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
