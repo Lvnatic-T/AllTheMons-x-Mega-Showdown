@@ -52,7 +52,10 @@
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"0.5": [180, 0, 0],
-						"0.5417": {"pre": [180, 0, 0], "post": [-165, 0, 0]},
+						"0.5417": {
+							"pre": [180, 0, 0],
+							"post": [-165, 0, 0]
+						},
 						"1.0": [0, 0, 0]
 					},
 					"position": {
@@ -269,6 +272,17 @@
 			"sound_effects": {
 				"0.0417": {
 					"effect": "pokemon.spheal.cry"
+				}
+			}
+		},
+		"animation.spheal.ditto_face": {
+			"loop": true,
+			"bones": {
+				"ditto_face": {
+					"position": [0, 0, -1]
+				},
+				"face": {
+					"scale": 0
 				}
 			}
 		}
