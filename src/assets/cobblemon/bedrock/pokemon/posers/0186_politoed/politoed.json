@@ -1,14 +1,12 @@
 {
-    "head": "head",
-    "portraitScale": 2.22,
-    "portraitTranslation": [ 0, -0.55, 0 ],
-    "profileScale": 1,
-    "profileTranslation": [ 0, 0.2, 0 ],
+  "head": "head",
+  "portraitScale": 2.22,
+  "portraitTranslation": [ 0, -0.55, 0 ],
+  "profileScale": 1,
+  "profileTranslation": [ 0, 0.2, 0 ],
   "animations": {
     "cry": "q.bedrock_stateful('politoed', 'cry')",
-	"physical": "q.bedrock_stateful('politoed', 'physical')",
-    "special": "q.bedrock_stateful('politoed', 'physical')",
-	"status": "q.bedrock_stateful('politoed', 'cry')"
+	  "status": "q.bedrock_stateful('politoed', 'cry')"
   },
   "poses": {
     "battle-standing": {
