@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "floette-eternal-1",
+            "pokemon": "floette flower=eternal",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "35-65",
+            "weight": 5.0,
+            "weightMultiplier": {
+                "multiplier": 0.25,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "neededNearbyBlocks": [
+                    "#cobblemon:pink_flowers",
+					"#cobblemon:red_flowers",
+					"#cobblemon:blue_flowers",
+					"#cobblemon:yellow_flowers",
+					"#cobblemon:orange_flowers",
+					"#cobblemon:white_flowers"
+                ]
+            }
+        }
+    ]
+}

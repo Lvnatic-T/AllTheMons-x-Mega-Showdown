@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ursaluna-bloodmoon-1",
+            "pokemon": "ursaluna bloodmoon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "50-65",
+            "weight": 11.5,
+            "weightMultipliers": [
+                {
+                    "multiplier": 15,
+                    "condition": {
+                       "moonPhase": 0
+                    }
+                }
+            ],
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

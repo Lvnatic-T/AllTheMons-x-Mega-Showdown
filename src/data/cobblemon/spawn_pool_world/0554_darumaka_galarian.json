@@ -1,0 +1,43 @@
+{
+  "enabled": "true",
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "darumaka-galarian-1",
+      "pokemon": "darumaka galarian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "7-32",
+      "weight": 15.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "darumaka-galarian-2",
+      "pokemon": "darumaka galarian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 18.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_frozen"
+        ]
+      }
+    }
+  ]
+}
