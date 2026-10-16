@@ -1,33 +1,60 @@
 {
-  "portraitScale": 1.91,
-  "portraitTranslation": [-0.91, 1.18, 0],
-  "profileScale": 0.59,
+  "portraitScale": 1.81,
+  "portraitTranslation": [-1.09, 1.6, 0],
+  "profileScale": 0.55,
   "profileTranslation": [-0.02, 0.85, 0],
   "rootBone": "absol",
+  "firstPersonCameraOffset": {
+    "seat_1": [0.0, 0.1, -0.05]
+  },
   "animations": {
-    "cry": "q.bedrock_stateful('absol', 'cry')"
+    "cry": "q.bedrock_stateful('absol', 'cry')",
+    "recoil": "q.bedrock_stateful('absol', 'recoil')",
+    "status": "q.bedrock_stateful('absol', 'cry')"
   },
   "poses": {
     "battle-standing": {
-      "poseName": "battle-standing",
       "poseTypes": ["STAND"],
       "isBattle": true,
-      "animations": ["q.look('head')", "q.bedrock('absol', 'battle_idle')"],
-      "quirks": ["q.bedrock_quirk('absol', 'blink')"]
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('absol', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('absol', 'blink', 2, 5, 1)"]
     },
-	"standing": {
+    "standing": {
       "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
       "isBattle": false,
-      "animations": ["q.look('head')", "q.bedrock('absol', 'ground_idle')"],
-      "quirks": ["q.bedrock_quirk('absol', 'blink')"]
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('absol', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('absol', 'blink', 2, 5, 1)"]
+    },
+    "running": {
+      "poseTypes": ["WALK"],
+      "isBattle": false,
+      "transformTicks": 5,
+      "condition": "q.is_sprinting",
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('absol', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('absol', 'blink', 2, 5, 1)"]
     },
     "walking": {
       "poseTypes": ["WALK", "SWIM"],
+      "transformTicks": 5,
+      "condition": "!q.is_sprinting",
       "animations": [
-        "q.look('head')",
+        "q.look('head_ai')",
         "q.bedrock('absol', 'ground_walk')"
       ],
-      "quirks": ["q.bedrock_quirk('absol', 'blink')"]
+      "quirks": ["q.bedrock_quirk('absol', 'blink', 2, 5, 1)"]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('absol', 'sleep')"]
     }
   }
 }
