@@ -1,15 +1,17 @@
 ## v5.0 Changelog:
 ## Compatible with Mega Showdown 1.3.1+
-## Updated to Cobblemon 1.8.2+
-- Removed Greavard, Heliolisk, Helioptile & Houndstone
-- Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
-- Removed custom animations for Greninja, Chesnaught
-- Updated animations to new models for Spheal, & Politoed
+
 ## Available as a mod now!
 - From this version on ATM x MSD will always release as both a mod & an addon (data/resource pack)
 - **DO NOT** install both variants at the same time - pick either one
 - Mod is easier to install & update, addon is easier to customize
 - The mod version works for both Fabric & NeoForge
+
+## Updated to Cobblemon 1.8.2+
+- Removed Greavard, Heliolisk, Helioptile & Houndstone
+- Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
+- Removed custom animations for Greninja, Chesnaught
+- Updated animations to new models for Braixen, Spheal, & Politoed
 
 ## Additions:
 - Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
