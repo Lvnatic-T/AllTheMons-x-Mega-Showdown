@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:castform",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["snowy-form"],
+      "poser": "cobblemon:castform_snowy",
+      "model": "cobblemon:castform_snowy.geo",
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_snowy.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0351_castform/castform_snowy_translucent.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny","snowy-form"],
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_snowy_shiny.png"
+    }
+  ]
+}

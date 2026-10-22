@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.06, 0.23, 0],
+  "profileScale": 1.0,
+  "profileTranslation": [0.0, 0.68, 0],
+  "rootBone": "castform",
+  "animations": {
+    "cry": "q.bedrock_stateful('castform_sunny', 'cry')",
+    "faint": "q.bedrock_stateful('castform_sunny', 'faint')",
+    "recoil": "q.bedrock_stateful('castform_sunny', 'recoil')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('castform_sunny', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('castform_sunny', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": ["q.bedrock('castform_sunny', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('castform_sunny', 'blink')"]
+    }
+  }
+}

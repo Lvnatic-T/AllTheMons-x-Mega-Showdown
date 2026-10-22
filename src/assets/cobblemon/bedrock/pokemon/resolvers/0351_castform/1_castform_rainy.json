@@ -1,0 +1,24 @@
+{
+  "species": "cobblemon:castform",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["rainy-form"],
+      "poser": "cobblemon:castform_rainy",
+      "model": "cobblemon:castform_rainy.geo",
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_rainy.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0351_castform/castform_rainy_translucent.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny","rainy-form"],
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_rainy_shiny.png"
+    }
+  ]
+}

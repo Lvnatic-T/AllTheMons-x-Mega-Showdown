@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:castform",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:castform",
+      "model": "cobblemon:castform.geo",
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_shiny.png"
+    }
+  ]
+}
