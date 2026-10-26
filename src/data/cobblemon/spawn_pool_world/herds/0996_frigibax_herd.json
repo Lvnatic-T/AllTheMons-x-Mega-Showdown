@@ -1,0 +1,107 @@
+{
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "bucket": "rare",
+            "condition": {
+                "biomes": [
+                    "minecraft:frozen_peaks",
+                    "minecraft:ice_spikes",
+                    "#cobblemon:is_freezing",
+                    "#cobblemon:is_cold"
+                ],
+                "maxSkyLight": 7,
+                "minSkyLight": 0,
+                "minY": 0
+            },
+            "herdablePokemon": [
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "8-27",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "pokemon": "frigibax",
+                    "weight": 80.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "26-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 1,
+                    "pokemon": "arctibax",
+                    "weight": 18.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "49-55",
+                    "levelRangeOffset": "-1-5",
+                    "maxTimes": 1,
+                    "pokemon": "baxcalibur",
+                    "weight": 2.0
+                }
+            ],
+            "id": "frigibax-herd-1",
+            "levelRange": "5-60",
+            "maxHerdSize": 5,
+            "presets": [
+                "natural"
+            ],
+            "spawnablePositionType": "grounded",
+            "type": "pokemon-herd",
+            "weight": 20.0
+        },
+        {
+            "bucket": "rare",
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
+                ],
+                "maxSkyLight": 7,
+                "minSkyLight": 0,
+                "minY": 0
+            },
+            "herdablePokemon": [
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "8-27",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "pokemon": "frigibax",
+                    "weight": 80.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "26-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 1,
+                    "pokemon": "arctibax",
+                    "weight": 18.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "49-55",
+                    "levelRangeOffset": "-1-5",
+                    "maxTimes": 1,
+                    "pokemon": "baxcalibur",
+                    "weight": 2.0
+                }
+            ],
+            "id": "frigibax-herd-5",
+            "levelRange": "5-60",
+            "maxHerdSize": 5,
+            "presets": [
+                "natural"
+            ],
+            "spawnablePositionType": "grounded",
+            "type": "pokemon-herd",
+            "weight": 20.0
+        }
+    ]
+}

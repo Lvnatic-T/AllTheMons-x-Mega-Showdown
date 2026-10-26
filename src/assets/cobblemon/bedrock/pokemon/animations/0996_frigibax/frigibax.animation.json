@@ -13,6 +13,9 @@
 				"chest": {
 					"rotation": [-17.5, 0, 0]
 				},
+				"arm_left": {
+					"rotation": [44.2263, 0.9773, -29.5061]
+				},
 				"bone8": {
 					"rotation": [-20, 0, 0]
 				},
@@ -36,6 +39,9 @@
 				},
 				"bone13": {
 					"rotation": [-20, 0, 0]
+				},
+				"arm_right": {
+					"rotation": [53.4791, 14.3519, 40.4124]
 				},
 				"bone7": {
 					"rotation": [-25, 0, 0]
@@ -179,7 +185,7 @@
 					"position": [0, -0.5, 0]
 				},
 				"torso": {
-					"rotation": ["-2.5+math.sin(q.anim_time*90*4-90)*1.1", 0, "-math.sin(q.anim_time*90*2-90)*1.1"],
+					"rotation": ["7.5+math.sin(q.anim_time*90*4-90)*1.1", 0, "-math.sin(q.anim_time*90*2-90)*1.1"],
 					"position": [0, "0-math.sin(q.anim_time*90*4)*0.2", 0]
 				},
 				"bone5": {
@@ -189,17 +195,17 @@
 					"rotation": [0, "-0+math.sin(q.anim_time*90*2-188)*5", 0]
 				},
 				"chest": {
-					"rotation": ["-7.5+math.sin(q.anim_time*90*4)*1.1", 0, 0],
+					"rotation": ["-17.5+math.sin(q.anim_time*90*4)*1.1", 0, 0],
 					"position": [0, 0, 0]
 				},
 				"arm_left": {
-					"rotation": ["-0+math.sin(q.anim_time*90*4-90)*1.1", 0, 0]
+					"rotation": ["29.0071+math.sin(q.anim_time*90*4-90)*1.1", 13.962, 21.6269]
 				},
 				"bone8": {
-					"rotation": [-20, 0, 0]
+					"rotation": [-26.2738, 39.4086, -17.401]
 				},
 				"bone12": {
-					"rotation": [0, "22.5+math.sin(q.anim_time*90*4-90)*1.1", 0]
+					"rotation": [0, "37.5+math.sin(q.anim_time*90*4-90)*1.1", 0]
 				},
 				"leg_left": {
 					"rotation": ["-12.5-math.sin(q.anim_time*90*4)*3", -15, 0],
@@ -225,16 +231,38 @@
 					"rotation": ["-20+math.sin(q.anim_time*90*4-100)*3", 0, 0]
 				},
 				"arm_right": {
-					"rotation": ["-0+math.sin(q.anim_time*90*4-90)*1.1", 0, 0]
+					"rotation": ["33.4891+math.sin(q.anim_time*90*4-90)*1.1", -34.5195, -14.9556]
 				},
 				"bone7": {
-					"rotation": [-25, 0, 0]
+					"rotation": [-27.7314, -24.7391, 12.4074]
 				},
 				"bone15": {
 					"rotation": ["-17.5+math.sin(q.anim_time*90*4-100)*3", 0, 0]
 				},
 				"bone34": {
-					"rotation": [0, "-25-math.sin(q.anim_time*90*4-90)*1.1", 0]
+					"rotation": [0, "-40-math.sin(q.anim_time*90*4-90)*1.1", 0]
+				}
+			}
+		},
+		"animation.frigibax.battle_idle": {
+			"loop": true,
+			"bones": {
+				"chest": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"arm_left": {
+					"rotation": [41.273, -12.5264, -62.6444],
+					"position": [0, 1, 0]
+				},
+				"bone8": {
+					"rotation": [0, 20, 0]
+				},
+				"arm_right": {
+					"rotation": [77.3013, 20.2411, 83.3507],
+					"position": [0, 1, 0]
+				},
+				"bone7": {
+					"rotation": [0, -30, 0]
 				}
 			}
 		},
