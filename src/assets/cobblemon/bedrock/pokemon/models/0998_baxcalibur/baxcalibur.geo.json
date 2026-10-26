@@ -7,8 +7,8 @@
 				"texture_width": 256,
 				"texture_height": 256,
 				"visible_bounds_width": 7,
-				"visible_bounds_height": 5.5,
-				"visible_bounds_offset": [0, 2.25, 0]
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
 			"bones": [
 				{
@@ -246,6 +246,14 @@
 					]
 				},
 				{
+					"name": "locator_eye_left",
+					"parent": "bone10",
+					"pivot": [3.75, 60.25, -4.25],
+					"locators": {
+						"eye1": [3.75, 60.25, -4.25]
+					}
+				},
+				{
 					"name": "bone22",
 					"parent": "jaw_upper",
 					"pivot": [-2.45, 58.91629, -3.14026],
@@ -275,6 +283,14 @@
 						{"origin": [-3.425, 59.46629, -6.14026], "size": [2, 2, 2], "inflate": 0.01, "uv": [156, 121]},
 						{"origin": [-3.425, 59.46629, -5.59026], "size": [2, 2, 1], "inflate": 0.015, "uv": [56, 193]}
 					]
+				},
+				{
+					"name": "locator_eye_right",
+					"parent": "bone22",
+					"pivot": [-3.5, 60.25, -4.25],
+					"locators": {
+						"eye2": [-3.5, 60.25, -4.25]
+					}
 				},
 				{
 					"name": "bone",

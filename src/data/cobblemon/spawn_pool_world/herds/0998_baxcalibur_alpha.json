@@ -1,0 +1,183 @@
+{
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "bucket": "boss",
+            "condition": {
+                "biomes": [
+                    "minecraft:frozen_peaks",
+          "minecraft:ice_spikes",
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_cold"
+                ],
+                "maxSkyLight": 7,
+                "minSkyLight": 0,
+                "minY": 0
+            },
+            "herdablePokemon": [
+                {
+                    "isFollower": false,
+                    "isLeader": true,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "pokemon": "baxcalibur held_item=cobblemon:dragon_gem alpha=true",
+                    "weight": 30.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "8-27",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "pokemon": "frigibax",
+                    "weight": 80.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "26-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "pokemon": "arctibax",
+                    "weight": 70.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "49-55",
+                    "levelRangeOffset": "-1-5",
+                    "maxTimes": 3,
+                    "pokemon": "baxcalibur",
+                    "weight": 50.0
+                }
+            ],
+            "id": "baxcalibur-alpha-1",
+            "levelRange": "46-100",
+            "maxHerdSize": 7,
+            "presets": [
+                "natural"
+            ],
+            "spawnablePositionType": "grounded",
+            "type": "pokemon-herd",
+            "weight": 50.0
+        },
+        {
+            "bucket": "boss",
+            "condition": {
+                "biomes": [
+                    "minecraft:frozen_peaks",
+          "minecraft:ice_spikes",
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_cold"
+                ],
+                "maxSkyLight": 15,
+                "minSkyLight": 8
+            },
+            "herdablePokemon": [
+                {
+                    "isFollower": false,
+                    "isLeader": true,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "pokemon": "baxcalibur held_item=cobblemon:dragon_gem alpha=true",
+                    "weight": 30.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "8-27",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "pokemon": "frigibax",
+                    "weight": 80.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "26-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "pokemon": "arctibax",
+                    "weight": 70.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "49-55",
+                    "levelRangeOffset": "-1-5",
+                    "maxTimes": 3,
+                    "pokemon": "baxcalibur",
+                    "weight": 50.0
+                }
+            ],
+            "id": "baxcalibur-alpha-2",
+            "levelRange": "46-100",
+            "maxHerdSize": 7,
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "spawnablePositionType": "grounded",
+            "type": "pokemon-herd",
+            "weight": 10.0
+        },
+        {
+            "bucket": "boss",
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_frozen"
+                ],
+                "maxSkyLight": 7,
+                "minSkyLight": 0,
+                "minY": 0
+            },
+            "herdablePokemon": [
+                {
+                    "isFollower": false,
+                    "isLeader": true,
+                    "levelRange": "1-100",
+                    "maxTimes": 1,
+                    "pokemon": "baxcalibur held_item=cobblemon:dragon_gem alpha=true",
+                    "weight": 30.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "8-27",
+                    "levelRangeOffset": "-3-3",
+                    "maxTimes": 7,
+                    "pokemon": "frigibax",
+                    "weight": 80.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "26-43",
+                    "levelRangeOffset": "-2-4",
+                    "maxTimes": 5,
+                    "pokemon": "arctibax",
+                    "weight": 70.0
+                },
+                {
+                    "isFollower": true,
+                    "isLeader": false,
+                    "levelRange": "49-55",
+                    "levelRangeOffset": "-1-5",
+                    "maxTimes": 3,
+                    "pokemon": "baxcalibur",
+                    "weight": 50.0
+                }
+            ],
+            "id": "baxcalibur-alpha-3",
+            "levelRange": "46-100",
+            "maxHerdSize": 7,
+            "presets": [
+                "natural"
+            ],
+            "spawnablePositionType": "grounded",
+            "type": "pokemon-herd",
+            "weight": 10.0
+        }
+    ]
+}
