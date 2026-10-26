@@ -1,34 +1,13 @@
-## v5.0 Changelog:
-## Compatible with Cobblemon 1.8.2 & Mega Showdown 1.3.1+
-## Available as a mod now!
-- From this version on ATM x MSD will always release as both a mod & an addon (data/resource pack)
-- **DO NOT** install both variants at the same time - pick either one
-- Mod is easier to install & update, addon is easier to customize
-- The mod version works for both Fabric & NeoForge
-## Updated to Cobblemon 1.8.2+
-- Removed Greavard, Heliolisk, Helioptile & Houndstone
-- Removed custom spawns for Burmy, Wormadam, Mothim, Snover & Minior
-- Updated animations to new models for Braixen, Spheal, Shinx, Luxio, Luxray & Politoed
-- Removed custom animations for Greninja, Chesnaught, Delphox, Treecko _(Cobblemon adds better ones)_
+## v5.1 Changelog:
+## Compatible with Cobblemon 1.8.3 & Mega Showdown 1.3.1+
+- Removed Fearow animations since Cobblemon added better ones
 ## Additions:
-- Added fully animated & rideable Iron Jugulis _(spawns in peak biomes at nighttime)_
-- Added Lycanroc (Dusk/Midday/Midnight) animations made by **quinn284**!
-- Added Absol animations & riding, can now walk on water
-- Added Rockruff animations & shoulder mount
-- Added a Battle Idle to Wigglytuff
+- Added herd spawns & alpha eyes to Frigibax
+- Added alpha spawns & alpha eyes to Baxcalibur
 ## Updates:
-- Updated Victini's V-Create so it has more and better fitting particles
-- Updated Eternatus & Terapagos' catch rate from 255 to 3 _(matching other legends)_
-- Kubfu no longer spawns when Legendary Monuments is installed _(was added in LM 8.2)_
-- Raised spawn rate of Ultra Beasts in the Overworld dimension _(end spawns stay the same rarity)_
+- Updated Frigibax model
+- Updated Baxcalibur model
 ## Miscellaneous & Fixes:
-- Fixed a parsing error in Fearows poser
-- Fixed a Dialga spawn not having 3+ perfect IVs
-- Fixed Wigglytuff not blinking & having twisted arms
-- Updated some spawns to be additions instead of overwrites
-- Fixed MSDs Mega Floette model not displaying properly/at all
-- Removed old models for Rockruff & Lycanroc from ATM in favor of the new ones
-- Resurrection Machine legendaries _(Type Null, Mewtwo & Genesect)_ can no longer be alphas
-- Ultra Beast no longer spawn in the wild if either [Cobblemon Ultra-Beasts](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-beasts) or [Cobblemon Ultra Space](https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-space) are installed _(since they add their own spawns)_
+- Added an Alphas & Herds tab to the spawn spreadsheet
 
 Since CobbleBot is currently down you can find a spawn spreadsheet right [here](https://drive.google.com/drive/u/0/folders/1z8Aw5CXDzHxmQFOLSItMGiAtn2KDOz_b)
