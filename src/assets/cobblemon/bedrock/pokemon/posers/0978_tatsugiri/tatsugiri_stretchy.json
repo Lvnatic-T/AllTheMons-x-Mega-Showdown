@@ -1,0 +1,91 @@
+{
+  "portraitScale": 2.52,
+  "portraitTranslation": [-0.25, -1.55, 0],
+  "profileScale": 0.99,
+  "profileTranslation": [0, 0.28, 0],
+  "rootBone": "tatsugiri",
+  "animations": {
+    "cry": "q.bedrock_stateful('tatsugiri', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "WALK"],
+	  "isBattle": true,
+      "animations": [
+        "q.bedrock('tatsugiri', 'stretch_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tatsugiri', 'blink')"
+      ]
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+	  "isBattle": false,
+      "animations": [
+        "q.bedrock('tatsugiri', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tatsugiri', 'blink')"
+      ]
+    },
+	"walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('tatsugiri', 'stretch_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tatsugiri', 'blink')"
+      ]
+    },
+	"float": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.bedrock('tatsugiri', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tatsugiri', 'blink')"
+      ]
+    },
+	"swimming": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.bedrock('tatsugiri', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tatsugiri', 'blink')"
+      ]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tatsugiri', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tatsugiri', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [3, 0, 0]
+        }
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tatsugiri', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tatsugiri', 'blink')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [-3, 0, 0]
+        }
+      ]
+    }
+  }
+}
