@@ -1,35 +1,52 @@
 {
-    "head": "head",
-    "portraitScale": 1.75,
-    "portraitTranslation": [ -1.0, 2.9, 0 ],
-    "profileScale": 0.35,
-    "profileTranslation": [ -0.1, 1.2, 0 ],
-    "faint": "bedrock(runerigus, sleep)",
-    "poses": {
-
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": [
-          "STAND",
-          "NONE",
-          "PORTRAIT",
-          "PROFILE"
-        ],
-        "animations": [
-          "look",
-          "bedrock(runerigus, ground_idle)"
-        ]
+  "portraitScale": 1.34,
+  "portraitTranslation": [-0.99, 2.04, 0],
+  "profileScale": 0.36,
+  "profileTranslation": [-0.04, 1.24, 0],
+  "rootBone": "runerigus",
+  "animations": {
+    "cry": "q.bedrock_stateful('runerigus', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND", "HOVER", "FLOAT"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('runerigus', 'battle_idle')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary ('runerigus', 'battle_cry', q.curve('symmetrical_wide'))"
       },
-
-      "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": [ "WALK" ],
-        "animations": [ 
-          "look",
-          "bedrock(runerigus, ground_walk)"
-        ]
-      }
+      "quirks": ["q.bedrock_quirk('runerigus', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('runerigus', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('runerigus', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('runerigus', 'air_fly')"],
+      "quirks": ["q.bedrock_quirk('runerigus', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["FLOAT", "HOVER"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('runerigus', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('runerigus', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": ["q.bedrock('runerigus', 'air_fly')"],
+      "quirks": ["q.bedrock_quirk('runerigus', 'blink')"]
     }
   }
+}
