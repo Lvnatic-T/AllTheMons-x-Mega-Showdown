@@ -1,0 +1,37 @@
+{
+  "portraitScale": 1.59,
+  "portraitTranslation": [-0.9,1.82,0],
+  "profileScale": 0.51,
+  "profileTranslation": [-0.1,0.96,0],
+  "rootBone": "chesnaught",
+  "animations": {
+    "cry": "q.bedrock_stateful('chesnaught', 'cry')",
+	"status": "q.bedrock_primary ('chesnaught', 'battle_cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('chesnaught', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('chesnaught', 'blink')"],
+	  "namedAnimations": {
+            "cry": "q.bedrock_primary ('chesnaught', 'battle_cry', q.curve('symmetrical_wide'))"
+          }
+    },
+	"standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('chesnaught', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('chesnaught', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('chesnaught', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('chesnaught', 'blink')"]
+    }
+  }
+}
