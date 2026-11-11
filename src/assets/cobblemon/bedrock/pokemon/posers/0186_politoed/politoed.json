@@ -1,9 +1,9 @@
 {
-  "head": "head",
   "portraitScale": 1.83,
   "portraitTranslation": [-0.16, 0.14, 0],
   "profileScale": 0.84,
   "profileTranslation": [0, 0.39, 0],
+  "rootBone": "politoed",
   "animations": {
     "cry": "q.bedrock_stateful('politoed', 'cry')",
 	  "status": "q.bedrock_stateful('politoed', 'cry')"
@@ -11,39 +11,45 @@
   "poses": {
     "battle-standing": {
       "poseTypes": ["STAND"],
-      "isBattle": true,
+	  "isBattle": true,
       "animations": [
         "q.look('head')",
-		"q.bedrock('politoed', 'battle_idle')"
-      ]
+        "q.bedrock('politoed', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('politoed', 'blink')"]
     },
-    "standing": {
+	"standing": {
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-      "isBattle": false,
+	  "isBattle": false,
       "animations": [
         "q.look('head')",
-		"q.bedrock('politoed', 'ground_idle')"
-      ]
+        "q.bedrock('politoed', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('politoed', 'blink')"]
     },
     "walking": {
       "poseTypes": ["WALK"],
       "animations": [
+        "q.look('head')",
         "q.bedrock('politoed', 'ground_walk')"
-      ]
+      ],
+      "quirks": ["q.bedrock_quirk('politoed', 'blink')"]
     },
     "float": {
       "poseTypes": ["FLOAT"],
       "animations": [
         "q.look('head')",
         "q.bedrock('politoed', 'water_idle')"
-      ]
+      ],
+      "quirks": ["q.bedrock_quirk('politoed', 'blink')"]
     },
     "swim": {
       "poseTypes": ["SWIM"],
       "animations": [
         "q.look('head')",
         "q.bedrock('politoed', 'water_swim')"
-      ]
+      ],
+      "quirks": ["q.bedrock_quirk('politoed', 'blink')"]
     }
   }
 }

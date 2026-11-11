@@ -6,7 +6,10 @@
   "rootBone": "infernape",
   "animations": {
     "cry": "q.bedrock_stateful('infernape', 'cry')",
-	"status": "q.bedrock_primary ('infernape', 'battle_cry', q.curve('symmetrical_wide'))"
+	"status": "q.bedrock_primary ('infernape', 'battle_cry', q.curve('symmetrical_wide'))",
+	"special": "q.bedrock_primary ('infernape', 'special', q.curve('symmetrical_wide'))",
+	"physical": "q.bedrock_primary ('infernape', 'physical', q.curve('symmetrical_wide'))",
+	"faint": "q.bedrock_primary ('infernape', 'faint', q.curve('one'))"
   },
   "poses": {
     "battle-standing": {

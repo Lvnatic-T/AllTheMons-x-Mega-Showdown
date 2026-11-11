@@ -9,17 +9,19 @@
   },
   "poses": {
     "standing": {
-      "poseTypes": ["STAND","NONE","PORTRAIT","PROFILE","FLOAT"],
+      "poseTypes": ["STAND","NONE","PORTRAIT","PROFILE"],
       "isBattle": false,
+      "isTouchingWater": false,
       "animations": [
         "q.look('head', 1, 1, 70, -45, 45, -45)",
         "q.bedrock('vaporeon', 'ground_idle')"
       ],
       "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
     },
-	"battle-standing": {
-      "poseTypes": ["STAND","NONE","PORTRAIT","PROFILE","FLOAT"],
+    "battle-standing": {
+      "poseTypes": ["STAND"],
       "isBattle": true,
+      "isTouchingWater": false,
       "animations": [
         "q.look('head', 1, 1, 70, -45, 45, -45)",
         "q.bedrock('vaporeon', 'battle_idle')"
@@ -27,10 +29,55 @@
       "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
     },
     "walking": {
-      "poseTypes": ["WALK","SWIM"],
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
       "animations": [
         "q.look('head', 1, 1, 70, -45, 45, -45)",
         "q.bedrock('vaporeon', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
+    },
+    "floating": {
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('vaporeon', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
+    },
+    "swimming": {
+      "poseTypes": ["SWIM"],
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('vaporeon', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
+    },
+    "surface-standing": {
+      "poseTypes": ["STAND"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('vaporeon', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
+    },
+    "surface-walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('vaporeon', 'water_swim')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
+    },
+    "battle-floating": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('vaporeon', 'water_idle')"
       ],
       "quirks": ["q.bedrock_quirk('vaporeon', 'blink')"]
     }

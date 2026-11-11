@@ -5,18 +5,28 @@
   "profileTranslation": [0, 0.75, 0],
   "rootBone": "meowstic_male",
   "animations": {
-    "cry": "q.bedrock_stateful('meowstic_male', 'cry')"
+    "cry": "q.bedrock_stateful('meowstic_male', 'cry')",
+	  "status": "q.bedrock_primary ('meowstic_male', 'battle_cry', q.curve('symmetrical_wide'))"
   },
   "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('meowstic_male', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('meowstic_male', 'blink')"],
+	    "namedAnimations": {
+        "cry": "q.bedrock_primary ('meowstic_male', 'battle_cry', q.curve('symmetrical_wide'))"
+      }
+    },
     "standing": {
       "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+	  "isBattle": false,
       "animations": [
         "q.look('head')",
         "q.bedrock('meowstic_male', 'ground_idle')"
       ],
-      "quirks": [
-        "q.bedrock_quirk('meowstic_male', 'blink')"
-      ]
+      "quirks": ["q.bedrock_quirk('meowstic_male', 'blink')"]
     },
     "walking": {
       "poseTypes": ["WALK", "SWIM"],
@@ -24,9 +34,7 @@
         "q.look('head')",
         "q.bedrock('meowstic_male', 'ground_walk')"
       ],
-      "quirks": [
-        "q.bedrock_quirk('meowstic_male', 'blink')"
-      ]
+      "quirks": ["q.bedrock_quirk('meowstic_male', 'blink')"]
     }
   }
 }
