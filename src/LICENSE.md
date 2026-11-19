@@ -1,85 +1,202 @@
-# ALLTHEMONS LICENSE v3.2
+# ALLTHEMONS LICENSE v3.3
 
-Copyright© EasySqueeze & Lvnatic
+**Effective Date:** 20.11.2026  
+Copyright © Lvnatic
 
-This license grants perpetual, non-revocable rights for non-commercial use only. Any permissions relating to commercial or monetized use are discretionary and may be granted or withheld at the sole discretion of the author. Both the document form of the license and the license contained in a .md file with the Software are valid and apply to said Software. This license is authored specifically for the AllTheMons project and is protected by copyright law. Permission is granted to read, reference, and apply this license solely for the purpose of governing use of the AllTheMons Software. No permission is granted to copy, reproduce, modify, rebrand, republish, or use this license text, in whole or in part, for any other project, software, mod, or derivative license without the express written permission of all copyright holders.
+This license governs the use, modification, distribution, and monetization of the **Software**, subject to the permissions and restrictions stated below.
+
+It grants conditional, perpetual, non-exclusive rights for the uses expressly permitted herein. Activities requiring additional permission remain subject to **Written Authorization** from the **Licensor** and, where applicable, other rights holders. This license applies only to releases that expressly identify it as applicable.
+
+This license text is authored specifically for AllTheMons. Permission is granted to read, reference, reproduce, and retain it as necessary to comply with or administer this license. No permission is granted to rebrand, modify, republish, or adapt this license text for unrelated projects or derivative licenses without express written permission from its copyright holders, except as permitted by applicable law.
 
 ## Definitions
 
-### Monetization:
+For the purposes of this license:
 
-Monetization includes, but is not limited to, receiving any form of revenue, donations, subscriptions, perks, or indirect financial benefit as a result of the Software’s presence, use, or distribution. A given exception is the creation of content featuring AllTheMons (video content).
+- **Software:** AllTheMons and its official variants, including AllTheMons x Mega Showdown, where the relevant release expressly identifies this license as applicable. Separately authorized **Forks** are not automatically official releases of the **Software**.
+- **Assets:** All materials and content included in or distributed as part of the **Software**, whether original or third-party, in source or compiled form. This includes code, executable files, models, animations, textures, sprites, artwork, sounds, particles, gameplay data, configurations, documentation, and other files. **Gameplay-data Assets** are functional data files such as recipes and spawn data; **creative Assets** are artistic and audiovisual material such as models, textures, and animations. The term does not imply that every included element is independently copyright-protected or owned by the **Licensor**.
+- **Licensor:** Lvnatic, the current main developer of AllTheMons, or an expressly authorized representative.
+- **Written Authorization:** Express, verifiable written permission from the **Licensor** or another relevant rights holder. It applies only to the uses, projects, **Assets**, and distribution methods actually authorized. Silence or failure to respond is not authorization.
+- **Public Distribution:** Making copies of the **Software**, **Assets**, or **Modified Copies** available to the public or a broadly accessible group through any platform or method. Merely operating a server using the **Software**, without providing its files, is not itself **Public Distribution**.
+- **Private Sharing:** Sharing files exclusively within a limited, specifically invited group that is not generally open to the public. Registration, invitation links, or whitelists do not automatically make a broadly accessible group private.
+- **Modified Copy:** A copy of the **Software** or its **Assets** that has been altered, adapted, converted, rebuilt, or repackaged.
+- **Fork:** A separately maintained project derived from the **Software** or its protected **Assets**, intended for independent **Public Distribution**. An independent compatibility addon is not a **Fork** merely because it works with AllTheMons.
+- **Independent Project:** Separately developed software, addons, datapacks, resource packs, scripts, or integrations that interact with or extend the **Software** without unauthorized copying or redistribution of its **Assets**.
+- **Public Server:** A Minecraft server using the **Software** that is accessible to the public or a broadly accessible group, including servers with registration, applications, or whitelists. A server limited to a genuinely private, specifically invited group is not a **Public Server**.
+- **Authorized Modpack Platforms:** Modrinth and CurseForge, provided that the relevant AllTheMons project is officially available on the platform.
+- **Official Distribution Source:** A project page, repository, or service from which the **Licensor** officially provides the **Software**. An unauthorized upload does not establish an **Official Distribution Source**. This definition does not itself authorize third-party redistribution.
+- **Official Credits:** The project-specific contributor listings in the Google spreadsheet linked in Section 9. Each distinct credited person counts as one contributor, even if listed more than once for different sources or **Assets**.
+- **Platform Revenue:** Earnings automatically awarded to an authorized **Fork** through Modrinth's or CurseForge's built-in creator rewards, advertising, downloads, or comparable platform monetization programs. This means the earnings attributable to the **Fork** as awarded by the platform, not the platform's total advertising revenue.
 
-### Software:
+## 1. Ownership and Intellectual Property
 
-The AllTheMons addon, including all original written and third-party code, models, animations, textures, data files, and other assets distributed as part of the project distributed as part of the project, regardless of packaging format.
+Rights to the **Assets** remain with their respective owners. Contributors retain ownership of their contributions unless a separate valid agreement provides otherwise. Including **Assets** in the **Software** does not transfer ownership to the **Licensor**, another contributor, or any user.
 
-### Public Distribution:
+This license grants permission to use the **Software**, not ownership of its **Assets**. The **Licensor** grants rights over third-party **Assets** only to the extent authorized by their owners. Independently held third-party rights, separate licenses, and rights granted by applicable law remain unaffected.
 
-Making this Software, or any modified version thereof, available to the public by any means, including but not limited to hosting, uploading, publishing, or otherwise providing access through websites, file-sharing services, mod hosting platforms (such as Modrinth), communication platforms (such as Discord), public repositories, launchers, or public or semi-public Minecraft servers where users outside a private, pre-approved group may access or download the Software.
+## 2. Permitted Use
 
-## 1 Grant of License
+Subject to this license and applicable third-party rights, users may:
 
-Permission is hereby granted, free of charge, to any person *(the "User")* obtaining a copy of this software *(the "Software")*, to use, modify, and distribute the Software, subject to the following conditions:
+- Download, install, and use the **Software** privately, including in singleplayer, LAN games, and private Minecraft servers.
+- Modify the **Software** for private use and share original or **Modified Copies** through **Private Sharing**, while preserving required notices.
+- Include unmodified **Software** in public Minecraft Java Edition modpacks under Sections 3 and 4.
+- Create, publish, and monetize **Independent Projects** under Section 5.
+- Operate a **Public Server** after obtaining the **Written Authorization** required by Section 7.
+- Create, publish, and monetize videos, livestreams, screenshots, reviews, guides, tutorials, showcases, and similar media featuring the **Software**, without separate permission or mandatory attribution.
 
-### 1.1 Non-Commercial Use
+Media revenue, including advertising, sponsorships, subscriptions, and donations, is permitted. These media permissions do not authorize distributing extracted **Assets** as standalone reusable files or products.
 
-Users who do not monetize the Software, including but not limited to using it on public Minecraft servers that feature stores and/or donation pages that do not grant gameplay advantages, cosmetic perks, or other benefits related to the Software.
+The permissions above remain subject to lawful termination under Section 10. Nothing in this license limits statutory rights or exceptions that cannot lawfully be restricted.
 
-### 1.2 Commercial Use
+## 3. Attribution
 
-Users who seek to monetize the Software, including but not limited to hosting it on Minecraft servers that feature stores and/or donation pages, or incorporating it into revenue-generating modpacks, must obtain explicit, written permission from the current main developer - Lvnatic, before doing so. Denial of permission by Lvnatic does not require a reason, valid or otherwise, as approval is entirely within his discretion. The Software’s name must be listed in a visible location such as a server mod list, modpack info file, or equivalent public-facing documentation. Attempting to conceal the use of AllTheMons or AllTheMons assets is strictly prohibited.
+Public modpacks distributing the **Software**, authorized **Public Servers**, and authorized public redistributions must visibly identify **AllTheMons** and **Lvnatic**. A link to an **Official Distribution Source** is required **where reasonably possible**.
 
-### 1.3 Modification & Redistribution
+Credit may appear in any reasonably accessible place, including a project description, dependency listing, mod list, credits page, in-game information, documentation, or accessible community channel. Automatic platform attribution is sufficient if it identifies the project and provides an appropriate link where reasonably possible.
 
-Only with explicit written permission can the User (see 3. Revenue Distribution & Author Compliance) upload copies of the Software. This includes but is not limited to redistributing modified or unmodified copies of the Software publicly, redistribute them under a name that does not include the term “AllTheMons”, incorporating it into Minecraft servers that feature donation or store pages as previously outlined. Reuploads of the software on Curseforge are strictly prohibited and won’t be granted permission for undder any circumstance.
+Existing copyright, license, and contributor notices included with the **Software** must be preserved in distributed original or **Modified Copies**, including those shared privately. No separate individual credits list must be assembled beyond preserving the notices already supplied.
 
-If a modified version of the Software includes altered or derivative artistic assets *(including but not limited to models, animations, and textures)* originally created by third-party contributors, the author of the modified pack must:
+Private use and **Private Sharing** require no separate public attribution. An **Independent Project** does not require credit merely because it is compatible with AllTheMons. Attribution never replaces required **Written Authorization**.
 
-	1. Obtain express written permission from the original creator(s) of those artistic assets prior to any public redistribution of the modified version;
+## 4. Redistribution and Modpacks
 
-	2. Provide clear and conspicuous credit to the original creator(s), both within the software itself, and on any platform where the modified version is publicly distributed.
+### 4.1 Modpack Distribution
 
-Redistribution of the modified version is **not permitted** under this license until all the above conditions are fully met.
+Unmodified **Software** may be included in publicly distributed Minecraft Java Edition modpacks without additional **Written Authorization**, provided that:
 
-## 2. Liability & Warranty Disclaimer
+1. The modpack is distributed through an **Authorized Modpack Platform**.
+2. Attribution under Section 3 is provided.
+3. The original **Software** files and required notices are not modified.
+4. The modpack, including the **Software**, can be downloaded and installed without mandatory payment, subscription, or purchase.
 
-The Software is provided "as is," without warranty of any kind, express or implied. The author shall not be held liable for any damages, including but not limited to data loss, server failures, or other issues resulting from the modification of the Software or from the use of modified copies of the Software.
+On Modrinth, the relevant official AllTheMons project must be included through the platform's appropriate embedded dependency or project inclusion mechanism.
 
-## 3. Revenue Distribution & Author Compliance
+Voluntary donations and ordinary platform creator rewards for an otherwise compliant modpack are permitted. These modpack earnings are not **Platform Revenue** from a **Fork**.
 
-Any revenue generated from the Software must be evenly distributed among all consenting contributors to the Software. Any revenue generated must be transparently reported and distributed among contributors per a mutually agreed-upon arrangement. Both the author and contributors must comply with the terms set forth in this license in their own use of the Software.
+A modpack distributed elsewhere may reference the **Software** and direct users to an **Official Distribution Source**, but must not itself distribute its files.
 
-## 4. License Coverage
+### 4.2 Standalone Redistribution
 
-Any and all versions of the Software released prior to November 11, 2024, are licensed under the GPL-3.0-ONLY license.
+Standalone **Public Distribution** of original **Software**, mirrors, and **Modified Copies** requires prior **Written Authorization**, except for unmodified modpack inclusions under Section 4.1 and the external gameplay-data overrides permitted by Section 5.
 
-Any and all versions of the Software released between November 11, 2024, and April 10, 2025, are licensed under the AllTheMons-ARR license, which can be found [here](https://docs.google.com/document/d/10j5-Z61m0Ox89Ky3WYGzhQoLxPfopZ08c2IqGhonV7A/edit?tab=t.0).
+Unmodified standalone reuploads of the official **Software** to CurseForge are prohibited. This does not prohibit a separately approved **Fork** published under Section 6. Permission to include the **Software** in a modpack does not authorize standalone reuploads or forks.
 
-Any and all versions of the Software released between April 11, 2025, and June 6th, 2025, are licensed under the ALLTHEMONS LICENSE v2.1, which can be found [here](https://docs.google.com/document/d/1tWzUpSbcx2n5-Zs6OzvmAnR5RQ2TRfa4vXR1r2Q9ugM/edit?tab=t.y0gf8gi0vspf).
+Any separately authorized **Public Distribution** remains limited to the scope of its **Written Authorization** and applicable third-party rights. Authorization does not automatically permit further sublicensing or redistribution by others.
 
-Any and all versions of the Software released between June 7th, 2025, and December 7th, 2025, are licensed under the ALLTHEMONS LICENSE v3, which can be found [here](https://docs.google.com/document/d/1tPvYDxqcby4cU0LlDGnxFKE-_fZ7GSg733G7MBN8Dos/edit?tab=t.y0gf8gi0vspf).
+## 5. Modifications and Independent Projects
 
-Any and all versions of the Software released between December 7th, 2025, and March 30th, 2026 are licensed under the ALLTHEMONS LICENSE v3.1, which can be found [here](?tab=t.y0gf8gi0vspf#bookmark=id.65rdpj7oadgz).
+Developers may independently create, publish, and monetize **Independent Projects**, including mods, addons, datapacks, resource packs, scripts, and compatibility integrations, without requesting additional permission. They may use independently created code and **Assets** and interact with the **Software** at runtime, provided they do not redistribute protected **Assets** without authorization.
 
-Any and all versions of the Software released after March 30th, 2026 are covered under this very license.
+As a limited exception, external gameplay-data overrides may reproduce or adapt **Gameplay-data Assets** such as recipes, spawn data, and comparable functional data, when used through a separate datapack or integration that requires the original **Software** to function. This exception does not cover protected program code or **creative Assets**, including assets in another file format.
 
-## 5. Intellectual Property Rights
+An **Independent Project** may optionally support the **Software** rather than require it as a dependency. Public distribution of a **Modified Copy** or **Fork** is governed by Sections 4 and 6, not by the independent-project permission above.
 
-All models, animations, textures, and original code included in the Software remain the intellectual property of their original authors, all of which have given their explicit consent for their assets to be used. This license does not grant ownership or redistribution rights over these assets beyond the terms explicitly stated herein.
+## 6. Forks and Commercial Redistribution
 
-## 6. Third-Party Asset Consent
+### 6.1 Authorization
 
-The following contributors have provided documented consent for their assets to be included in AllTheMons under the terms of this license:
+Creating and publicly distributing a **Fork** requires prior **Written Authorization** from the **Licensor**. A request must identify the project and sufficiently describe its purpose and intended modifications.
 
-Aki4hiro,Alexiocraft, AlloneF, ASHISK, Beezy, BlaziumHydro, Bonanca, Bwavi, El Pigeon, Genotype, IzetyXX, Kale, Lvnatic, Nady3, NetImmerse, Raspix, RedRibbonz, Tontra, Valee, Wi2tert, YaBoiBruno
+The **Licensor** may approve or deny a request at their discretion and is not required to provide a reason for denial. Authorization covers only the project and scope approved.
 
-These signatures indicate that the respective authors have granted permission for their assets to be incorporated into AllTheMons, under the terms outlined in this license. Copies of these permissions are retained by the author
+### 6.2 Fork Requirements
 
-## 7. Governing Law
+Every authorized **Fork** must:
 
-Any dispute arising from this license shall first be attempted to be resolved through good-faith informal negotiation. If unresolved, disputes shall be subject to the exclusive jurisdiction of the state and federal courts located in Germany, EU.
+1. Retain **AllTheMons** in its project name, for example *AllTheMons - Radiants*.
+2. Remain within the scope of its **Written Authorization**.
+3. Preserve applicable copyright, license, and contributor notices.
+4. Publish its public project releases only on **Modrinth and/or CurseForge**. Any other distribution method requires separate express **Written Authorization** covering that method.
+5. Comply with Section 6.4 on **Platform Revenue** sharing.
 
-If any provision of this License is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect, and the invalid, illegal, or unenforceable provision shall be deemed modified to the minimum extent necessary to make it valid, legal, and enforceable while preserving the intent of the parties.
+Authorization to create a **Fork** does not permit unrelated projects, independent redistribution of extracted **Assets**, or sublicensing unless expressly covered by the authorization.
 
-By using or distributing this Software, you agree to the terms of this license.
+### 6.3 Modification Rights
+
+Within the approved scope, developers of an authorized **Fork** may modify, remove, mix, reorganize, replace, and adapt existing **Assets** without obtaining fresh approval for each individual change, to the extent those rights are covered by the **Licensor's** permissions and any applicable third-party rights.
+
+Adding **Assets** from outside the authorized AllTheMons content requires the necessary permissions from their rights holders. Authorization for one **Fork** does not authorize using its **Assets** in unrelated projects.
+
+### 6.4 Revenue Sharing
+
+**One hundred percent (100%) of the Platform Revenue generated by an authorized Fork must be distributed in equal shares among all contributors covered by that Fork's approved contributor arrangement.**
+
+Each distinct contributor receives one equal share, regardless of the quantity, type, or perceived value of their contribution or the number of entries attributed to them in the **Official Credits**.
+
+The relevant contributors are determined by the applicable project tab in the **Official Credits** and the scope of the **Written Authorization** granted for the **Fork**. Revenue-sharing arrangements must not allocate unequal portions to eligible contributors.
+
+**Platform Revenue** does not include revenue independently earned through Minecraft servers, unrelated modpacks, independent donations, videos, livestreams, or sponsorships merely featuring the **Fork**. This section imposes no revenue-sharing obligation on ordinary servers or modpacks using the **Software** or an authorized **Fork**.
+
+## 7. Public Servers and Commercial Use
+
+### 7.1 Server Authorization
+
+Operating a **Public Server** using the **Software** requires prior **Written Authorization** from the **Licensor**, whether the server is free or monetized. Authorization continues indefinitely while the server complies with this license and its authorization, subject to termination for violations under Section 10 and applicable law.
+
+Approval to operate a **Public Server** is not approval to redistribute the **Software** or sell its protected content.
+
+### 7.2 Permitted Monetization
+
+An authorized **Public Server** may earn revenue from general donations, ranks, subscriptions, advertising, sponsorships, and independently created benefits that do not sell or paywall AllTheMons-specific content. General gameplay benefits, including server-wide shiny-rate boosts, are not prohibited solely because the **Software** is installed.
+
+All monetization must comply with applicable Minecraft rules and third-party rights.
+
+### 7.3 Prohibited Monetization
+
+Without separate **Written Authorization** from both the **Licensor** and the relevant original rights holders, a **Public Server** may not directly or indirectly sell, paywall, or grant paid access to Pokémon, forms, items, features, or **Assets** supplied by AllTheMons, including derivatives such as skins created from its models.
+
+This prohibition covers paid ranks, subscriptions, purchased currency, keys, crates, loot boxes, and other paid mechanisms that can award such content, even if the reward pool also contains unrelated Pokémon or items. The same content being obtainable through free gameplay does not make its inclusion in a paid reward permissible. Rewards available exclusively through free gameplay are not prohibited by this section.
+
+The **Software** itself may not be sold, rented, or distributed behind a mandatory paywall without the applicable **Written Authorization**.
+
+## 8. Asset Reuse and Third-Party Rights
+
+Publicly extracting, copying, adapting, converting, or redistributing protected **Assets** for use outside the **Software** requires prior **Written Authorization** from the **Licensor** and the original rights holders, to the extent their respective rights are implicated. This requirement does not override uses already permitted by Sections 2, 5, or 6 or by applicable law.
+
+Independently created replacements and integrations that reference **Assets** in a separately installed copy of the **Software** without copying or redistributing them are permitted. Approval to use **Assets** within an authorized **Fork** does not automatically authorize unrelated uses.
+
+Material independently obtained from an original creator under a separate valid license or agreement remains governed by that license or agreement. This license does not restrict rights the original creator is entitled to grant independently.
+
+## 9. Contributors and Official Credits
+
+The **Official Credits** are maintained in the [ATM & ATM x MSD – Credits spreadsheet](https://docs.google.com/spreadsheets/d/1aFwUNg6fQn8y4nvyEQKWORLeUnrQ81uLyAycfdZvIEs/edit?gid=1456252726#gid=1456252726), which contains separate **AllTheMons** and **ATM x Mega Showdown** tabs. These tabs are the authoritative public reference for contributor attribution and may be updated as the projects develop.
+
+Credits identify contributors and the sources of their work; they do not by themselves expand the permissions granted over third-party **Assets**. The **Licensor** retains records of contributor permissions applicable to the **Software**.
+
+## 10. License Violations and Termination
+
+Activities outside this license or a separate **Written Authorization** are unauthorized and must cease. Unauthorized **Public Distribution** must be discontinued and unauthorized files removed from public availability where required.
+
+For a **first-time, minor, and remediable** violation of a license condition, the **Licensor** will give written notice and allow **seven (7) calendar days** from receipt to correct it. Timely, complete correction prevents termination solely for that violation or restores the affected permission where applicable.
+
+Serious, deliberate, or repeated violations, including intentional unauthorized redistribution, protected-**Asset** sales, or evasion of the required **Platform Revenue** sharing, may result in immediate termination to the extent permitted by applicable law. Where notice or an opportunity to remedy is legally required, termination takes effect only in accordance with those requirements. Restoration following termination for such violations requires **Written Authorization**.
+
+The **Licensor** may seek removal of unauthorized content and pursue remedies available under applicable law. Separate valid agreements and mandatory legal protections remain unaffected.
+
+## 11. Historical License Coverage
+
+The following historical release periods are preserved:
+
+- **November 11, 2024 – April 10, 2025:** AllTheMons-ARR
+- **April 11, 2025 – June 6, 2025:** AllTheMons License v2.1
+- **June 7, 2025 – December 6, 2025:** AllTheMons License v3
+- **December 7, 2025 – March 30, 2026:** AllTheMons License v3.1
+- **March 31, 2026 – November 19, 2026:** AllTheMons License v3.2
+- **November 20, 2026 onward:** AllTheMons License v3.3, for releases expressly published under it
+
+The license actually applicable to a historical release governs that release. These dates do not retrospectively replace the license accompanying a particular release. Permissions already granted are not revoked by this or any later license version.
+
+The **Licensor** may issue new license versions for future releases. Separately granted **Written Authorizations** remain effective under their original terms unless lawfully modified or terminated.
+
+## 12. Warranty and Liability
+
+The **Software** is provided "as is", without warranties or guarantees to the maximum extent permitted by law. The **Licensor** does not guarantee its operation, compatibility, maintenance, support, updates, or corrections.
+
+Liability arising from use, modification, or distribution of the **Software** is limited to the maximum extent permitted by law. Nothing excludes or limits liability for intentional misconduct, injury to life, body, or health, or other liability that cannot lawfully be excluded or limited. Separate valid obligations remain unaffected.
+
+## 13. Governing Law and Severability
+
+This license is governed by the laws of the Federal Republic of Germany, subject to mandatory protections and rules that apply independently. Disputes should first be addressed through good-faith informal negotiation where reasonably possible; unresolved disputes belong before the courts competent under applicable law.
+
+If a provision is invalid, unlawful, or unenforceable, the remaining provisions continue to apply to the extent permitted by law. Invalid provisions are treated in accordance with applicable law without automatically invalidating the rest of this license.

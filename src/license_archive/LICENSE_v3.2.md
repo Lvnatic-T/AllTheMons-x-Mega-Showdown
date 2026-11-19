@@ -1,0 +1,85 @@
+# ALLTHEMONS LICENSE v3.2
+
+Copyright© EasySqueeze & Lvnatic
+
+This license grants perpetual, non-revocable rights for non-commercial use only. Any permissions relating to commercial or monetized use are discretionary and may be granted or withheld at the sole discretion of the author. Both the document form of the license and the license contained in a .md file with the Software are valid and apply to said Software. This license is authored specifically for the AllTheMons project and is protected by copyright law. Permission is granted to read, reference, and apply this license solely for the purpose of governing use of the AllTheMons Software. No permission is granted to copy, reproduce, modify, rebrand, republish, or use this license text, in whole or in part, for any other project, software, mod, or derivative license without the express written permission of all copyright holders.
+
+## Definitions
+
+### Monetization:
+
+Monetization includes, but is not limited to, receiving any form of revenue, donations, subscriptions, perks, or indirect financial benefit as a result of the Software’s presence, use, or distribution. A given exception is the creation of content featuring AllTheMons (video content).
+
+### Software:
+
+The AllTheMons addon, including all original written and third-party code, models, animations, textures, data files, and other assets distributed as part of the project distributed as part of the project, regardless of packaging format.
+
+### Public Distribution:
+
+Making this Software, or any modified version thereof, available to the public by any means, including but not limited to hosting, uploading, publishing, or otherwise providing access through websites, file-sharing services, mod hosting platforms (such as Modrinth), communication platforms (such as Discord), public repositories, launchers, or public or semi-public Minecraft servers where users outside a private, pre-approved group may access or download the Software.
+
+## 1 Grant of License
+
+Permission is hereby granted, free of charge, to any person *(the "User")* obtaining a copy of this software *(the "Software")*, to use, modify, and distribute the Software, subject to the following conditions:
+
+### 1.1 Non-Commercial Use
+
+Users who do not monetize the Software, including but not limited to using it on public Minecraft servers that feature stores and/or donation pages that do not grant gameplay advantages, cosmetic perks, or other benefits related to the Software.
+
+### 1.2 Commercial Use
+
+Users who seek to monetize the Software, including but not limited to hosting it on Minecraft servers that feature stores and/or donation pages, or incorporating it into revenue-generating modpacks, must obtain explicit, written permission from the current main developer - Lvnatic, before doing so. Denial of permission by Lvnatic does not require a reason, valid or otherwise, as approval is entirely within his discretion. The Software’s name must be listed in a visible location such as a server mod list, modpack info file, or equivalent public-facing documentation. Attempting to conceal the use of AllTheMons or AllTheMons assets is strictly prohibited.
+
+### 1.3 Modification & Redistribution
+
+Only with explicit written permission can the User (see 3. Revenue Distribution & Author Compliance) upload copies of the Software. This includes but is not limited to redistributing modified or unmodified copies of the Software publicly, redistribute them under a name that does not include the term “AllTheMons”, incorporating it into Minecraft servers that feature donation or store pages as previously outlined. Reuploads of the software on Curseforge are strictly prohibited and won’t be granted permission for undder any circumstance.
+
+If a modified version of the Software includes altered or derivative artistic assets *(including but not limited to models, animations, and textures)* originally created by third-party contributors, the author of the modified pack must:
+
+	1. Obtain express written permission from the original creator(s) of those artistic assets prior to any public redistribution of the modified version;
+
+	2. Provide clear and conspicuous credit to the original creator(s), both within the software itself, and on any platform where the modified version is publicly distributed.
+
+Redistribution of the modified version is **not permitted** under this license until all the above conditions are fully met.
+
+## 2. Liability & Warranty Disclaimer
+
+The Software is provided "as is," without warranty of any kind, express or implied. The author shall not be held liable for any damages, including but not limited to data loss, server failures, or other issues resulting from the modification of the Software or from the use of modified copies of the Software.
+
+## 3. Revenue Distribution & Author Compliance
+
+Any revenue generated from the Software must be evenly distributed among all consenting contributors to the Software. Any revenue generated must be transparently reported and distributed among contributors per a mutually agreed-upon arrangement. Both the author and contributors must comply with the terms set forth in this license in their own use of the Software.
+
+## 4. License Coverage
+
+Any and all versions of the Software released prior to November 11, 2024, are licensed under the GPL-3.0-ONLY license.
+
+Any and all versions of the Software released between November 11, 2024, and April 10, 2025, are licensed under the AllTheMons-ARR license, which can be found [here](https://docs.google.com/document/d/10j5-Z61m0Ox89Ky3WYGzhQoLxPfopZ08c2IqGhonV7A/edit?tab=t.0).
+
+Any and all versions of the Software released between April 11, 2025, and June 6th, 2025, are licensed under the ALLTHEMONS LICENSE v2.1, which can be found [here](https://docs.google.com/document/d/1tWzUpSbcx2n5-Zs6OzvmAnR5RQ2TRfa4vXR1r2Q9ugM/edit?tab=t.y0gf8gi0vspf).
+
+Any and all versions of the Software released between June 7th, 2025, and December 7th, 2025, are licensed under the ALLTHEMONS LICENSE v3, which can be found [here](https://docs.google.com/document/d/1tPvYDxqcby4cU0LlDGnxFKE-_fZ7GSg733G7MBN8Dos/edit?tab=t.y0gf8gi0vspf).
+
+Any and all versions of the Software released between December 7th, 2025, and March 30th, 2026 are licensed under the ALLTHEMONS LICENSE v3.1, which can be found [here](?tab=t.y0gf8gi0vspf#bookmark=id.65rdpj7oadgz).
+
+Any and all versions of the Software released after March 30th, 2026 are covered under this very license.
+
+## 5. Intellectual Property Rights
+
+All models, animations, textures, and original code included in the Software remain the intellectual property of their original authors, all of which have given their explicit consent for their assets to be used. This license does not grant ownership or redistribution rights over these assets beyond the terms explicitly stated herein.
+
+## 6. Third-Party Asset Consent
+
+The following contributors have provided documented consent for their assets to be included in AllTheMons under the terms of this license:
+
+Aki4hiro,Alexiocraft, AlloneF, ASHISK, Beezy, BlaziumHydro, Bonanca, Bwavi, El Pigeon, Genotype, IzetyXX, Kale, Lvnatic, Nady3, NetImmerse, Raspix, RedRibbonz, Tontra, Valee, Wi2tert, YaBoiBruno
+
+These signatures indicate that the respective authors have granted permission for their assets to be incorporated into AllTheMons, under the terms outlined in this license. Copies of these permissions are retained by the author
+
+## 7. Governing Law
+
+Any dispute arising from this license shall first be attempted to be resolved through good-faith informal negotiation. If unresolved, disputes shall be subject to the exclusive jurisdiction of the state and federal courts located in Germany, EU.
+
+If any provision of this License is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect, and the invalid, illegal, or unenforceable provision shall be deemed modified to the minimum extent necessary to make it valid, legal, and enforceable while preserving the intent of the parties.
+
+By using or distributing this Software, you agree to the terms of this license.
