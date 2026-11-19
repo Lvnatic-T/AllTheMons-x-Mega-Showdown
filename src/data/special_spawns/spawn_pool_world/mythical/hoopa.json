@@ -7,13 +7,13 @@
       "id": "hoopa-1T",
       "pokemon": "hoopa min_perfect_ivs=3",
       "presets": [
-        "end_city"
+        "natural"
       ],
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "60",
-      "weight": 7.0,
+      "weight": 2.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_end"
