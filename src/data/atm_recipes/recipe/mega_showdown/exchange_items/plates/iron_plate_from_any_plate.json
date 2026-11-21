@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients":  [
       {
-        "tag": "mega_showdown:plates"
+        "tag": "mega_showdown:arceus_plate"
       },
       {
         "item": "mega_showdown:steel_tera_shard"

@@ -15,6 +15,7 @@
 - Updated Runerigus animations & model
 - Updated Espurr, Hawlucha, Infernape, Meowstic, Politoed & Vaporeon animations
 ## Miscellaneous & Fixes:
+- Arceus Plate recipes were updated to match the new MSD 1.4.0 plate tag
 - Added an Alphas & Herds tab to our [spawn spreadsheet](https://drive.google.com/drive/u/0/folders/1z8Aw5CXDzHxmQFOLSItMGiAtn2KDOz_b)
 - Fixed Hoopa not being able to spawn since Cobblemon removed the End City preset
 ## License Update:
